@@ -1,0 +1,106 @@
+.gradientGreen{ 
+background: #195A0C;
+background: linear-gradient(135deg, #0BE57C, #195A0C);
+color: #0BE57C;
+}
+
+.gradientYellow{ 
+background: #F1F446;
+background: linear-gradient(135deg, rgb(250, 208, 81) 0%, #f97c4e 98.96%);
+color: #F1F446;
+
+}
+
+.gradientRed{ 
+background: #B5222C;
+background: linear-gradient(135deg, #ED6563, #B5222C);
+color: #ED6563;
+}
+
+.gradientBlue{ 
+background: #2AB2ED;
+background: linear-gradient(135deg, #2AB2ED, #3A56EA);
+color: #2AB2ED;
+}
+
+
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  padding: 20px;
+}
+
+#card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card-image {
+  height: 550px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.ThreeCardContainer {
+position:relative;
+height: 680px;
+padding: 40px 0 0 0;
+overflow: hidden;
+}
+
+.imagePos {
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
+
+
+.imageOne {
+  width: 300px;
+  height: auto;
+  z-index: 3;
+}
+
+.imageTwo {
+  width: 300px;
+  height: auto;
+  z-index: 2;
+}
+
+.imageThree {
+  width: 300px;
+  height: auto;
+  z-index: 1;
+}
+
+
+
+.iconRight {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  padding-right: 15px;
+}
+
+.iconLeft {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  padding-left: 15px;
+}
+
+

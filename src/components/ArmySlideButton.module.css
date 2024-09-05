@@ -1,0 +1,23 @@
+.control {
+    width: 40px;
+    height: 40px;
+    transition: width 250ms ease;
+    background-color: rgba(0, 133, 58, 1) !important;
+    color: white !important;
+    opacity: 1;
+
+    &:hover {opacity: 0.8;}
+  
+    &[data-active] {
+      width: 40px;
+    }
+  }
+
+
+  .viewport {
+
+    margin: auto;
+    vertical-align: middle !important;
+  }
+
+

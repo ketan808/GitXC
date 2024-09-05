@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="e608ae0a-8c0d-4411-8a3f-eb19ea2aa22c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.7 154.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c8599;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #202328;
+      }
+    </style>
+  </defs>
+  <g id="f9c799ab-e258-489c-a4df-bfc1d4032738">
+    <polygon id="e27ae52f-732e-447a-8efb-af74903ac747" class="cls-1" points="144.4 0 80.5 64.3 17.3 0 45.2 0 81.6 36.9 118.5 0 144.4 0"/>
+  </g>
+  <g id="af769938-eec1-47d1-be24-60d7417e4a63">
+    <polygon id="fec74da1-1be9-42e7-99dc-f4a0863135a7" class="cls-1" points="17.3 153.8 80.5 90.3 143.7 154.6 115.8 154.6 79.4 117.6 42.5 154.6 17.3 153.8"/>
+  </g>
+  <g id="abfb9fe6-a3d9-411d-9328-c5a831c7e3b8">
+    <polygon id="f60d256a-f690-408f-a1ca-31bd5dbf66df" class="cls-1" points=".8 13.1 64.3 76.3 0 139.5 0 111.7 36.9 75.2 0 38.3 .8 13.1"/>
+  </g>
+  <g id="bdf31ced-4e6d-487c-93aa-ece3e7a48b0e">
+    <polygon id="ad531a29-35d0-4cad-acef-f439aca08f2b" class="cls-2" points="175.7 49.2 175.7 13.1 155.8 13.1 155.8 13.2 92.4 76.3 92.4 76.3 92.4 76.3 155.8 139.4 155.8 139.5 175.7 139.5 175.7 102.5 155.8 102.5 155.8 113.5 119.8 77.4 120.7 76.2 155.8 39.2 155.8 49.2 175.7 49.2"/>
+  </g>
+</svg>

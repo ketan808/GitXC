@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: var(--mantine-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+
+
+  background-color: var(--mantine-color-body);
+  color: var(--mantine-color-text);
+
+  -webkit-font-smoothing: var(--mantine-webkit-font-smoothing);
+  -moz-osx-font-smoothing: var(--mantine-moz-font-smoothing);
+}
+
+.RobCon h1 h2 h3 h4 h5 h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.WrittenFont {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/* h1.mantine-Title-root {
+  font-size: 5rem;
+
+  @media (max-width: --mantine-breakpoint-xl) {
+      font-size: 1.5rem;
+  }
+} */
+
+
+
+
+
+ /* App Shell */
+
+
+
+.theme80 {
+    background-color: var(--mantine-color-80)!important;
+  }
+
+.theme90 {
+    background-color: var(--mantine-color-90)!important;
+  }
+
+.theme100 {
+    background-color: var(--mantine-color-100)!important;
+  }
+
+
+
+ /* Text Colour */
+
+ .theme0 {
+  color: var(--mantine-fontcolor-0)!important;
+}
+
+
+
+  
+ /* Carousel-indicator */
+  
+.mantine-Carousel-indicator {
+  background-color: var(--mantine-color-Indicator)!important;
+}
+
+.mantine-Carousel-viewport { 
+  flex: 0 0 auto; /* Adapt slide size to its content */
+  min-width: 0;
+  max-width: 100%; /* Prevent from growing larger than viewport */
+}
+
+
+
+.cardNext {
+  &:hover {
+      background-color: var(--mantine-color-80)!important;
+  }
+}
