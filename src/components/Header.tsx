@@ -3,7 +3,7 @@ import { FaSun, FaMoon } from 'react-icons/fa';
 
 const Header = ({toggle, opened}: any) => {
   const { setColorScheme } = useMantineColorScheme();
-  const computedColorScheme = useComputedColorScheme('light');
+  const computedColorScheme = useComputedColorScheme('dark');
 
   const toggleColorScheme = () => {
     setColorScheme(computedColorScheme === 'dark' ? 'light' : 'dark');
