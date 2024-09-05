@@ -38,7 +38,7 @@ return (
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Overview</Title>
-<p>The TEST British Army required a software application to monitor the physical and mental health of its trainees during courses. This application included a system that allowed trainers to score elements during the course and include proof in the form of notes and photographs, which would aid in the creation of final course reports.</p>
+<p>The British Army required a software application to monitor the physical and mental health of its trainees during courses. This application included a system that allowed trainers to score elements during the course and include proof in the form of notes and photographs, which would aid in the creation of final course reports.</p>
 {/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
 
 <Title fw={500} order={2} c="green.1">Challenge</Title>
