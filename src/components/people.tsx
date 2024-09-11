@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion';
 
 
-
-
 const heroStyle = {
-   stroke: "#ffffff",
-   strokeWidth: "3"
+   strokeWidth: "3",
 }
 
 
@@ -37,7 +34,7 @@ const People = () => {
 
 return (
 
-<div>
+<div className='themePeople'>
   
 
 <motion.svg width="" height="" viewBox="0 0 1144.43 605.23" fill="none" xmlns="http://www.w3.org/2000/svg"

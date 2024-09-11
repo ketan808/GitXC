@@ -67,7 +67,9 @@ body {
   color: var(--mantine-fontcolor-0)!important;
 }
 
-
+.themePeople{
+stroke: var(--mantine-fontcolor-0)!important;
+}
 
   
  /* Carousel-indicator */

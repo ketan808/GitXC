@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 const heroBack = {
@@ -32,7 +33,7 @@ const HeroACS = () => {
 
 return (
 
-<div style = {heroBack} className = "">
+<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
 
 <motion.svg width="" height="" viewBox="0 0 3501 729" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
@@ -81,7 +82,7 @@ animate='visible'
 <BigTitle title1='ACS INTERNATIONAL SCHOOLS' title2='Intranet and Virtual Learning Enviroment' title3='ACS International Schools is a group of four independent schools catering for local and international families - three in England and one in Qatar.' />
 
     
-</div>
+</Box>
 )
 
 

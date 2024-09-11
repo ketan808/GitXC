@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 const heroBack = {
@@ -33,7 +34,7 @@ const HeroCrystal = () => {
 
 return (
 
-<div style = {heroBack} >
+<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
   
 
 <motion.svg width="" height="" viewBox="0 0 3851 641" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +71,7 @@ animate='visible'>
  
 <BigTitle title1='CRYSTAL SKI' title2='User Interface and Visual Design' title3='Crystal ski holidays have over 100 resorts across Europe and North America and have long been established as one of the UKs leading tour operators.' />
     
-</div>
+</Box>
 )
 
 

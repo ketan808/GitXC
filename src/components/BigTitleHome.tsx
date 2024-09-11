@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Container, SimpleGrid} from '@mantine/core';
+import { Title, Container, SimpleGrid, Box} from '@mantine/core';
 import TextReveal from '../inViewUI/TextReveal';
 import People from './people';
 
@@ -15,12 +15,14 @@ const Titles: React.FC<TitlesProps> = ({ title1, title2, title3 }) => {
 <Container size={1100} >
 
 <SimpleGrid
-cols={{ base: 1, sm: 1, lg: 2 }}
+cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
 >
 
 
-      
-<div style={{ marginTop: '97px'}}>   
+<Box
+mt={{ base: '40px', sm: '40px', md: '60px', lg: '97px' }}
+mb={{ base: '20px', sm: '30px', md: '40px', lg: '60px' }}
+>   
 
 
 <Title order={3}>{title1}</Title>
@@ -40,15 +42,15 @@ mb={{ base: 20, sm: 50, md: 30, lg: 30 }}
 
 <Title order={3}>{title3}</Title>
 
-</div>
+</Box>
 
 
 
-
-
-<div style={{ marginTop: '170px'}}>
+<Box
+mt={{ base: '0px', sm: '0px', md: '170px', lg: '170px' }}
+> 
 <People />
-</div>
+</Box>
 
 
 

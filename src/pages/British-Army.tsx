@@ -29,10 +29,7 @@ return (
 
 {/* <Hero Title1='BRITISH ARMY' Title2='MyTraining Performance and Wellbeing App' Title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.'/> */}
 
-<Container size="1100px" mt= "xl" mb= "xl">
-
-<Space h="xl" />
-
+<Container size="1100px" mb= "xl">
 
 
 

@@ -1,20 +1,13 @@
 import BigTitle from './BigTitleHome';
 
 
-const heroBack = {
-    height: "450px",
-    
-}
-
-
-
         
 const Hero = () => {
 
 
 return (
 
-<div style = {heroBack} className = "">
+<div>
   
 
 

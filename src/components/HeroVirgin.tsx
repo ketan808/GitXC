@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 
@@ -34,7 +35,7 @@ const HeroVirgin = () => {
 
 return (
 
-<div style = {heroBack} className = "">
+<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
 
 <motion.svg width="" height="" viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
@@ -71,7 +72,7 @@ animate='visible'>
 <BigTitle title1='VIRGIN MEDIA' title2='Blog for Search Engine Optimised Articles' title3='Virgin Media is a telecommunications company from England, founded in 2007, which provides telephone, television and internet services in the United Kingdom.' />
     
     
-</div>
+</Box>
 )
 
 

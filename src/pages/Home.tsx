@@ -15,25 +15,20 @@ return (
 
 <Hero />
 
-<Space h="xl" />
-<Space h="xl" />
-<Space h="xl" />
-
 <Container size="1100px" mt= "xl" mb= "xl">
 
 
-<Divider my="xl" />
+<Divider my="md" />
+<Space h="xl" />
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={3} c="dimmed">About</Title>
 <Space h="md" />
 <About/>
-<Space h="md" />
+<Space h="xl" />
 </FadeInSection>
 <Divider my="md" />
 
 <Space h="xl" />
-
-
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="xl" />
@@ -53,8 +48,6 @@ return (
 
 <Testimonials/>
 
-<Space h="xl" />
-<Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />

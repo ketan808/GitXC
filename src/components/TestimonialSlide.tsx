@@ -6,7 +6,8 @@ import classes from './TestimonialSlideButton.module.css';
 
 function Testimonials() {
   return (
-    <Carousel  className='mantine-Carousel-indicators' slideSize="100%" height={330} orientation="horizontal" classNames={classes} slideGap="xl" controlsOffset="xl" loop>
+    <div>
+    <Carousel  className='mantine-Carousel-indicators' h={{ base: '100%' }}  slideSize={{ base: '100%', sm: '100%', md: '100%', xl:'75%' }} orientation="horizontal" classNames={classes} slideGap="xl" controlsOffset="xl" loop>
 
     <Carousel.Slide>
 
@@ -140,6 +141,7 @@ function Testimonials() {
 
 
     </Carousel>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 
@@ -34,7 +35,7 @@ const HeroSVG = () => {
 
 return (
 
-<div style = {heroBack} className = "">
+<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
   
 
 <motion.svg width="" height="" viewBox="0 0 3821 711" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +81,7 @@ animate='visible'>
 
 
     
-</div>
+</Box>
 )
 
 

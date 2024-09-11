@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Container} from '@mantine/core';
+import { Title, Container, Box} from '@mantine/core';
 import TextReveal from '../inViewUI/TextReveal';
 
 interface TitlesProps {
@@ -15,7 +15,10 @@ const Titles: React.FC<TitlesProps> = ({ title1, title2, title3 }) => {
 
 <Container size={1100} >
       
-<div style={{ position: 'relative', top: '-360px'}}>   
+<Box
+pos="relative"
+top={{ base: '-417px', sm: '-417px', md: '-397px', lg: '-360px' }}
+>   
 
 
 <Title order={3}>{title1}</Title>
@@ -35,7 +38,7 @@ mb={{ base: 20, sm: 50, md: 30, lg: 30 }}
 
 <Title order={3}>{title3}</Title>
 
-</div>
+</Box>
 
 </Container>
 
