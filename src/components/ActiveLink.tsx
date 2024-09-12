@@ -32,7 +32,7 @@ function MainMenu() {
         component="a"
         href="/british-army"
         label="British Army"
-        description='MyTraining Progress & Wellbeing App'
+        description='MyTraining: Wellbeing & Performance App'
         leftSection={<IconTank stroke={1} size={32} className='theme0'/>}
         active={location.pathname === '/british-army'}
         variant="filled"
@@ -44,7 +44,7 @@ function MainMenu() {
         component="a"
         href="/acs"
         label="ACS International Schools"
-        description='Intranet and Virtual Learning Enviroment'
+        description='Intranet & Virtual Learning Enviroment'
         leftSection={<IconSchool stroke={1} size={32} className='theme0'/>}
         active={location.pathname === '/acs'}
         variant="filled"
@@ -57,7 +57,7 @@ function MainMenu() {
         component="a"
         href="/virgin-media"
         label="Virgin Media"
-        description='Intranet Virtual Learning Enviroment'
+        description='Blog for Search Engine Optimised Articles'
         leftSection={<IconBroadcast stroke={1} size={32} className='theme0'/>}
         active={location.pathname === '/virgin-media'}
         variant="filled"
@@ -69,7 +69,7 @@ function MainMenu() {
         component="a"
         href="/crystalski"
         label="Crystal Ski"
-        description='User Interface and Visual Design'
+        description='UI & Visual Design for a Brand Refresh'
         leftSection={<IconAerialLift stroke={1} size={32} className='theme0'/>}
         active={location.pathname === '/crystalski'}
         variant="filled"

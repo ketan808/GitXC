@@ -53,8 +53,8 @@ const Boxes = () => {
 
      { 
       title1: 'British Army',
-      title2: 'Mobile Tablet UI design and UX',
-      title3: 'Course Performance and Wellbeing App',
+      title2: 'Mobile, Tablet UX/UI Design',
+      title3: 'Tracking wellbeing and course performance',
       titleColor: 'green.1',
       gradient: 'gradientGreen',
       image: require('../inViewUI/images/stats.png'),
@@ -64,7 +64,7 @@ const Boxes = () => {
       {
       title1: 'ACS Schools',
       title2: 'Responsive Software, UX/UI Design',
-      title3: 'Intranet and Virtual Learning Environment',
+      title3: 'Centralised platform for sharing Information',
       titleColor: 'yellow.1',
       gradient: 'gradientYellow',
       image: require('../inViewUI/images/egham_home.png'),
@@ -73,8 +73,8 @@ const Boxes = () => {
     
       { 
       title1: 'Virgin Media',
-      title2: 'Responsive Website, UX/UI Design',
-      title3: 'Blog Design for, Search Engine Optimised Articles',
+      title2: 'Blog Framework, UX/UI Design',
+      title3: 'Increasing keyword ranking in SEO',
       titleColor: 'red.1',
       gradient: 'gradientRed',
       image: require('../inViewUI/images/hub-music.png'),
@@ -83,8 +83,8 @@ const Boxes = () => {
     
       {
       title1: 'CrystalSki',
-      title2: 'Frontend UI and Artwork Design',
-      title3: 'Various Digital Touchpoints',
+      title2: 'Brand Refresh, UI Design',
+      title3: 'Redesign across online and offline marketing',
       titleColor: 'blue.1',
       gradient: 'gradientBlue',
       image: require('../inViewUI/images/cs.png'),

@@ -79,7 +79,7 @@ animate='visible'
 </motion.svg>
 
 
-<BigTitle title1='ACS INTERNATIONAL SCHOOLS' title2='Intranet and Virtual Learning Enviroment' title3='ACS International Schools is a group of four independent schools catering for local and international families - three in England and one in Qatar.' />
+<BigTitle title1='ACS INTERNATIONAL SCHOOLS' title2='Intranet & Virtual Learning Enviroment' title3='ACS International Schools is a group of four independent schools catering for local and international families - three in England and one in Qatar.' />
 
     
 </Box>

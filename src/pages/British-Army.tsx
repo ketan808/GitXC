@@ -281,9 +281,9 @@ return (
 <Next 
 colsgrid={1}
 colDisplay="none"
-textPrevious="MyTraining Performance and Wellbeing App" 
-textNext="Intranet and Virtual Learning Enviroment"
-linkPrevious="/british-army" 
+textPrevious="" 
+textNext="Intranet & Virtual Learning Enviroment"
+linkPrevious="" 
 linkNext="/acs"
 />
 

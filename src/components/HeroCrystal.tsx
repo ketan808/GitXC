@@ -69,7 +69,7 @@ animate='visible'>
 </defs>
 </motion.svg>
  
-<BigTitle title1='CRYSTAL SKI' title2='User Interface and Visual Design' title3='Crystal ski holidays have over 100 resorts across Europe and North America and have long been established as one of the UKs leading tour operators.' />
+<BigTitle title1='CRYSTAL SKI' title2='UI & Visual Design for a Brand Refresh' title3='Crystal ski holidays have over 100 resorts across Europe and North America and have long been established as one of the UKs leading tour operators.' />
     
 </Box>
 )

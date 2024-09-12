@@ -3,6 +3,7 @@ import { Container, Title, Space, Image, Divider} from '@mantine/core';
 import FadeInBoxes from '../inViewUI/FadeInBoxesArmyFindings';
 import RoleArmy from '../components/RoleArmy';
 import HeroCrystal from '../components/HeroCrystal';
+import Next from '../components/Next';
 
 
 function CrystalSki () {
@@ -90,15 +91,29 @@ return (
     />
 </FadeInSection>
 
-     
+<Space h="xl" />
+<Divider my="md" />
+
 <Space h="xl" />
 
 
-    <Space h="xl" />
-    <Space h="xl" />
-    <Space h="xl" />        
+<Title fw={500} order={3} c="dimmed">Case Studies</Title>
+<Space h="xl" />
 
+<Next 
+colsgrid={2}
+colDisplay=""
+textPrevious="Blog for Search Engine Optimised Articles" 
+textNext="MyTraining: Wellbeing & Performance App"
+linkPrevious="/virgin-media" 
+linkNext="/british-army"
+/>
 
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />    
 
 
 

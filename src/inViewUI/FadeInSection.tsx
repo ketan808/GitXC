@@ -13,7 +13,7 @@ interface FadeInSectionProps {
 
 const FadeInSection: React.FC<FadeInSectionProps> = ({
 
-  threshold = 0.5,
+  threshold = 0.4,
   delay = 0,
   duration = 0,
   children,

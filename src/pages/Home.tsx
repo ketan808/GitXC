@@ -16,8 +16,6 @@ return (
 <Hero />
 
 <Container size="1100px" mt= "xl" mb= "xl">
-
-
 <Divider my="md" />
 <Space h="xl" />
 <FadeInSection duration = {0.25} delay = {0}>

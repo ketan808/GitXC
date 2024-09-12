@@ -162,17 +162,16 @@ return (
 <Space h="xl" />
 
 
-
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="xl" />
 
 <Next 
 colsgrid={2}
 colDisplay=""
-textPrevious="MyTraining Performance and Wellbeing App" 
-textNext="Intranet and Virtual Learning Enviroment"
+textPrevious="MyTraining: Wellbeing & Performance App" 
+textNext="Blog for Search Engine Optimised Articles"
 linkPrevious="/british-army" 
-linkNext="/acs"
+linkNext="/virgin-media"
 />
 
 <Space h="xl" />

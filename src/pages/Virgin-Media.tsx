@@ -9,6 +9,7 @@ import FlipInView from '../inViewUI/Flip';
 import FlipImage1 from '../images/vm/vm_swim1.png';
 import FlipImage2 from '../images/vm/music.jpg';
 import FlipImage3 from '../images/vm/sport.jpg';
+import Next from '../components/Next';
 
 
 
@@ -152,11 +153,29 @@ return (
 </FadeInSection>
 
 
+<Space h="xl" />
+<Divider my="md" />
 
-    <Space h="xl" />
-    <Space h="xl" />
-    <Space h="xl" />        
+<Space h="xl" />
 
+
+<Title fw={500} order={3} c="dimmed">Case Studies</Title>
+<Space h="xl" />
+
+<Next 
+colsgrid={2}
+colDisplay=""
+textPrevious="Intranet & Virtual Learning Enviroment" 
+textNext="UI & Visual Design for a Brand Refresh"
+linkPrevious="/acs" 
+linkNext="/crystalski"
+/>
+
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />
+<Space h="xl" />    
 
    
 
