@@ -38,7 +38,7 @@ return (
 
 
 <Title fw={500} order={2} c="red.1">Solution</Title>
-<p>Design and develop a blog framework that facilitates the creation of article pages and improves search engine ranking.</p>
+<p>Working on this project wasn't my most enjoyable as a lot of the work felt quite manual but the job needed to be done and was happy with the success at the end.</p>
 
 
 <Space h="xl" />
@@ -148,8 +148,9 @@ return (
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="red.1">Conclusion</Title>
-<p>I collaborated with another designer to start incorporating components from the design system that we believed would be most suitable for the article pages. We developed two distinct styles: one optimised for mobile devices and another for larger screens as Sketch files.</p>
-<p>Engaging stakeholders in thorough discussions, we ultimately reached a satisfying compromise.</p>
+<p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive. Significant improvements in keyword rankings coincided with a surge in product sales.</p>
+<p>The successes underscored the effectiveness of the search engine optimisation strategies, validating the significance of everyone's efforts, including my role in enhancing both visibility and commercial outcomes.</p>
+<p>Working on this project wasn't my most enjoyable as a lot of the work felt quite manual but the job needed to be done and was happy with the success at the end.</p>
 </FadeInSection>
 
 

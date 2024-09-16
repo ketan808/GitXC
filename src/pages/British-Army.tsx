@@ -15,7 +15,6 @@ import ImageAnimation from '../inViewUI/ThreeCard';
 import Next from '../components/Next';
 
 
-
 function BritishArmy () {
 
 

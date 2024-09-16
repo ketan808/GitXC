@@ -85,7 +85,24 @@ stroke: var(--mantine-fontcolor-0)!important;
 }
 
 
+.mantine-Modal-content {
+ background-color: var(--mantine-color-90)!important;
+ border: calc(0.0625rem* var(--mantine-scale)) solid var(--mantine-color-dark-4);
+}
 
+.mantine-Modal-header {
+  background-color: var(--mantine-color-90)!important;
+ }
+
+ .mantine-Modal-header {
+  padding-bottom: 0px !important;
+ }
+
+ .mantine-Modal-close {
+outline: none !important; 
+ }
+
+ 
 .cardNext {
   &:hover {
       background-color: var(--mantine-color-80)!important;

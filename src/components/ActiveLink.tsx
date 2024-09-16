@@ -1,15 +1,33 @@
 import { Divider, Space, NavLink } from '@mantine/core';
 import { useLocation } from 'react-router-dom';
-import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast } from '@tabler/icons-react';
+import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast, IconBrandLinkedin, IconMail
+} from '@tabler/icons-react';
+import { useDisclosure } from '@mantine/hooks';
+import { Modal, Title } from '@mantine/core';
+import ContactForm from '../components/ContactForm';
+import { IconXboxX } from '@tabler/icons-react';
 
 
 
 function MainMenu() {
   const location = useLocation();
-
+  const [opened,  { open, close }] = useDisclosure(false);
   return (
 
+    
+
     <div>
+
+      <Modal
+      closeButtonProps={{
+        icon: <IconXboxX size={60} stroke={1.5} />,
+      }}
+      shadow="sm" padding="xl" radius="md"  className='theme90' opened={opened} onClose={close} >
+      <Title fw={500} order={2} c="cyan">Overview</Title>
+      <Space h="md" />
+      <ContactForm/>
+      </Modal>
+
     <Space h="xl" />
 
  
@@ -74,6 +92,35 @@ function MainMenu() {
         active={location.pathname === '/crystalski'}
         variant="filled"
         color="blue"
+      />
+
+
+<Divider size={2} my="md" label="REACH OUT" labelPosition="left" style={{ margin: '15px' }} />
+
+
+<NavLink
+        component="a"
+        href="https://www.linkedin.com/in/kp-info/"
+        label="LinkedIn"
+        leftSection={<IconBrandLinkedin stroke={1} size={32} className='element'/>}
+        active={location.pathname === 'https://www.linkedin.com/in/kp-info/'}
+        variant="filled"
+        color="cyan"
+        className='navlink'
+        target="_blank" 
+      />
+
+
+
+<NavLink
+        component="a"
+        label="Contact"
+        leftSection={<IconMail stroke={1} size={32} className='element'/>}
+        variant="filled"
+        color="cyan"
+        className='navlink'
+        target="_blank"
+        onClick={open}
       />
 
 
