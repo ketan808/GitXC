@@ -1,11 +1,7 @@
 import { motion } from 'framer-motion';
-import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 
-const heroBack = {
-    height: "450px",
-}
 
 const svgVariants = {
 
@@ -35,9 +31,11 @@ const HeroVirgin = () => {
 
 return (
 
-<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
+    
+<div>
+<div className='HeroHeaderSVGVM'>
 
-<motion.svg width="" height="" viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
+<motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
 initial='hidden'
 animate='visible'>
@@ -61,18 +59,16 @@ animate='visible'>
 <motion.path variants={pathVariants} d="M-11.1 681.1C109.4 550.2 360.2 352.5 775.2 420.5C1294 505.4 1358.9 1123.6 1946.2 567.4C2483.4 55.6999 3178.2 391.4 3419.1 481.5" stroke="#CE4538" stroke-width="2"/>
 <motion.path variants={pathVariants} d="M-10 687.4C105.3 561.4 339 375.3 754.2 436C1273.2 511.9 1304 1158.5 1899.7 581.8C2448.4 48.9 3161.9 399.5 3407.8 489.8" stroke="#CE4538" stroke-width="2"/>
 </g>
-<defs>
-<clipPath id="clip0_6_254">
-<rect width="3698" height="963" fill="white"/>
-</clipPath>
-</defs>
+
 </motion.svg>
+</div>
 
 
+<div className='HeroHeaderTitle'>
 <BigTitle title1='VIRGIN MEDIA' title2='Blog for Search Engine Optimised Articles' title3='Virgin Media is a telecommunications company from England, founded in 2007, which provides telephone, television and internet services in the United Kingdom.' />
     
-    
-</Box>
+</div>
+</div>
 )
 
 

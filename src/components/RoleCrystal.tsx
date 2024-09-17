@@ -5,7 +5,7 @@ function RoleCrystal() {
   return (
 
 <SimpleGrid
-      cols={{ base: 1, sm: 2, lg: 4 }}
+      cols={{ base: 2, sm: 2, lg: 4 }}
       spacing={{ base: 10, sm: 'xl' }}
       verticalSpacing={{ base: 'md', sm: 'xl' }}
     >
@@ -18,7 +18,7 @@ function RoleCrystal() {
       <List.Item>UI Designer</List.Item>
       <List.Item>UX Designer</List.Item>
       <List.Item>Visual Designer</List.Item>
-      <List.Item>Information Architecture</List.Item>
+      <List.Item>Content Architecture</List.Item>
       </List>
 
       </div>

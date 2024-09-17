@@ -1,10 +1,7 @@
 import { motion } from 'framer-motion';
-import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
-const heroBack = {
-    height: "450px",
-}
+
 
 const svgVariants = {
 hidden: {},
@@ -12,20 +9,20 @@ visible: {}
 }
 
 const pathVariants = {
-    hidden: {
-    opacity: 0,
-    pathLength: 0
-    },
-    visible: {
-    opacity: 0.7,
-    filter: "blur(1px)",
-    pathLength: 0.9,
-    transition: {
-    duration: 0.8,
-    ease: "easeInOut"
-    }
-    }
-    }
+hidden: {
+opacity: 0,
+pathLength: 0
+},
+visible: {
+opacity: 1,
+filter: "blur(1px)",
+pathLength: 1,
+transition: {
+duration: 0.8,
+ease: "easeInOut"
+}
+}
+}
 
         
 const HeroACS = () => {
@@ -33,9 +30,11 @@ const HeroACS = () => {
 
 return (
 
-<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
+<div>
 
-<motion.svg width="" height="" viewBox="0 0 3501 729" fill="none" xmlns="http://www.w3.org/2000/svg"
+<div className='HeroHeaderSVG'>
+
+<motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
 initial='hidden'
 animate='visible'
@@ -71,18 +70,16 @@ animate='visible'
 <motion.path variants={pathVariants} d="M-6.90002 404.3C147.9 473 451.2 555.6 758.2 556C1079.9 547.8 1376.8 639.9 1714.7 476.5C2468.8 146.4 3149.5 142.6 3298.8 160.6" stroke="#E1922E" stroke-width="2"/>
 <motion.path variants={pathVariants} d="M-6.69995 405.8C135.4 476.1 404.5 563.1 699.9 583.4C1002.6 599.2 1317.5 639.5 1649 490.8C2432.6 158.3 3135.2 155.4 3284.8 172.5" stroke="#E1922E" stroke-width="2"/>
 </g>
-<defs>
-<clipPath id="clip0_4_3801">
-<rect width="3501" height="729" fill="white"/>
-</clipPath>
-</defs>
+
 </motion.svg>
+</div>
 
 
+<div className='HeroHeaderTitle'>
 <BigTitle title1='ACS INTERNATIONAL SCHOOLS' title2='Intranet & Virtual Learning Enviroment' title3='ACS International Schools is a group of four independent schools catering for local and international families - three in England and one in Qatar.' />
 
-    
-</Box>
+</div>  
+</div>
 )
 
 

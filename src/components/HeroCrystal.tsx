@@ -1,10 +1,7 @@
 import { motion } from 'framer-motion';
-import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
-const heroBack = {
-    height: "450px",
-}
+
 
 const svgVariants = {
 
@@ -34,10 +31,12 @@ const HeroCrystal = () => {
 
 return (
 
-<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
+<div>
+
+<div className='HeroHeaderSVGCS'>
   
 
-<motion.svg width="" height="" viewBox="0 0 3851 641" fill="none" xmlns="http://www.w3.org/2000/svg"
+<motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
 initial='hidden'
 animate='visible'>
@@ -62,16 +61,15 @@ animate='visible'>
 <motion.path variants={pathVariants} d="M-18.5 616.7C200.5 407.1 714.6 -5.70006 1019.4 20.0999C1400.3 52.2999 1406.4 880.7 2036.5 556.2C2645.5 246.3 2972.5 122.1 3479.4 371" stroke="#3C6FBD" stroke-width="2"/>
 <motion.path variants={pathVariants} d="M-20.5 614.6C190.7 404.2 685.5 -11.2 975.6 11C1338.3 38.7 1310.7 886.9 1952.8 567.5C2584 255.6 2910.7 109.6 3465.4 380.7" stroke="#3C6FBD" stroke-width="2"/>
 </g>
-<defs>
-<clipPath id="clip0_3_26790">
-<rect width="3851" height="641" fill="white"/>
-</clipPath>
-</defs>
+
 </motion.svg>
- 
+</div>
+
+<div className='HeroHeaderTitle'>
 <BigTitle title1='CRYSTAL SKI' title2='UI & Visual Design for a Brand Refresh' title3='Crystal ski holidays have over 100 resorts across Europe and North America and have long been established as one of the UKs leading tour operators.' />
     
-</Box>
+</div>
+</div>
 )
 
 

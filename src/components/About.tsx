@@ -13,10 +13,14 @@ const About = () => {
     <Grid gutter={{ base: '20', sm: '30', md: '30', xl: 40 }} >
 
     <Grid.Col span={{ base: 12, sm: 'content', md: 'content', lg: 'content' }} >
-    <Box lightHidden mt='5px'>
-    <Image style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}
-     h={200} w="200" src={require('../images/ketan.png')} /></Box >
-    <Box darkHidden><Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', marginRight: 'auto', borderRadius: '5%'}} h={200} w="200" src={require('../images/ketan.png')} /></Box >
+    
+    <Box lightHidden mt='5px' mb='5px'>
+    <Image style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}} h={200} w="200" src={require('../images/ketan.png')} /></Box >
+
+    <Box darkHidden mt='5px' mb='5px'>
+    <Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} h={200} w="200" src={require('../images/ketan.png')} /></Box >
+   
+   
     </Grid.Col>
 
  <Grid.Col span={{ base: 12, sm: 'auto', md: 'auto', lg: 'auto' }} >

@@ -1,4 +1,4 @@
-import {SimpleGrid, Card, Anchor, Title} from '@mantine/core';
+import {SimpleGrid, Card, Anchor, Title, Box} from '@mantine/core';
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 
 interface NextProps {
@@ -23,7 +23,7 @@ return (
     
 <Anchor href={linkPrevious} underline="never" style={{  display: colDisplay }}>
 <Card className='theme90 cardNext' shadow="sm" padding="lg" radius="md" withBorder>
-<div className="iconLeft"><IconArrowLeft className='theme0' size="2rem" stroke={1.5} /></div>
+<Box mt='-6px' className="iconLeft"><IconArrowLeft className='theme0' size="1.6rem" stroke={1.5} /></Box>
 <Title fw={500} order={4} c="" ta="right" >Previous</Title>
 <Title fw={500} order={5} c="dimmed" ta="right">{textPrevious}</Title>
 </Card>
@@ -32,7 +32,7 @@ return (
 
 <Anchor  href={linkNext} underline="never">
 <Card className='theme90 cardNext' shadow="sm" padding="lg" radius="md" withBorder>
-<div className="iconRight"><IconArrowRight className='theme0' size="2rem" stroke={1.5} /></div>
+<Box mt='-6px' className="iconRight"><IconArrowRight className='theme0' size="1.6rem" stroke={1.5} /></Box>
 <Title fw={500} order={4} c="" ta="left" >Next</Title>
 <Title fw={500} order={5} c="dimmed" ta="left">{textNext}</Title>
 </Card>

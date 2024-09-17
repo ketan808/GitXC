@@ -24,11 +24,9 @@ return (
 <HeroACS />
 
 
-
-{/* <Hero Title1='BRITISH ARMY' Title2='MyTraining Performance and Wellbeing App' Title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.'/> */}
-
 <Container size="1100px" mb= "xl">
 
+<div className='containerOver'>
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="yellow.1">Overview</Title>
@@ -51,7 +49,7 @@ return (
 
 <Divider my="md" />
 </FadeInSection>
-
+</div>
 
 <Space h="xl" />
 <FadeInSection duration = {0.25} delay = {0}>
@@ -177,8 +175,6 @@ linkNext="/virgin-media"
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />
-<Space h="xl" />
-<Space h="xl" />    
 
 
 

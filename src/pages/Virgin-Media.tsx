@@ -24,11 +24,9 @@ return (
 
 
 
-{/* <Hero Title1='BRITISH ARMY' Title2='MyTraining Performance and Wellbeing App' Title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.'/> */}
-
 <Container size="1100px" mb= "xl">
 
-
+<div className='containerOver'>
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="red.1">Overview</Title>
 <p>Virgin Media aimed to improve its visibility on search engines by creating numerous search engine-optimised articles. They intended to publish these articles on a newly designed blog, strategically crafted to incorporate keywords.</p>
@@ -45,7 +43,7 @@ return (
 
 <Divider my="md" />
 </FadeInSection>
-
+</div>
 
 <Space h="xl" />
 <FadeInSection duration = {0.25} delay = {0}>
@@ -175,8 +173,6 @@ linkNext="/crystalski"
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />
-<Space h="xl" />
-<Space h="xl" />    
 
    
 

@@ -1,14 +1,8 @@
 import { motion } from 'framer-motion';
-import { Box} from '@mantine/core';
 import BigTitle from './BigTitle';
 
 
-const heroBack = {
-    height: "450px",
-}
-
 const svgVariants = {
-
 hidden: {},
 visible: {}
 }
@@ -29,16 +23,18 @@ ease: "easeInOut"
 }
 }
 
-        
+
+
 const HeroSVG = () => {
 
 
 return (
 
-<Box style = {heroBack} mb={{ base: 20, sm: 20, md: 20, lg: 60 }}>
-  
+<div>
 
-<motion.svg width="" height="" viewBox="0 0 3821 711" fill="none" xmlns="http://www.w3.org/2000/svg"
+<div className='HeroHeaderSVG'>
+
+<motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
 initial='hidden'
 animate='visible'>
@@ -67,21 +63,17 @@ animate='visible'>
 <motion.path variants={pathVariants} d="M-7.80005 236.8C126.5 369.1 347.9 545.5 571.5 638.2C796.8 730.9 1011 732 1159.6 552.5C1514.7 95.6001 1357.8 -45.5 2019.8 133.2C2549.4 276.2 3069.6 123.5 3263.5 29.3" stroke="#388342" stroke-width="2"/>
 <motion.path variants={pathVariants} d="M-7.90002 237.8C127 370.3 347.8 546.2 570.4 640.3C793.7 734.3 1013.2 743.3 1157.2 558.1C1510.5 91.8 1352.9 -42.6 2013.2 135.5C2541.4 277.9 3063.9 124.4 3259.1 29.8" stroke="#388342" stroke-width="2"/>
 </g>
-<defs>
-<clipPath id="clip0_3_13">
-<rect width="3821" height="711" fill="white"/>
-</clipPath>
-</defs>
-</motion.svg>   
 
+</motion.svg>  
 
+</div>
 
-
+<div className='HeroHeaderTitle'>
 <BigTitle title1='BRITISH ARMY' title2='MyTraining: Wellbeing & Performance App' title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.' />
+</div>
+</div> 
 
 
-    
-</Box>
 )
 
 

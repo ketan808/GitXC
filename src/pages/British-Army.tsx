@@ -25,13 +25,10 @@ return (
 <HeroArmy />
 
 
-
-{/* <Hero Title1='BRITISH ARMY' Title2='MyTraining Performance and Wellbeing App' Title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.'/> */}
-
 <Container size="1100px" mb= "xl">
 
-
-
+<div className='containerOver'>
+  
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Overview</Title>
 <p>The British Army required a software application to monitor the physical and mental health of its trainees during courses. This application included a system that allowed trainers to score elements during the course and include proof in the form of notes and photographs, which would aid in the creation of final course reports.</p>
@@ -45,15 +42,11 @@ return (
 <p>Create a minimal viable product that streamlines the communication between trainers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
 
 
-{/* <Title fw={500} order={2} c="green.1">The Challenge</Title>
-<p>Engage stakeholders and maintain their enthusiasm through discussions, rapid prototyping, and presentations ready for feedback and further iteration, with a focus on flexibility and collaboration.</p>
- */}
-
 <Space h="xl" />
 
 <Divider my="md" />
 </FadeInSection>
-
+</div>
 
 <Space h="xl" />
 
@@ -286,8 +279,6 @@ linkPrevious=""
 linkNext="/acs"
 />
 
-<Space h="xl" />
-<Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />

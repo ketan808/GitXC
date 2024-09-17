@@ -41,6 +41,79 @@ body {
 
 
 
+.HeroHeaderSVG {
+  position: relative;
+  top: 62px;
+  z-index: 1;
+}
+
+.HeroHeaderSVGVM {
+  position: relative;
+  top: 20px;
+  z-index: 1;
+}
+
+.HeroHeaderSVGCS {
+  position: relative;
+  top: 92px;
+  z-index: 1;
+}
+
+
+.HeroHeaderTitle {
+  position: relative;
+  top: -328px;
+  z-index: 2;
+  height: 80px;
+  
+}
+
+.containerOver {
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+
+  .HeroHeaderTitle {
+    top: -280px;
+    
+  }
+  
+  }
+
+@media screen and (max-width: 1520px) {
+
+    .HeroHeaderTitle {
+      top: -200px;
+      height: 200px;
+      
+    }
+    
+    }
+
+
+@media screen and (max-width: 960px) {
+
+.HeroHeaderTitle {
+position: static;
+display: inline-block;
+margin-top: 40px;
+}
+
+
+.HeroHeaderSVG, .HeroHeaderSVGVM, .HeroHeaderSVGCS  {
+display:none;
+}
+
+.containerOver {
+  margin-top: 60px;
+}
+
+      
+}
+
 
 
  /* App Shell */
@@ -84,6 +157,8 @@ stroke: var(--mantine-fontcolor-0)!important;
   max-width: 100%; /* Prevent from growing larger than viewport */
 }
 
+
+ /* Contact Form Modal */
 
 .mantine-Modal-content {
  background-color: var(--mantine-color-90)!important;

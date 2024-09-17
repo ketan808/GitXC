@@ -1,7 +1,12 @@
+import React, { useState } from 'react';
 import { useForm, isEmail, hasLength} from '@mantine/form';
-import { Button, Group, TextInput, Textarea  } from '@mantine/core';
+import { Button, Group, TextInput, Textarea, Text  } from '@mantine/core';
+
+
 
 function ContactForm() {
+  const [submitted, setSubmitted] = useState(false);
+
   const form = useForm({
     mode: 'uncontrolled',
     initialValues: {
@@ -11,14 +16,30 @@ function ContactForm() {
     },
 
     validate: {
-      name: hasLength({ min: 2 }, 'Name must be 2-10 characters long'),
+      name: hasLength({ min: 1 }, 'Name must not be empty'),
       email: isEmail('Invalid email'),
-      yourMessage: hasLength({ min: 2 }, 'Name must be 2-10 characters long'),
+      yourMessage: hasLength({ min: 1 }, 'Name must not be empty'),
     },
   });
 
+
+  const handleSubmit = (values) => {
+    setSubmitted(true);
+  };
+
+  if (submitted) {
+    return (
+
+<Text>Thank you for your message! I will get back in touch with you soon! Have a great day!</Text>
+ 
+    );
+  }
+
+
+
+
   return (
-    <form onSubmit={form.onSubmit(() => {})}>
+    <form onSubmit={form.onSubmit(handleSubmit)}>
       <TextInput
         label="Name"
         placeholder="Name"
@@ -49,8 +70,10 @@ function ContactForm() {
  
 
       <Group justify="flex-end" mt="md">
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Send</Button>
+
       </Group>
+
     </form>
   );
 }

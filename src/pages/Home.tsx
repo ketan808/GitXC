@@ -22,7 +22,7 @@ return (
 <Title fw={500} order={3} c="dimmed">About</Title>
 <Space h="md" />
 <About/>
-<Space h="xl" />
+<Space h="md" />
 </FadeInSection>
 <Divider my="md" />
 

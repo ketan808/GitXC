@@ -12,15 +12,6 @@ const Navbar = () => {
 <AppShell.Navbar className='theme90' >
 
 
-{/* <NavLink
-        href="#required-for-focus"
-        label="Home"
-        onClick={() => navigate('/home-page')}
-        leftSection={<IconHome2 size="1rem" stroke={1.5} />}
-      /> */}
-
-    
-
 <MainMenu />
 
 

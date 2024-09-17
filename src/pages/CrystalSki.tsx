@@ -18,7 +18,7 @@ return (
 
 <Container size="1100px" mb= "xl">
 
-
+<div className='containerOver'>
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="blue.1">Overview</Title>
 <p>Crystal Ski wanted to integrate a brand refresh that would work across online and offline marketing. The result was a design framework that served the platform for many years.</p>
@@ -32,7 +32,7 @@ return (
 
 <Divider my="md" />
 </FadeInSection>
-
+</div>
 
 <Space h="xl" />
 <RoleCrystal />
@@ -81,19 +81,6 @@ linkNext="/british-army"
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />
-<Space h="xl" />
-<Space h="xl" />    
-
-
-
-
-
-
-   
-
-   
-
-{/*     <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0} />  */}
 
 
     </Container>

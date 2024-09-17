@@ -23,7 +23,7 @@ function MainMenu() {
         icon: <IconXboxX size={60} stroke={1.5} />,
       }}
       shadow="sm" padding="xl" radius="md"  className='theme90' opened={opened} onClose={close} >
-      <Title fw={500} order={2} c="cyan">Overview</Title>
+      <Title fw={500} order={2} c="cyan">Reach Out</Title>
       <Space h="md" />
       <ContactForm/>
       </Modal>
@@ -51,10 +51,11 @@ function MainMenu() {
         href="/british-army"
         label="British Army"
         description='MyTraining: Wellbeing & Performance App'
-        leftSection={<IconTank stroke={1} size={32} className='theme0'/>}
+        leftSection={<IconTank stroke={1} size={32} className='element'/>}
         active={location.pathname === '/british-army'}
         variant="filled"
         color="rgba(0, 133, 58, 1)"
+        
      
       />
 
@@ -63,7 +64,7 @@ function MainMenu() {
         href="/acs"
         label="ACS International Schools"
         description='Intranet & Virtual Learning Enviroment'
-        leftSection={<IconSchool stroke={1} size={32} className='theme0'/>}
+        leftSection={<IconSchool stroke={1} size={32} className='element'/>}
         active={location.pathname === '/acs'}
         variant="filled"
         color="yellow"
@@ -76,7 +77,7 @@ function MainMenu() {
         href="/virgin-media"
         label="Virgin Media"
         description='Blog for Search Engine Optimised Articles'
-        leftSection={<IconBroadcast stroke={1} size={32} className='theme0'/>}
+        leftSection={<IconBroadcast stroke={1} size={32} className='element'/>}
         active={location.pathname === '/virgin-media'}
         variant="filled"
         color="red"
@@ -88,7 +89,7 @@ function MainMenu() {
         href="/crystalski"
         label="Crystal Ski"
         description='UI & Visual Design for a Brand Refresh'
-        leftSection={<IconAerialLift stroke={1} size={32} className='theme0'/>}
+        leftSection={<IconAerialLift stroke={1} size={32} className='element'/>}
         active={location.pathname === '/crystalski'}
         variant="filled"
         color="blue"
