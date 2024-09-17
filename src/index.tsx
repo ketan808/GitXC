@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createTheme, MantineProvider, CSSVariablesResolver, rem } from '@mantine/core';
+import { createTheme, MantineProvider, CSSVariablesResolver, rem, ColorSchemeScript } from '@mantine/core';
 import {BrowserRouter} from 'react-router-dom';
 import '@mantine/core/styles.css';
 
@@ -104,10 +104,6 @@ const resolver: CSSVariablesResolver = (theme) => ({
 
 
 
-
-
-
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -116,7 +112,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     
+    <ColorSchemeScript defaultColorScheme="dark" />
     <MantineProvider
+      defaultColorScheme="dark"
       theme={themeOverride}
       cssVariablesResolver={resolver}
     >
