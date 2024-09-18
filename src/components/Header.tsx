@@ -27,7 +27,7 @@ const Header = ({toggle, opened}: any) => {
 <Button style={{ display: 'block', marginLeft: 'auto', marginTop: '5px'}} size="sm" variant="link" onClick={toggleColorScheme}> {computedColorScheme === 'dark' ? <FaSun /> : <FaMoon />}</Button>
 </Grid.Col>
 
-<div><Burger opened={opened} onClick={toggle} hiddenFrom="lg" size="lg" mt="10px" mr="5px" ml="15px" /></div>
+<div><Burger opened={opened} onClick={toggle} hiddenFrom="lg" size="md" mt="15px" mr="5px" ml="15px" /></div>
 
 </Grid>
 

@@ -31,7 +31,7 @@ const HeroCrystal = () => {
 
 return (
 
-<div>
+<div className='CSBack'>
 
 <div className='HeroHeaderSVGCS'>
   

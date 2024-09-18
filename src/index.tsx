@@ -12,10 +12,10 @@ const themeOverride = createTheme({
   
   other: {
     heroHeight: rem(400),
-    light0:'#FFFFFF',
+    light0:'#FAFAFA',
     light80:'#D3D7DF',
-    light90:'#E4E7EC',
-    light100:'#F9FAFB',
+    light90:'#E1EEEF',
+    light100:'#F2F9FC',
     dark80:'#31363F',
     dark90:'#202328',
     dark100:'#090A0B',

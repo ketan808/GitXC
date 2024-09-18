@@ -111,6 +111,35 @@ display:none;
   margin-top: 60px;
 }
 
+.ArmyBack {
+  background-image: url("./images/army/army_mob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.ACSBack {
+  background-image: url("./images/acs/acs_mob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.VMBack {
+  background-image: url("./images/vm/vm_mob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.CSBack {
+  background-image: url("./images/cs/cs_mob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
       
 }
 

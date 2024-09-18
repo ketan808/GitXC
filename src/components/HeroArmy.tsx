@@ -30,7 +30,7 @@ const HeroSVG = () => {
 
 return (
 
-<div>
+<div className='ArmyBack'>
 
 <div className='HeroHeaderSVG'>
 
