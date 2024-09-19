@@ -9,7 +9,7 @@ const Header = ({toggle, opened}: any) => {
   const computedColorScheme = useComputedColorScheme('dark');
 
   const toggleColorScheme = () => {
-    setColorScheme(computedColorScheme === 'dark' ? 'light' : 'auto');
+    setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light');
   };
 
   return (

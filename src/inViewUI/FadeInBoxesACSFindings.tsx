@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { InView } from 'react-intersection-observer';
-import { Card, SimpleGrid } from '@mantine/core'
+import { Card, SimpleGrid, Box } from '@mantine/core'
 import { IconChevronRight } from '@tabler/icons-react';
 import './css/style.css'
 
@@ -50,8 +50,8 @@ const Boxes = ({ index, text }) => (
         }}
 
       >
-      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder lightHidden><div>{text}</div><div className="iconRight"><IconChevronRight color="#fab005" size="1.5rem" stroke={2}/></div></Card>
-      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder darkHidden><div>{text}</div><div className="iconRight"><IconChevronRight color="#c35423" size="1.5rem" stroke={2}/></div></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder lightHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="#fab005" size="1.5rem" stroke={2}/></div></Box></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder darkHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="#c35423" size="1.5rem" stroke={2}/></div></Box></Card>
 
       </motion.div>
     )}

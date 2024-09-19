@@ -25,7 +25,7 @@ return (
 <HeroArmy />
 
 
-<Container size="1100px" mb= "xl">
+<Container size="1100px" mb= "md">
 
 <div className='containerOver'>
   
@@ -42,13 +42,13 @@ return (
 <p>Create a minimal viable product that streamlines the communication between trainers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
 
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 </FadeInSection>
 </div>
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -56,15 +56,13 @@ return (
 </FadeInSection>
 
 
-<Space h="xl" />
+<Space h="md" />
 
-{/* <Image style={{ display: 'block', margin: 'auto'}} h={640} w="auto" src={require('../images/army/trainer_home.png')} /> */}
 
 <Divider my="md" />
 
-{/* <Space h="xl" /><ArmySlide /><Space h="xl" /><Divider my="md" /> */}
 
- <Space h="xl" />
+ <Space h="md" />
 
  
 <FadeInSection duration = {0.25} delay = {0}>
@@ -78,17 +76,19 @@ return (
 
 
 <SimpleGrid
-      cols={{ base: 1, sm: 2, lg: 2 }}
-      spacing={{ base: 10, sm: 'xl' }}
-      verticalSpacing={{ base: 'md', sm: 'xl' }}
+      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
+      spacing={{ base: 10, sm: 'md' }}
+      verticalSpacing={{ base: 'md', sm: 'md' }}
     >
       <div>
+      <Space h="sm" />
       <Title fw={500} order={3} c="dimmed">Research Findings</Title>
       <Space h="md" />
       <FadeInBoxesFindings />
       </div>
 
       <div>
+      <Space h="sm" />
       <Title fw={500} order={3} c="dimmed">Impact on Development</Title>
       <Space h="md" />
       <FadeInBoxesImpact />
@@ -97,11 +97,11 @@ return (
  </SimpleGrid>
 
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Defining the Gathered Insights</Title>
@@ -114,15 +114,15 @@ return (
 
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0} padding = '0 0 50% 0' />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Brainstorming the Design</Title>
@@ -134,11 +134,11 @@ return (
 
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -155,16 +155,16 @@ return (
 
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 12% 0' />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Testing Trainee Input Variations</Title>
-<Space h="xl" />
+<Space h="md" />
 
 
 
@@ -172,7 +172,7 @@ return (
       spacing="sm"
       size="md"
       icon={
-        <ThemeIcon color="green" size={32} radius="xl">
+        <ThemeIcon color="green" size={32} radius="md">
           <IconCircleCheck style={{ width: rem(18), height: rem(18) }} />
         </ThemeIcon>
       }
@@ -191,7 +191,7 @@ return (
       spacing="sm"
       size="md"
       icon={
-        <ThemeIcon color="#0f8122" size={32} radius="xl">
+        <ThemeIcon color="#0f8122" size={32} radius="md">
           <IconCircleCheck style={{ width: rem(18), height: rem(18) }} />
         </ThemeIcon>
       }
@@ -220,15 +220,15 @@ return (
 
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 <ImageAnimation/>
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 
@@ -237,11 +237,11 @@ return (
 
 <ArmySlideTwo />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Smooth Handover to Developers</Title>
@@ -250,9 +250,9 @@ return (
 <p>In certain instances, I developed React components to assist developers with their tasks, which software testers then approved.</p>
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 <Divider my="md" />
-<Space h="xl" />
+<Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Conclusion</Title>
@@ -262,14 +262,14 @@ return (
 <p>I did feel we should slow down in some cases because unforeseen problems occurred during development, most notably with external and internal databases, but I, as the designer, really enjoyed working at a rapid pace and seeing development and testing done quickly.</p>
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="xl" />
+<Space h="md" />
 <Next 
 colsgrid={1}
 colDisplay="none"

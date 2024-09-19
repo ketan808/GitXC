@@ -16,7 +16,7 @@ return (
 <HeroCrystal />
 
 
-<Container size="1100px" mb= "xl">
+<Container size="1100px" mb= "md">
 
 <div className='containerOver'>
 <FadeInSection duration = {0.25} delay = {0}>
@@ -28,30 +28,30 @@ return (
 
 
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 </FadeInSection>
 </div>
 
-<Space h="xl" />
+<Space h="md" />
 <RoleCrystal />
 
 
-<Space h="xl" />
+<Space h="md" />
 
 
  <Divider my="md" />
 
- <Space h="xl" />
+ <Space h="md" />
 
 
 <CSSLide />
 
-<Space h="xl" />
+<Space h="md" />
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -60,14 +60,14 @@ return (
 <p>Shortly after the Thomson brand followed suit moving onto the new platform. This was a case of applying the Thomson branding to the templates, again working up the key screens as visuals and seeking sign off from key stakeholders.</p>
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="xl" />
+<Space h="md" />
 
 <Next 
 colsgrid={2}
@@ -83,7 +83,7 @@ linkNext="/british-army"
 <Space h="xl" />
 
 
-    </Container>
+</Container>
 
 </>
 

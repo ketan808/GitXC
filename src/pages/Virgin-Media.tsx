@@ -24,7 +24,7 @@ return (
 
 
 
-<Container size="1100px" mb= "xl">
+<Container size="1100px" mb= "md">
 
 <div className='containerOver'>
 <FadeInSection duration = {0.25} delay = {0}>
@@ -39,22 +39,22 @@ return (
 <p>Working on this project wasn't my most enjoyable as a lot of the work felt quite manual but the job needed to be done and was happy with the success at the end.</p>
 
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 </FadeInSection>
 </div>
 
-<Space h="xl" />
+<Space h="md" />
 <FadeInSection duration = {0.25} delay = {0}>
 <RoleVirgin />
 </FadeInSection>
-<Space h="xl" />
+<Space h="md" />
 
 
  <Divider my="md" />
 
- <Space h="xl" />
+ <Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="red.1">Choosing Components for the Blog Framework</Title>
@@ -66,11 +66,11 @@ return (
 
  <VMImageFadeIn />
 
- <Space h="xl" />
+ <Space h="md" />
 
  <Divider my="md" />
 
- <Space h="xl" />
+ <Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -79,11 +79,11 @@ return (
 <p>When ready, we tested the development with content editors to make sure they understood the process of adding and creating pages and to further receive feedback for changes. We created pages to conduct usability tests and determine how the blog would fit into the overall site structure.</p>
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -97,7 +97,7 @@ return (
       spacing="sm"
       size="md"
       icon={
-        <ThemeIcon color="red" size={32} radius="xl">
+        <ThemeIcon color="red" size={32} radius="md">
           <IconCircleCheck style={{ width: rem(18), height: rem(18) }} />
         </ThemeIcon>
       }
@@ -121,27 +121,27 @@ return (
 
 <Divider my="md" />
      
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={2} c="red.1">Article Creation Process</Title>
 
-<Space h="xl" />
+<Space h="md" />
 
 <VMImageFadeIn2 />
 
-<Space h="xl" />
+<Space h="md" />
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 36% 0' />
-<Space h="xl" />
+<Space h="md" />
 
 
 
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 36% 0' />
-<Space h="xl" />
+<Space h="md" />
 
 
 <Divider my="md" />
      
-<Space h="xl" />
+<Space h="md" />
 
 
 <FadeInSection duration = {0.25} delay = {0}>
@@ -152,14 +152,14 @@ return (
 </FadeInSection>
 
 
-<Space h="xl" />
+<Space h="md" />
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="xl" />
+<Space h="md" />
 
 <Next 
 colsgrid={2}
@@ -174,12 +174,8 @@ linkNext="/crystalski"
 <Space h="xl" />
 <Space h="xl" />
 
-   
 
-{/*     <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0} />  */}
-
-
-    </Container>
+</Container>
 
 </>
 

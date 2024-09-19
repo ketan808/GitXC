@@ -17,7 +17,11 @@ return (
 
 <Container size="1100px" mt= "xl" mb= "xl">
 <Divider my="md" />
-<Space h="xl" />
+
+
+<Space h="sm" />
+
+
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={3} c="dimmed">About</Title>
 <Space h="md" />
@@ -26,22 +30,22 @@ return (
 </FadeInSection>
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="xl" />
+<Space h="md" />
 
 
 <Gcards />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={3} c="dimmed">Testimonials</Title>
-<Space h="xl" />
+<Space h="md" />
 
 
 <Testimonials/>

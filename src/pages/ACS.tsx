@@ -24,7 +24,7 @@ return (
 <HeroACS />
 
 
-<Container size="1100px" mb= "xl">
+<Container size="1100px" mb= "md">
 
 <div className='containerOver'>
 
@@ -45,24 +45,24 @@ return (
 <p>Engage stakeholders and maintain their enthusiasm through discussions, rapid prototyping, and presentations ready for feedback and further iteration, with a focus on flexibility and collaboration.</p>
  */}
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 </FadeInSection>
 </div>
 
-<Space h="xl" />
+<Space h="md" />
 <FadeInSection duration = {0.25} delay = {0}>
 <RoleACS />
 </FadeInSection>
-<Space h="xl" />
+<Space h="md" />
 
 {/* <Image style={{ display: 'block', margin: 'auto'}} h={640} w="auto" src={require('../images/army/trainer_home.png')} /> */}
 
 
  <Divider my="md" />
 
- <Space h="xl" />
+ <Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="yellow.1">Identifying the Problems from Parents</Title>
@@ -73,17 +73,19 @@ return (
 <Space h="md" />
 
 <SimpleGrid
-      cols={{ base: 1, sm: 2, lg: 2 }}
-      spacing={{ base: 10, sm: 'xl' }}
-      verticalSpacing={{ base: 'md', sm: 'xl' }}
+      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
+      spacing={{ base: 10, sm: 'md' }}
+      verticalSpacing={{ base: 'md', sm: 'md' }}
     >
       <div>
+      <Space h="sm" />
       <Title fw={500} order={3} c="dimmed">Research Findings</Title>
       <Space h="md" />
       <FadeInBoxesFindings1 />
       </div>
 
       <div>
+      <Space h="sm" />
       <Title fw={500} order={3} c="dimmed">Impact on Development</Title>
       <Space h="md" />
       <FadeInBoxesImpact1 />
@@ -92,11 +94,11 @@ return (
  </SimpleGrid>
 
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 
@@ -108,11 +110,11 @@ return (
 
 <ACSSlide />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 
@@ -122,46 +124,46 @@ return (
 <p>At this point, I had also created visuals for all of the other schools to help gain momentum and enthusiasm from stakeholders.</p>
 </FadeInSection>
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
-<Space h="xl" />
+<Space h="md" />
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
-<Space h="xl" />
+<Space h="md" />
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
-<Space h="xl" />
+<Space h="md" />
 <FlipInView image={FlipImage4} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
 
      
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <Title fw={500} order={2} c="yellow.1">Development, Testing and Launching</Title>
 <p>I collaborated with developers to implement the designs because I had experience with content management systems, and we continued testing with parents at every stage and kept stakeholders informed before a successful launch.</p>
 
-<Space h="xl" />
+<Space h="md" />
 
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 <Title fw={500} order={2} c="yellow.1">Conclusion</Title>
 <p>Transformation of the Intranet/Virtual Learning Environment user experience received a lot of praise across the organisation, setting it apart from previous unsuccessful attempts and, I accepted a full-time role as I was contracted.</p>
 <p>I continued my efforts across sectors such as head office, health, finance, sports, and schools divisions and prioritised keeping users at the forefront of the overall experience.</p>
 <p>When I first arrived, there were a variety of opinions, and maintaining a focus on the scale of the project was vital. I also played a crucial role in fostering a strong relationship between the head office and the teachers around the project. By effectively implementing the gathered requirements, we created a new atmosphere in which I thrived.</p>
-<Space h="xl" />
+<Space h="md" />
 <Divider my="md" />
 
-<Space h="xl" />
+<Space h="md" />
 
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="xl" />
+<Space h="md" />
 
 <Next 
 colsgrid={2}

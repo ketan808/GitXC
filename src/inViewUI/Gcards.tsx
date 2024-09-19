@@ -87,7 +87,7 @@ const Boxes = () => {
       title3: 'Redesign across online and offline marketing',
       titleColor: 'blue.1',
       gradient: 'gradientBlue',
-      image: require('../inViewUI/images/cs.png'),
+      image: require('../inViewUI/images/cs_home.png'),
       link: '/crystalski'
       }
 
