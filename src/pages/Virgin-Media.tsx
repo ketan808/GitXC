@@ -36,7 +36,7 @@ return (
 
 
 <Title fw={500} order={2} c="red.1">Solution</Title>
-<p>Working on this project wasn't my most enjoyable as a lot of the work felt quite manual but the job needed to be done and was happy with the success at the end.</p>
+<p>Design and build a framework for search engine-optimised articles to help increase keyword ranking on search engines.</p>
 
 
 <Space h="md" />
@@ -123,7 +123,7 @@ return (
      
 <Space h="md" />
 
-<Title fw={500} order={2} c="red.1">Article Creation Process</Title>
+<Title fw={500} order={2} c="red.1">Article Visuals</Title>
 
 <Space h="md" />
 
@@ -148,7 +148,7 @@ return (
 <Title fw={500} order={2} c="red.1">Conclusion</Title>
 <p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive. Significant improvements in keyword rankings coincided with a surge in product sales.</p>
 <p>The successes underscored the effectiveness of the search engine optimisation strategies, validating the significance of everyone's efforts, including my role in enhancing both visibility and commercial outcomes.</p>
-<p>Working on this project wasn't my most enjoyable as a lot of the work felt quite manual but the job needed to be done and was happy with the success at the end.</p>
+<p>Working on this project wasn't the most enjoyable experience; I felt I wasn't utilising my skillset, and a lot of the work felt quite manual. However, I helped complete the task and found satisfaction in the final outcome.</p>
 </FadeInSection>
 
 

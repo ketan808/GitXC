@@ -106,7 +106,7 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Defining the Gathered Insights</Title>
 
-<p>User research-based personas ensured that decisions consistently focused on real user needs, including the user's goals for using the product, their challenges and frustrations, and their behavioral patterns.</p>
+<p>I documented user requirements, including the user's goals for using the product, challenges, frustrations, and behavioral patterns.</p>
 
 <p>Scenarios accompanied these stories, exploring specific contexts in which users might interact with the product. By defining these scenarios, we were able to anticipate diverse use cases and ensure that our design would cater to a broad range of user situations.</p>
 
@@ -132,6 +132,8 @@ return (
 
 <Space h="md" />
 
+
+<Title fw={500} order={3} c="dimmed">Evidence Gathering</Title>
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
 
 <Space h="md" />
