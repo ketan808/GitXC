@@ -146,7 +146,7 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1"> Structuring the Design Foundation</Title>
 
-<p>In the background, I worked on a design system to maintain consistency throughout the app. To establish the brand's identity, I used Army fonts, selected an earthy colour scheme, and created reusable user interface elements such as buttons, forms, and cards.</p>
+<p>In the background, I worked on a design system and created reusable user interface elements such as buttons, forms, and cards. to maintain consistency throughout the app. To establish the brand's identity, I used Army fonts and selected an earthy colour scheme.</p>
 <p>By documenting these elements, I provided a single source of truth for the developers, ensuring that the product maintains a unified look and feel as it evolves.</p>
 
 <p>With a robust design system evolving, we were able to accelerate the design process using high fidelty mockups and interactive prototypes.</p>
