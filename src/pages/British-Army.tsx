@@ -106,7 +106,7 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Defining the Gathered Insights</Title>
 
-<p>I documented user requirements, including the user's goals for using the product, challenges, frustrations, and behavioral patterns.</p>
+<p>I documented the findings which included user's goals, challenges, frustrations, and behavioral patterns.</p>
 
 <p>Scenarios accompanied these stories, exploring specific contexts in which users might interact with the product. By defining these scenarios, we were able to anticipate diverse use cases and ensure that our design would cater to a broad range of user situations.</p>
 
@@ -146,7 +146,7 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1"> Structuring the Design Foundation</Title>
 
-<p>In the background, I worked on a design system to maintain consistency throughout the app. To establish the brand's identity, I used Army fonts, selected an earthy colour scheme from army base camp photos, and created reusable user interface elements such as buttons, forms, and cards.</p>
+<p>In the background, I worked on a design system to maintain consistency throughout the app. To establish the brand's identity, I used Army fonts, selected an earthy colour scheme, and created reusable user interface elements such as buttons, forms, and cards.</p>
 <p>By documenting these elements, I provided a single source of truth for the developers, ensuring that the product maintains a unified look and feel as it evolves.</p>
 
 <p>With a robust design system evolving, we were able to accelerate the design process using high fidelty mockups and interactive prototypes.</p>
