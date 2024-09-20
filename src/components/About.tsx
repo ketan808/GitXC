@@ -1,7 +1,6 @@
 import { Grid, Box, Image} from '@mantine/core';        
 
 
-
 const About = () => {
 
 
@@ -36,7 +35,6 @@ const About = () => {
     </Grid>
 
 
-    
     </div>
     )
     
