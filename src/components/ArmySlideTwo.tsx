@@ -25,7 +25,13 @@ function ArmySlide() {
     <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Courses Attendees</Text>
     <Space h="lg" />
-    <Image src={require('../images/army/attendees.png')}/>
+    <Image src={require('../images/army/course.png')}/>
+    </Carousel.Slide>
+
+    <Carousel.Slide>
+    <Text size="lg" fw={500} ta="center">Courses Attendees Navigation</Text>
+    <Space h="lg" />
+    <Image src={require('../images/army/course1.png')}/>
     </Carousel.Slide>
 
 
@@ -37,10 +43,25 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Upload Evidence</Text>
+    <Text size="lg" fw={500} ta="center">Trainer, Trainee Target Model</Text>
+    <Space h="lg" />
+    <Image src={require('../images/army/target.png')}/>
+    </Carousel.Slide>
+
+
+    <Carousel.Slide>
+    <Text size="lg" fw={500} ta="center">Upload Image Evidence</Text>
     <Space h="lg" />
     <Image src={require('../images/army/upload.png')}/>
     </Carousel.Slide>
+
+
+    <Carousel.Slide>
+    <Text size="lg" fw={500} ta="center">Upload Notes Evidence</Text>
+    <Space h="lg" />
+    <Image src={require('../images/army/notes.png')}/>
+    </Carousel.Slide>
+
 
     <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Fitness</Text>
@@ -48,11 +69,6 @@ function ArmySlide() {
     <Image src={require('../images/army/fitness.png')}/>
     </Carousel.Slide>
 
-{/*     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Course Dashboard</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/dashboard.png')}/>
-    </Carousel.Slide> */}
 
     <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Trainer, Trainee Scoring History</Text>
@@ -71,7 +87,7 @@ function ArmySlide() {
     <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Course Report Builder</Text>
     <Space h="lg" />
-    <Image src={require('../images/army/builder1.png')}/>
+    <Image src={require('../images/army/builder.png')}/>
     </Carousel.Slide>
 
     <Carousel.Slide>

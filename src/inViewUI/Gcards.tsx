@@ -53,7 +53,7 @@ const Boxes = () => {
 
      { 
       title1: 'British Army',
-      title2: 'Mobile, Tablet UX/UI Design',
+      title2: 'Progressive Web App UX/UI Design',
       title3: 'Tracking wellbeing and course performance',
       titleColor: 'green.1',
       gradient: 'gradientGreen',
