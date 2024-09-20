@@ -20,7 +20,6 @@ const About = () => {
     <Box darkHidden mt='5px' mb='5px'>
     <Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} h={200} w="200" src={require('../images/ketan.png')} /></Box >
    
-   
     </Grid.Col>
 
  <Grid.Col span={{ base: 12, sm: 'auto', md: 'auto', lg: 'auto' }} >
