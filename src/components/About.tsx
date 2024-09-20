@@ -27,7 +27,7 @@ const About = () => {
 <span>I started my design career over 20 years ago by developing websites for local businesses, which led to my first major break with a design agency called Clock. I discovered at this point that design is more than just a passion for me; it is a calling, which is how I have felt ever since.</span>
 <p>In a chance meeting, I accepted a web-design role for Combined Insurance (AON), where I redesigned the UI and UX for all their organisation websites and got a taste for some coding. The role taught me how to listen attentively and identify customer pain points that could inform effective design decisions.</p>
 <p>The rest is history; since then, I've been designing and expanding my toolkit. I love working across the full spectrum of product design, from research through to UI and implementation, and get a ton of energy from working on seriously impactful work, such as in my last contract for the British Army.</p>
-<p>I hope you enjoy my portfolio, and would love to connect if there's an opportunity to work toge</p>
+<p>I hope you enjoy my portfolio, and would love to connect if there's an opportunity to work together.</p>
 
  </Grid.Col>
    
