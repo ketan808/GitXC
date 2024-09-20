@@ -153,7 +153,7 @@ return (
 
 </FadeInSection>
 
-<Title fw={200} order={2} >WCAG 2.0 guidelines - Text contrast AA compliant</Title>
+<Title fw={200} order={2}>Text contrast AA compliant</Title>
 
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 12% 0' />
 

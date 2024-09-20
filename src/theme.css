@@ -111,19 +111,44 @@ display:none;
   margin-top: 60px;
 }
 
+
+[data-mantine-color-scheme='light'] 
+.ArmyBack {
+  background-image: url("./images/army/army_mob1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-mantine-color-scheme='dark'] 
 .ArmyBack {
   background-image: url("./images/army/army_mob.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+[data-mantine-color-scheme='light'] 
+.ACSBack {
+  background-image: url("./images/acs/acs_mob1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+[data-mantine-color-scheme='dark'] 
 .ACSBack {
   background-image: url("./images/acs/acs_mob.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+[data-mantine-color-scheme='light'] 
+.VMBack {
+  background-image: url("./images/vm/vm_mob1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-mantine-color-scheme='dark'] 
 .VMBack {
   background-image: url("./images/vm/vm_mob.png");
   background-repeat: no-repeat;
@@ -131,7 +156,14 @@ display:none;
 }
 
 
+[data-mantine-color-scheme='light'] 
+.CSBack {
+  background-image: url("./images/cs/cs_mob1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+[data-mantine-color-scheme='dark'] 
 .CSBack {
   background-image: url("./images/cs/cs_mob.png");
   background-repeat: no-repeat;
@@ -140,8 +172,11 @@ display:none;
 
 
 
-      
+
 }
+
+      
+
 
 
 

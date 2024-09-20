@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import BigTitle from './BigTitle';
+import { Box } from '@mantine/core';
 
 
 const svgVariants = {
