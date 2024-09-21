@@ -12,8 +12,8 @@ const FadeInBoxesFindings = () => {
     'Course reports created in different formats',
     'WiFi not available at some course locations.',
     'Groups of between 20-30 trainees per dormitory.',
-    'Trainess Have free time at 6 a.m and from 8 p.m.',
-    'Trainees enthusiastic about the app, Trainers not.',
+    'Trainess have free time at 6 a.m and from 8 p.m.',
+    'Trainees enthusiastic about the app, trainers not.',
     'Mobiles and tablets main devices.',
 
   ];
