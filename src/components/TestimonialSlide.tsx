@@ -28,7 +28,7 @@ function Testimonials() {
       </Text>
 
       <Text size="md" fw={500} mt="sm" ta="center">
-      Critical Thinker & Transformation Leader at UK Ministry of Defence
+      Critical Thinker & Transformation Leader - UK Ministry of Defence
       </Text>
 
       <Text size="md" mt="sm" c="dimmed" ta="center">
@@ -117,11 +117,11 @@ function Testimonials() {
      />
      
        <Text size="xl" fw={700} mt="sm" ta="center">
-       Nigel Brittle
+       David de la Riviere
        </Text>
  
        <Text size="md" fw={500} mt="sm" ta="center">
-       Director & Vice President - Combined Insurance (Aon)
+       Senior Agile Business Analyst - UK Ministry of Defence
        </Text>
  
        <Text size="md" mt="sm" c="dimmed" ta="center">
