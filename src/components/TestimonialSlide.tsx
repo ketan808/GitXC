@@ -1,13 +1,20 @@
 import { Carousel } from '@mantine/carousel';
 import '@mantine/carousel/styles.css';
 import { Card, Text, Image } from '@mantine/core';
-import classes from './TestimonialSlideButton.module.css';
+import classes from './SlideButton.module.css';
 
 
-function Testimonials() {
+interface Props {
+  initialSlide?: number;
+}
+
+
+  const Testimonials: React.FC<Props> = ({ initialSlide }) => {
+
+
   return (
     <div>
-    <Carousel  className='mantine-Carousel-indicators' h={{ base: '100%' }}  slideSize={{ base: '100%', sm: '100%', md: '100%', xl:'75%' }} orientation="horizontal" classNames={classes} slideGap="xl" controlsOffset="xl" loop>
+    <Carousel initialSlide={initialSlide} classNames={{control: classes.controlHome}} h={{ base: '100%' }}  slideSize={{ base: '100%', sm: '100%', md: '100%', xl:'75%' }} orientation="horizontal" slideGap="xl" controlsOffset="xl" loop>
 
     <Carousel.Slide>
 

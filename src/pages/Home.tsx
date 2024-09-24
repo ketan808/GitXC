@@ -44,11 +44,11 @@ return (
 
 <Space h="md" />
 
-<Title fw={500} order={3} c="dimmed">Testimonials</Title>
+<Title fw={500} order={2} c="dimmed">Testimonials</Title>
 <Space h="md" />
 
 
-<Testimonials/>
+<Testimonials initialSlide={0}  />
 
 <Space h="xl" />
 <Space h="xl" />
