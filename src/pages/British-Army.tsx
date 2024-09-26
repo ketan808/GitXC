@@ -215,7 +215,7 @@ return (
 
 <Space h="md" />
 
-<p>Trainers would never force trainees to use the application but would nurture them to do so for their own benefit, such as tracking any conflicts. We wanted to ensure that adding input was as optimal as possible, taking into account their physical and mental state during specific elements of the course.</p>
+<p>Trainers would never force trainees to use the application, but would nurture them to do so for their own benefit. We wanted to make sure that adding input was as optimal as possible and identify any issues with regular data input.</p>
 <p>A survey at the end of the test clarified that the versions below scored best overall.</p>
 
 <ArmyRings />
