@@ -10,6 +10,9 @@ import image3 from '../images/misc/fight.jpg';
 import image4 from '../images/misc/ce.jpg';
 import image5 from '../images/misc/acs.jpg';
 import image6 from '../images/misc/free1.png';
+import image7 from '../images/posterMob.jpg';
+import image8 from '../images/posterDash.jpg';
+import image9 from '../images/posterXC.jpg';
 
 
 
@@ -39,7 +42,7 @@ return (
       <Title fw={500} order={2} c="grape">Cinema 4d</Title>
       <p>3D models with embedded animations.</p>
       <Space h="md" />
-      <VidComp src="video/mob.mp4" />
+      <VidComp src="video/mob.mp4" posterThumb={image7} />
       </div>
 
 
@@ -47,7 +50,7 @@ return (
       <Title fw={500} order={2} c="grape">After Effects</Title>
       <p>Animation using the puppet pin tool.</p>
       <Space h="md" />
-      <VidComp src="video/dashAfter.mp4" />
+      <VidComp src="video/dashAfter.mp4" posterThumb={image8} />
        </div>
        
 </SimpleGrid>
@@ -116,7 +119,7 @@ View
 <Title fw={500} order={2} c="grape">Premiere Pro</Title>
 <p>A fun editing using stock videos synced to audio.</p>
 <Space h="md" />
-<VidComp src="video/xc.mp4" />
+<VidComp src="video/xc.mp4" posterThumb={image9} />
 </FadeInSection>
 
 <Space h="xl" />

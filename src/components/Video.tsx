@@ -4,9 +4,10 @@ import VideoJS from './VideoJS';
 
 interface vidProps {
   src: string;
+  posterThumb: string;
 }
 
-export default function VidComp ({ src }: vidProps) {
+export default function VidComp ({ src, posterThumb }: vidProps) {
   const playerRef = React.useRef(null);
 
   const videoJsOptions = {
@@ -14,6 +15,7 @@ export default function VidComp ({ src }: vidProps) {
     responsive: true,
     fluid: true,
     preload: 'auto',
+    poster: posterThumb,
     sources: [{
       src: src, // Using the src prop here
       type: 'video/mp4'
