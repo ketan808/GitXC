@@ -1,6 +1,6 @@
 import { Divider, Space, NavLink } from '@mantine/core';
 import { useLocation } from 'react-router-dom';
-import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast, IconBrandLinkedin, IconMail
+import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast, IconBrandLinkedin, IconMail, IconPencil
 } from '@tabler/icons-react';
 import { useDisclosure } from '@mantine/hooks';
 import { Modal, Title } from '@mantine/core';
@@ -94,6 +94,19 @@ function MainMenu() {
         variant="filled"
         color="blue"
       />
+
+
+<NavLink
+        component="a"
+        href="/misc"
+        label="Miscellaneous"
+        description='A Mix of Personal & Employed Projects'
+        leftSection={<IconPencil stroke={1} size={32} className='element'/>}
+        active={location.pathname === '/misc'}
+        variant="filled"
+        color="grape"
+      />
+
 
 
 <Divider size={2} my="md" label="REACH OUT" labelPosition="left" style={{ margin: '15px' }} />

@@ -39,13 +39,13 @@
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
     "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "recharts": "^2.12.7",
     "three": "^0.165.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-    "scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -70,10 +70,12 @@
     ]
   },
   "devDependencies": {
+    "@types/video.js": "^7.3.58",
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
-    "sass": "^1.77.6"
+    "sass": "^1.77.6",
+    "video.js": "^8.17.4"
   }
 }

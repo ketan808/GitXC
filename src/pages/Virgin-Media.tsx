@@ -3,13 +3,18 @@ import { Container, Title, Space, Divider, List, ThemeIcon, rem} from '@mantine/
 import { IconCircleCheck} from '@tabler/icons-react';
 import HeroVirgin from '../components/HeroVirgin';
 import RoleVirgin from '../components/RoleVirgin';
-import VMImageFadeIn from '../inViewUI/FadeInImages';
-import VMImageFadeIn2 from '../inViewUI/FadeInImages2';
+import ImageFadeIn from '../inViewUI/FadeInImages';
 import FlipInView from '../inViewUI/Flip';
 import FlipImage1 from '../images/vm/vm_swim1.png';
 import FlipImage2 from '../images/vm/music.jpg';
 import FlipImage3 from '../images/vm/sport.jpg';
 import Next from '../components/Next';
+
+import image1 from '../images/vm/components_mob.png';
+import image2 from '../images/vm/components_desk.png';
+
+import image3 from '../images/vm/blog1.jpg';
+import image4 from '../images/vm/blog2.jpg';
 
 
 
@@ -64,7 +69,7 @@ return (
 
 <Space h="md" />
 
- <VMImageFadeIn />
+<ImageFadeIn src1={image1} src2={image2} />
 
  <Space h="md" />
 
@@ -127,7 +132,7 @@ return (
 
 <Space h="md" />
 
-<VMImageFadeIn2 />
+<ImageFadeIn src1={image3} src2={image4} />
 
 <Space h="md" />
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 36% 0' />
@@ -148,7 +153,6 @@ return (
 <Title fw={500} order={2} c="red.1">Conclusion</Title>
 <p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive. Significant improvements in keyword rankings coincided with a surge in product sales.</p>
 <p>The successes underscored the effectiveness of the search engine optimisation strategies, validating the significance of everyone's efforts, including my role in enhancing both visibility and commercial outcomes.</p>
-<p>Working on this project wasn't the most enjoyable experience; I felt I wasn't utilising my skillset, and a lot of the work felt quite manual. However, I helped complete the task and found satisfaction in the final outcome.</p>
 </FadeInSection>
 
 

@@ -13,9 +13,6 @@ const FadeInBoxesFindings1 = () => {
     'Calendars in lots of different locations.',
     'Log in issues, getting diverted to wrong school.',
     'Content designed and written for children not adults.',
-    'No one fixes anything, teachers or IT',
-    'Too much old information including staff directory.',
-    'Have children in more than one division.',
 
   ];
 

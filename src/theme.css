@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://vjs.zencdn.net/8.16.1/video-js.css');
+
 body {
   font-family: var(--mantine-font-family);
   font-size: 17px;
@@ -58,6 +60,14 @@ body {
   top: 92px;
   z-index: 1;
 }
+
+
+.HeroHeaderSVGM {
+  position: relative;
+  top: 130px;
+  z-index: 1;
+}
+
 
 
 .HeroHeaderTitle {
@@ -246,4 +256,21 @@ outline: none !important;
   &:hover {
       background-color: var(--mantine-color-80)!important;
   }
+}
+
+
+
+
+
+/* Change the border of the big play button. */
+.video-js .vjs-big-play-button {
+  background-color: #9c36b5;
+  border: none;
+}
+
+/* Change the color of various "bars". */
+.video-js  .vjs-volume-level,
+.video-js  .vjs-play-progress,
+.video-js  .vjs-slider-bar {
+  background-color: #eebefa;
 }

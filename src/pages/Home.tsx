@@ -1,4 +1,5 @@
 import Gcards from '../inViewUI/Gcards';
+import GcardsMisc from '../inViewUI/GcardsMisc';
 import FadeInSection from '../inViewUI/FadeInSection';
 import { Container, Title, Space, Divider } from '@mantine/core';
 import Hero from '../components/Hero';
@@ -37,6 +38,12 @@ return (
 
 
 <Gcards />
+
+<Space h="xl" />
+<Space h="xl" />
+
+<GcardsMisc />
+
 
 <Space h="md" />
 

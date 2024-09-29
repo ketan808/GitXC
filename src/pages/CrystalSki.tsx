@@ -73,9 +73,9 @@ return (
 colsgrid={2}
 colDisplay=""
 textPrevious="Blog for Search Engine Optimised Articles" 
-textNext="MyTraining: Wellbeing & Performance App"
+textNext="A Mix of Personal & Employed Projects"
 linkPrevious="/virgin-media" 
-linkNext="/british-army"
+linkNext="/misc"
 />
 
 <Space h="xl" />

@@ -5,6 +5,7 @@ import BritishArmy from '../pages/British-Army';
 import ACS from '../pages/ACS';
 import VirginMedia from '../pages/Virgin-Media';
 import CrystalSki from '../pages/CrystalSki';
+import Misc from '../pages/Misc';
 
 
 const RouteSwitcher = () => {
@@ -16,6 +17,7 @@ const RouteSwitcher = () => {
       <Route path="/acs" element={<ACS/>} />
       <Route path="/virgin-media" element={<VirginMedia />} />
       <Route path="/crystalski" element={<CrystalSki />} />
+      <Route path="/misc" element={<Misc />} />
       
       
     </Routes>

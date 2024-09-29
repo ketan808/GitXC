@@ -10,10 +10,6 @@ const FadeInBoxesImpact1 = () => {
     'Centralised organisation calendar.',
     'Overhaul of login groups and permissions.',
     'Training for content editors and rewrite fixed copy.',
-    'Take full responsibilty for fixes.',
-    'Complete audit of current information.',
-    'Keep access to all divisions on dashboard.',
-
   ];
 
 

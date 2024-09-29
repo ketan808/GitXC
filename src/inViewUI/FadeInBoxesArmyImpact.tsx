@@ -9,10 +9,7 @@ const FadeInBoxesImpact1 = () => {
     'Course report builder for creating various formats.',
     'Store inputted data and upload when WiFi is available.',
     'Speech recognition and voice commands will be an issue.',
-    'Quick input as not a lot of time available.',
-    'Involve trainers at an early stage to gain enthusiasm.',
-    'Fully responsive design.',
-
+    'Optimal input as limited time is available.'
   ];
 
 

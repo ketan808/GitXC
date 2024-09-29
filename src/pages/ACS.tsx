@@ -155,7 +155,6 @@ return (
 <Title fw={500} order={2} c="yellow.1">Conclusion</Title>
 <p>Transformation of the Intranet/Virtual Learning Environment user experience received a lot of praise across the organisation, setting it apart from previous unsuccessful attempts and, I accepted a full-time role as I was contracted.</p>
 <p>I continued my efforts across sectors such as head office, health, finance, sports, and schools divisions and prioritised keeping users at the forefront of the overall experience.</p>
-<p>When I first arrived, there were a variety of opinions, and maintaining a focus on the scale of the project was vital. I also played a crucial role in fostering a strong relationship between the head office and the teachers around the project. By effectively implementing the gathered requirements, we created a new atmosphere in which I thrived.</p>
 <Space h="md" />
 <Divider my="md" />
 

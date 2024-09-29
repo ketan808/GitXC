@@ -5,11 +5,9 @@ import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import RoleArmy from '../components/RoleArmy';
 import ArmySlideTwo from '../components/ArmySlideTwo';
-import ArmyRings from '../components/ArmyRings';
-import { IconCircleCheck} from '@tabler/icons-react';
 import FlipInView from '../inViewUI/Flip';
 import FlipImage1 from '../inViewUI/images/site.png';
-import FlipImage2 from '../images/colors.png';
+import FlipImage2 from '../images/army/theme.png';
 import FlipImage3 from '../images/army/wire.png';
 import ImageAnimation from '../inViewUI/ThreeCard';
 import Next from '../components/Next';
@@ -31,12 +29,12 @@ return (
   
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Overview</Title>
-<p>The British Army required a software application to monitor the physical and mental health of its trainees during courses. This application included a system that allowed trainers to score elements during the course and include proof in the form of notes and photographs, which would aid in the creation of final course reports.</p>
+<p>The British Army required a software application to monitor its trainees' performance and mental health during courses, which would encourage achievement and allow trainers to intervene if trainees encountered difficulties.</p>
 {/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
 
-<Title fw={500} order={2} c="green.1">Challenge</Title>
+{/* <Title fw={500} order={2} c="green.1">Challenge</Title>
 <p>Trainers require a tool to help encourage performance and intervene early if trainees are facing difficulties, as trainees rarely speak out about physical or mental health issues.</p>
-
+ */}
 
 <Title fw={500} order={2} c="green.1">Solution</Title>
 <p>Create a minimal viable product that streamlines the communication between trainers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
@@ -82,7 +80,7 @@ return (
     >
       <div>
       <Space h="sm" />
-      <Title fw={500} order={3} c="dimmed">Research Findings</Title>
+      <Title fw={500} order={3} c="dimmed">Findings</Title>
       <Space h="md" />
       <FadeInBoxesFindings />
       </div>
@@ -104,13 +102,12 @@ return (
 <Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Defining the Gathered Insights</Title>
+<Title fw={500} order={2} c="green.1">Defining Gathered Insights</Title>
 
-<p>I documented the findings which included user's goals, challenges, frustrations, and behavioral patterns.</p>
+<p>I documented my findings, which included the user's goals, challenges, frustrations, behavioural patterns, and had a lot of extra insights to work with gathered from meetings with stakeholders.</p>
 
-<p>Scenarios accompanied these stories, exploring specific contexts in which users might interact with the product. By defining these scenarios, we were able to anticipate diverse use cases and ensure that our design would cater to a broad range of user situations.</p>
+<p>The collaboration continued, and I created user flows and sitemaps as the work progressed.</p>
 
-<p>I then began mapping the product's content and functionality into a logical structure by creating user flows and sitemaps.</p>
 
 </FadeInSection>
 
@@ -133,7 +130,7 @@ return (
 <Space h="md" />
 
 
-<Title fw={500} order={3} c="dimmed">Evidence Gathering</Title>
+<Title fw={500} order={3} c="dimmed">Images and Notes Attachment Feature</Title>
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
 
 <Space h="md" />
@@ -146,16 +143,13 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1"> Structuring the Design Foundation</Title>
 
-<p>In the background, I worked on a design system and created reusable user interface elements such as buttons, forms, and cards. to maintain consistency throughout the app. To establish the brand's identity, I used Army fonts and selected an earthy colour scheme.</p>
-<p>By documenting these elements, I provided a single source of truth for the developers, ensuring that the product maintains a unified look and feel as it evolves.</p>
+<p>I developed a design system that included documented reusable components, typography scale, and to establish the brand's identity, I used brand fonts and selected an earthy colour scheme appropriate for the Army environment.</p>
 
-<p>With a robust design system evolving, we were able to accelerate the design process using high fidelty mockups and interactive prototypes.</p>
+<p>With a design system evolving, I was able to accelerate the design process by creating high-fidelity mockups and interactive prototypes.</p>
 
 </FadeInSection>
 
-<Title fw={200} order={2}>Text contrast AA compliant</Title>
-
-<FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 12% 0' />
+<FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 100% 0' />
 
 <Space h="md" />
 
@@ -165,60 +159,12 @@ return (
 
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Testing Trainee Input Variations</Title>
-<Space h="md" />
-
-
-
-<List
-      spacing="sm"
-      size="md"
-      icon={
-        <ThemeIcon color="green" size={32} radius="md">
-          <IconCircleCheck style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-      lightHidden>
-
-      <List.Item>Tool Used: Protopie.</List.Item>
-      <List.Item>Test Duration: 1 week, split evenly across two different variations.</List.Item>
-      <List.Item>Audience: 20 Trainees</List.Item>
-
-</List>
-
-
-
-<List
-      spacing="sm"
-      size="md"
-      icon={
-        <ThemeIcon color="#0f8122" size={32} radius="md">
-          <IconCircleCheck style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-      darkHidden>
-
-      <List.Item>Tool Used: Protopie.</List.Item>
-      <List.Item>Test Duration: 1 week, split evenly across two different variations.</List.Item>
-      <List.Item>Audience: 20 Trainees</List.Item>
-
-</List>
-
-
-
-
-
-
-
-
+<Title fw={500} order={2} c="green.1">Trainee Input Variations</Title>
 <Space h="md" />
 
 <p>Trainers would never force trainees to use the application, but would nurture them to do so for their own benefit. We wanted to make sure that adding input was as optimal as possible and identify any issues with regular data input.</p>
-<p>A survey at the end of the test clarified that the versions below scored best overall.</p>
+<p>A user test clarified that the versions below scored best overall.</p>
 
-<ArmyRings />
 
 </FadeInSection>
 
@@ -261,7 +207,7 @@ return (
 
 <p>The minimum viable product for MyTraining validated its need and exceeded expectations within the British Army. The Ministry of Defence rolled out trials for the Royal Navy and Royal Air Force.</p>
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
-<p>I did feel we should slow down in some cases because unforeseen problems occurred during development, most notably with external and internal databases, but I, as the designer, really enjoyed working at a rapid pace and seeing development and testing done quickly.</p>
+<p>As the UI designer, I really enjoyed working at a rapid pace and seeing development and testing done quickly.</p>
 </FadeInSection>
 
 <Space h="md" />

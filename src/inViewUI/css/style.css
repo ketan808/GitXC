@@ -23,6 +23,12 @@ background: linear-gradient(135deg, #2AB2ED, #3A56EA);
 color: #2AB2ED;
 }
 
+.gradientGrape{ 
+  background: #9c36b5;
+  background: linear-gradient(135deg, #c942ea, #501d5c);
+  color: #9c36b5;
+  }
+
 
 
 
@@ -49,7 +55,16 @@ color: #2AB2ED;
   width: 100%;
   object-fit: contain;
   margin-bottom: 10px;
+
 }
+  
+.card-imageMisc {
+    height: 275px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
 
 
 .ThreeCardContainer {
