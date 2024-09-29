@@ -64,7 +64,7 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Fitness</Text>
+    <Text size="lg" fw={500} ta="center">Physical Fitness Scores</Text>
     <Space h="lg" />
     <Image src={require('../images/army/fitness.png')}/>
     </Carousel.Slide>
