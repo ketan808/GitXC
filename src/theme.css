@@ -41,6 +41,10 @@ body {
   }
 } */
 
+.LogoMain {
+  height: auto;
+  width: 180px;
+}
 
 
 .HeroHeaderSVG {
@@ -106,6 +110,12 @@ body {
 
 @media screen and (max-width: 960px) {
 
+  .LogoMain {
+    height: auto;
+    width: 120px;
+  }
+  
+
 .HeroHeaderTitle {
 position: static;
 display: inline-block;
@@ -120,7 +130,6 @@ display:none;
 .containerOver {
   margin-top: 60px;
 }
-
 
 [data-mantine-color-scheme='light'] 
 .ArmyBack {
@@ -179,6 +188,22 @@ display:none;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+[data-mantine-color-scheme='light'] 
+.MiscBack {
+  background-image: url("./images/misc/purpleLight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-mantine-color-scheme='dark'] 
+.MiscBack {
+  background-image: url("./images/misc/purple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 

@@ -35,12 +35,12 @@ return (
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="md" />
-
+x
 
 <Gcards />
 
-<Space h="xl" />
-<Space h="xl" />
+<Space h={{ base: "sm", lg: "xl" }}/>
+<Space h={{ base: "sm", lg: "xl" }}/>
 
 <GcardsMisc />
 

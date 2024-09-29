@@ -32,8 +32,8 @@ const HeroVirgin = () => {
 return (
 
     
-<div className='VMBack'>
-<div className='HeroHeaderSVGM'>
+<div className='MiscBack'>
+<div className='HeroHeaderSVG'>
 
 <motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
@@ -66,7 +66,7 @@ animate='visible'>
 
 
 <div className='HeroHeaderTitle'>
-<BigTitle title1='Miscellaneous' title2='A Mix of Personal & Employed Projects' title3='Personal projects are a great way for me to challenge myself to learn software and explore new techniques, and they have led to opportunities that would not otherwise happen.' />
+<BigTitle title1='Miscellaneous' title2='A Mix of Personal & Employed Projects' title3='Personal projects are a great way to challenge myself to explore and learn new techniques.' />
     
 </div>
 </div>

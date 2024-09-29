@@ -159,8 +159,7 @@ return (
 
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Trainee Input Variations</Title>
-<Space h="md" />
+<Title fw={500} order={2} c="green.1">Trainee Input Feature</Title>
 
 <p>Trainers would never force trainees to use the application, but would nurture them to do so for their own benefit. We wanted to make sure that adding input was as optimal as possible and identify any issues with regular data input.</p>
 <p>A user test clarified that the versions below scored best overall.</p>

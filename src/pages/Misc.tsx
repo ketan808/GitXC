@@ -1,6 +1,6 @@
 import FadeInSection from '../inViewUI/FadeInSection';
 import { Container, Title, Space, Divider, SimpleGrid, Button} from '@mantine/core';
-import HeroVirgin from '../components/HeroMisc';
+import HeroMisc from '../components/HeroMisc';
 import ImageFadeIn from '../inViewUI/FadeInImages';
 import Next from '../components/Next';
 import VidComp from '../components/Video';
@@ -20,14 +20,15 @@ return (
 
 <>
 
-<HeroVirgin />
+<HeroMisc />
 
 <Container size="1100px" mb= "md">
 
-<Space h="md" />
+<div className='containerOver'></div>
 
 
 <FadeInSection duration = {0.25} delay = {0}>
+
 <SimpleGrid
       cols={{ base: 1, sm: 2, lg: 2 }}
       spacing={{ base: 10, sm: 'xl' }}

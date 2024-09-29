@@ -13,6 +13,7 @@ export default function VidComp ({ src }: vidProps) {
     controls: true,
     responsive: true,
     fluid: true,
+    preload: 'auto',
     sources: [{
       src: src, // Using the src prop here
       type: 'video/mp4'
