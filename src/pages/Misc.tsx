@@ -62,7 +62,7 @@ return (
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="grape">Landing Pages</Title>
-<p>Landing page designs used for google adwords marketing.</p>
+<p>Landing pages used for google adwords marketing.</p>
 </FadeInSection>
 
 
@@ -77,7 +77,7 @@ return (
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="grape">Greensock GSAP Animations</Title>
-<p>Virgin Media broadband speed scroll trigger animations</p>
+<p>Virgin Media broadband speed, scroll trigger animations</p>
 <Space h="md" />
 
 
