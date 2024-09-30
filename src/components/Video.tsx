@@ -14,7 +14,6 @@ export default function VidComp ({ src, posterThumb }: vidProps) {
     controls: true,
     responsive: true,
     fluid: true,
-    preload: 'auto',
     poster: posterThumb,
     sources: [{
       src: src, // Using the src prop here
