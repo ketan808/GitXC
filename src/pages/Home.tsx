@@ -35,7 +35,6 @@ return (
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="md" />
-x
 
 <Gcards />
 
