@@ -30,7 +30,6 @@ return (
 <div className='containerOver'></div>
 
 
-<FadeInSection duration = {0.25} delay = {0}>
 
 <SimpleGrid
       cols={{ base: 1, sm: 2, lg: 2 }}
@@ -55,7 +54,7 @@ return (
        
 </SimpleGrid>
 
-</FadeInSection>
+
 
 
 <Space h="xl" />
@@ -115,12 +114,10 @@ View
 <Space h="md" />
 
 
-<FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="grape">Premiere Pro</Title>
 <p>A fun editing using stock videos synced to audio.</p>
 <Space h="md" />
 <VidComp src="video/xc.mp4" posterThumb={image9} />
-</FadeInSection>
 
 <Space h="xl" />
 <Divider my="md" />
