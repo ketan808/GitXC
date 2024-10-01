@@ -29,7 +29,7 @@ return (
   
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Overview</Title>
-<p>The British Army required a software application to monitor trainee soldiers' performance and mental health during courses, which would help encourage achievement from trainers and let them intervene if trainees encountered difficulties.</p>
+<p>The British Army required a software application to monitor trainee soldiers' performance and mental health during courses, which would help encourage achievement from trainers and let them intervene if they encountered difficulties.</p>
 {/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
 
 {/* <Title fw={500} order={2} c="green.1">Challenge</Title>
@@ -104,7 +104,7 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Defining Gathered Insights</Title>
 
-<p>I documented my findings, which included the user's goals, challenges, frustrations, behavioural patterns, and had a lot of extra insights to work with gathered from meetings with stakeholders.</p>
+<p>I documented my findings, which included the user's goals, challenges, frustrations, behavioural patterns, and had a lot of extra insights to work with gathered from meetings with stakeholders and users.</p>
 
 <p>The collaboration continued, and I created user flows and sitemaps as the work progressed.</p>
 
