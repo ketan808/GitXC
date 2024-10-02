@@ -29,7 +29,7 @@ return (
   
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Overview</Title>
-<p>The British Army required a software application to monitor soldiers performance and mental health during courses, which would provide data so that trainers could intervene if they encountered difficulties and encourage achievement.</p>
+<p>The British Army required a software application to monitor soldiers' performance and mental health during courses, which would provide data so that trainers could intervene if they encountered difficulties and encourage achievement.</p>
 {/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
 
 {/* <Title fw={500} order={2} c="green.1">Challenge</Title>
@@ -37,7 +37,7 @@ return (
  */}
 
 <Title fw={500} order={2} c="green.1">Solution</Title>
-<p>Create a minimal viable product that streamlines the communication between trainers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
+<p>Create a minimal viable product that streamlines the communication between soldiers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
 
 
 <Space h="md" />
