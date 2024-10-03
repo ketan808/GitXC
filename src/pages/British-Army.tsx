@@ -61,7 +61,7 @@ return (
  
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Research and Discovery</Title>
-<p>Extensive research, affirming the necessity for this product had already been conducted and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the findings I discovered.</p>
+<p>Extensive research, affirming the necessity for this product had already been conducted and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the edge cases I discovered.</p>
 </FadeInSection>
 
 <Space h="md" />
