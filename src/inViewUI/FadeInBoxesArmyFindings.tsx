@@ -8,11 +8,12 @@ const FadeInBoxesFindings = () => {
 
   const texts = [
  
-    'Dormitories and some course locations have low light.',
+
     'Course reports created in different formats',
     'WiFi not available at some course locations.',
     'Groups of between 20-30 trainees per dormitory.',
-    'Trainess have free time at 6 a.m and from 8 p.m.'
+    'Trainess have free time at 6 a.m and from 8 p.m.',
+    'Dormitories and some course locations have low light.'
 
   ];
 

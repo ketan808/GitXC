@@ -5,11 +5,12 @@ import { Card, SimpleGrid } from '@mantine/core'
 const FadeInBoxesImpact1 = () => {
   const texts = [
  
-    'Dark-mode user interface will improve usability.',
+
     'Course report builder for creating various formats.',
     'Store inputted data and upload when WiFi is available.',
     'Speech recognition and voice commands will be an issue.',
-    'Optimal input as limited time is available.'
+    'Optimal input as limited time is available.',
+    'Dark-mode user interface will improve usability.'
   ];
 
 
