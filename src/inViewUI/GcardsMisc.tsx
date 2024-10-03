@@ -55,7 +55,7 @@ const Boxes = () => {
 
       {
         title1: 'Miscellaneous',
-        title2: 'Animations, Video, Landing Pages',
+        title2: 'Animations, Landing Pages, Print',
         title3: 'A Mix of Personal & Employed Projects',
         titleColor: 'grape',
         gradient: 'gradientGrape',

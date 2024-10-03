@@ -114,14 +114,14 @@ View
 <Space h="md" />
 
 
-<Title fw={500} order={2} c="grape">Premiere Pro</Title>
+{/* <Title fw={500} order={2} c="grape">Premiere Pro</Title>
 <p>A fun editing using stock videos synced to audio.</p>
 <Space h="md" />
 <VidComp src="video/xc.mp4" posterThumb={image9} />
 
 <Space h="xl" />
 <Divider my="md" />
-<Space h="md" />
+<Space h="md" /> */}
 
 
 <FadeInSection duration = {0.25} delay = {0}>
