@@ -6,7 +6,7 @@ const Header = ({toggle, opened}: any) => {
 
   
   const { setColorScheme } = useMantineColorScheme();
-  const computedColorScheme = useComputedColorScheme('dark');
+  const computedColorScheme = useComputedColorScheme('light');
 
   const toggleColorScheme = () => {
     setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light');

@@ -33,7 +33,7 @@ return (
 
 <div className='ArmyBack'>
 
-<div className='HeroHeaderSVG'>
+<div className='HeroHeaderSVG BackHero'>
 
 <motion.svg viewBox="0 0 3698 963" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}

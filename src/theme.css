@@ -205,9 +205,11 @@ display:none;
 }
 
 
+}
 
-
-
+[data-mantine-color-scheme='light']
+.BackHero {
+  opacity: 0.4;
 }
 
 

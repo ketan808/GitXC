@@ -36,7 +36,7 @@ return (
 
 <p>Tens of thousands of pages existed on the Intranet and Virtual Learning (VLE). Auditing the sites revealed multiple usability and accessibility issues, including contrasting interfaces and styles.</p>
 <Space h="md" />
-<Title fw={500} order={3} c="dimmed">What I Did</Title>
+<Title fw={500} order={2} c="yellow.1">What I Did</Title>
 <p>I led user research and redesign of the software, which included a full content management system with multiple page templates and learning modules.</p>
 
 <p>The core business objective was evident from stakeholder workshops:</p>
