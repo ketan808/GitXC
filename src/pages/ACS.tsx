@@ -29,21 +29,22 @@ return (
 <div className='containerOver'>
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="yellow.1">Overview</Title>
-<p>Parents, teachers, students, and staff use the Intranet/Virtual Learning software across four schools as a centralised platform for sharing important information, news, and updates within the organisation.</p>
-{/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
+<Title fw={500} order={2} c="yellow.1">Introduction</Title>
+<p>The Intranet and Virtual Learning (VLE) software serves as a central platform for sharing important information, including news and updates. The platforms are used across all four schools by multiple user groups:</p>
 
-<Title fw={500} order={2} c="yellow.1">Problem </Title>
-<p>Over time, inadequate management led to the creation of thousands of pages with contrasting interfaces and styles. This situation posed usability issues for users and created pressure on staff due to complaints from parents.</p>
+<p><b>Parents, Teacher, Students, Staff</b></p>
 
+<p>Tens of thousands of pages existed on the Intranet and Virtual Learning (VLE). Auditing the sites revealed multiple usability and accessibility issues, including contrasting interfaces and styles.</p>
+<Space h="md" />
+<Title fw={500} order={3} c="dimmed">What I Did</Title>
+<p>I led user research and redesign of the software, which included a full content management system with multiple page templates and learning modules.</p>
 
-<Title fw={500} order={2} c="yellow.1">Solution</Title>
-<p>Redesign the user interface and architecture information throughout the entire application for four schools and the head office, while also adding additional necessary product features for all user groups.</p>
+<p>The core business objective was evident from stakeholder workshops:</p>
+<p><i>to minimise user complaints, notably from parents, and alleviate pressure on teachers, staff and head office.</i></p>
 
+<p>As a result, my initial focus was to redesign the parents’ intranet pages for one school. I knew that once I got that right, it would be able to win trust throughout the organisation.</p>
 
-{/* <Title fw={500} order={2} c="yellow.1">The Challenge</Title>
-<p>Engage stakeholders and maintain their enthusiasm through discussions, rapid prototyping, and presentations ready for feedback and further iteration, with a focus on flexibility and collaboration.</p>
- */}
+<p>With buy-in to the parents intranet and the lessons learned, I aimed to work on other site areas and schools more effectively.</p>
 
 <Space h="md" />
 
@@ -65,9 +66,8 @@ return (
  <Space h="md" />
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="yellow.1">Identifying the Problems from Parents</Title>
-<p>Due to the enormity of the project, my wish to minimise overload, and my idea that excelling in one area would promote trust throughout the organisation, I started with the parents section for a single school. With lessons learned, I would more effectively move on to other sections and schools.</p>
-<p>With the assistance of a project manager, we conducted parent interviews. Here are some examples of patterns in our findings and how we used the information to influence decisions:</p>
+<Title fw={500} order={2} c="yellow.1">Identifying User Needs</Title>
+<p>With the aim of understanding user needs and pain points, I conducted interviews with parents and conducted surveys. Below are some of the findings I discovered.</p>
 </FadeInSection>
 
 <Space h="md" />
@@ -94,7 +94,7 @@ return (
  </SimpleGrid>
 
 
-<Space h="md" />
+<Space h="xl" />
 
 <Divider my="md" />
 
@@ -102,10 +102,10 @@ return (
 
 
 
-<Title fw={500} order={2} c="yellow.1">Framing and Testing Findings</Title>
+<Title fw={500} order={2} c="yellow.1">The Design Process</Title>
 
-<p>I started designing our findings into user flows, low-fidelity wireframes and mockups , subsequently sharing them with all stakeholders to facilitate further changes and identify more features.</p>
-<p>We discussed and agreed on the frequency of updates and training arrangements for the proposed newsletter system with teachers and editors from all divisions.</p>
+<p>I started by organising the gathered information and created wireframes to display the essential features and functionalities required by parents' section interface.</p>
+<p>I gathered feedback from all stakeholders, iterated on the designs, and refined them until reaching a satisfactory compromise.</p>
 <Space h="md" />
 
 <ACSSlide />
@@ -120,8 +120,8 @@ return (
 
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="yellow.1">Refining the Design and Gaining Momentum</Title>
-<p>As the design process progressed, I created high-fidelity mockups and interactive prototypes, and with testing, we gathered more feedback and made changes until everyone was happy, but my focus was always on the parents.</p>
-<p>At this point, I had also created visuals for all of the other schools to help gain momentum and enthusiasm from stakeholders.</p>
+<p>Afterwards, I crafted high-fidelity prototypes to demonstrate a more precise portrayal of the parents’ section interface. This enabled stakeholders to understand its appearance and functionality, while also pinpointing any potential issues prior to diving into the software development phase.</p>
+<p>I also created visuals for all of the other schools to help gain momentum and enthusiasm from stakeholders.</p>
 </FadeInSection>
 
 <Space h="md" />
@@ -153,8 +153,8 @@ return (
 <Space h="md" />
 
 <Title fw={500} order={2} c="yellow.1">Conclusion</Title>
-<p>Transformation of the Intranet/Virtual Learning Environment user experience received a lot of praise across the organisation, setting it apart from previous unsuccessful attempts and, I accepted a full-time role as I was contracted.</p>
-<p>I continued my efforts across sectors such as head office, health, finance, sports, and schools divisions and prioritised keeping users at the forefront of the overall experience.</p>
+<p>My work received widespread acclaim amongst staff and parents for the transformation of the Intranet and VLEs user experience. The work was set apart from other historical development, and as a result I accepted a full-time role with ACS. </p>
+<p>Working with project managers and the executive team, I continued my design efforts across the intranet, including head office, finance, sports, and school divisions. I emphasized keeping the user at the forefront of the overall experience.</p>
 <Space h="md" />
 <Divider my="md" />
 

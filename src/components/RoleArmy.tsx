@@ -32,11 +32,10 @@ function RoleArmy() {
       <Space h="md" />
       <List>
       <List.Item>Design System</List.Item>
-      <List.Item>User Flows</List.Item>
+      <List.Item>Prototypes</List.Item>
       <List.Item>User Journeys</List.Item>
       <List.Item>Usability Tests</List.Item>
       <List.Item>Documentation</List.Item>
-      <List.Item>Branding</List.Item>
       </List>
 
       </div>

@@ -28,18 +28,14 @@ return (
 <div className='containerOver'>
   
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Overview</Title>
-<p>The British Army required a software application to monitor soldiers' performance and mental health during courses, which would provide data so that trainers could intervene if they encountered difficulties and encourage achievement.</p>
-{/* <p>This would help to achieve sustainability goals by minimising paper usage.</p> */}
+<Title fw={500} order={2} c="green.1">Introduction</Title>
+<p>MyTraining is a performance data collection and wellbeing application used by army trainers and trainees.</p>
 
-{/* <Title fw={500} order={2} c="green.1">Challenge</Title>
-<p>Trainers require a tool to help encourage performance and intervene early if trainees are facing difficulties, as trainees rarely speak out about physical or mental health issues.</p>
- */}
+<p>Trainers can effectively monitor trainees by viewing inputted data, helping trainers to know to encourage positive performance and wellbeing or to intervene at an early stage if trainees are having difficulties; physically, emotionally or mentally.</p>
 
-<Title fw={500} order={2} c="green.1">Solution</Title>
-<p>Create a minimal viable product that streamlines the communication between soldiers and trainees during courses, guaranteeing that both parties have the necessary resources to track outcomes.</p>
+<p>During the project, my responsibilities involved researching features, creating a design system, prototyping, and refining user interaction.</p>
 
-
+<p><i>completion reports are created by trainers in a digital format, which contributes to sustainability goals by reducing paper usage.</i></p>
 <Space h="md" />
 
 <Divider my="md" />
@@ -64,10 +60,8 @@ return (
 
  
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Observing Trainees and Trainers in Action</Title>
-<p>On my first visit to the Army Headquarters, I was able to meet trainers and trainees, which was exciting. It provided me with an excellent opportunity to engage by asking questions and see firsthand how they work and live on a daily basis, which will aid in future design decisions.</p>
-<p>Below are a few examples of findings and how they influenced decisions:</p>
-{/* <p>The trainers were less enthusiastic about change and technology, and they scored and created course reports in lots of different formats. Showing how the application was going to make their lives easier would be a challenge, one I was looking forward to. </p> */}
+<Title fw={500} order={2} c="green.1">Research and Discovery</Title>
+<p>Extensive research, affirming the necessity for this product had already been conducted and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the findings I discovered.</p>
 </FadeInSection>
 
 <Space h="md" />
@@ -80,7 +74,7 @@ return (
     >
       <div>
       <Space h="sm" />
-      <Title fw={500} order={3} c="dimmed">Findings</Title>
+      <Title fw={500} order={3} c="dimmed">Research Findings</Title>
       <Space h="md" />
       <FadeInBoxesFindings />
       </div>
@@ -95,7 +89,7 @@ return (
  </SimpleGrid>
 
 
-<Space h="md" />
+<Space h="xl" />
 
 <Divider my="md" />
 
@@ -104,9 +98,30 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Defining Gathered Insights</Title>
 
-<p>I documented my findings, which included the user's goals, challenges, frustrations, behavioural patterns, and had a lot of extra insights to work with gathered from meetings with stakeholders and users.</p>
+<p>After user needs information had been gathered, I continued to work with product managers to flesh out features ready for feedback and started putting together a design system which included a colour palette, typography scale and components.</p>
 
-<p>The collaboration continued, and I created user flows and sitemaps as the work progressed.</p>
+</FadeInSection>
+
+<Space h="md" />
+
+<Title fw={500} order={3} c="dimmed">Images and Notes Attachment Feature</Title>
+<FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
+<FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 95% 0' />
+
+<Divider my="md" />
+
+<Space h="md" />
+
+
+
+<FadeInSection duration = {0.25} delay = {0}>
+<Title fw={500} order={2} c="green.1"> Capture Trainees Wellbeing</Title>
+
+<p>I started the process by crafting user flows, detailing how trainees could navigate the interface and complete tasks.  I then translated these flows into low-fidelity wireframes.
+Through iterative cycles, I refined these wireframes based on stakeholder and user group feedback. Following this, I advanced to high-fidelity layouts and interactive prototypes.
+</p>
+<p>With a design system evolving, I was able to accelerate the design process by creating high-fidelity mockups and interactive prototypes.</p>
+
 
 
 </FadeInSection>
@@ -115,60 +130,10 @@ return (
 
 <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0} padding = '0 0 50% 0' />
 
-<Space h="md" />
-
-<Divider my="md" />
-
-<Space h="md" />
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Brainstorming the Design</Title>
-<p>We began by brainstorming a wide range of ideas and solutions for the product's design. I then sketched these ideas into concepts and wireframed them to establish the product's layout and structure, and we continued in this manner to flesh out product features.</p>
-<p>Then I made low-fidelity mockups  and interactive prototypes to get feedback, make changes, and also help engage stakeholders and maintain their enthusiasm.</p>
-</FadeInSection>
-
-<Space h="md" />
-
-
-<Title fw={500} order={3} c="dimmed">Images and Notes Attachment Feature</Title>
-<FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
-
-<Space h="md" />
-
-<Divider my="md" />
-
-<Space h="md" />
-
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1"> Structuring the Design Foundation</Title>
-
-<p>I developed a design system that included documented reusable components, typography scale, and to establish the brand's identity, I used brand fonts and selected an earthy colour scheme appropriate for the Army environment.</p>
-
-<p>With a design system evolving, I was able to accelerate the design process by creating high-fidelity mockups and interactive prototypes.</p>
-
-</FadeInSection>
-
-<FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 100% 0' />
-
-<Space h="md" />
-
-<Divider my="md" />
-
-<Space h="md" />
-
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Trainee Input Feature</Title>
-
-<p>Trainers would never force trainees to use the application, but would nurture them to do so for their own benefit. We wanted to make sure that adding input was as optimal as possible and identify any issues with regular data input.</p>
-<p>A user test clarified that the versions below scored best overall.</p>
-
-
-</FadeInSection>
-
-<Space h="md" />
-
+<Space h="xl" />
+<Space h="xl" />
+<Title fw={500} order={3} c="dimmed">A user test clarified that the versions below scored best overall.</Title>
+<Space h="xl" />
 <ImageAnimation/>
 
 <Space h="md" />
@@ -204,9 +169,9 @@ return (
 <FadeInSection duration = {0.25} delay = {0}>
 <Title fw={500} order={2} c="green.1">Conclusion</Title>
 
-<p>The minimum viable product for MyTraining validated its need and exceeded expectations within the British Army. The Ministry of Defence rolled out trials for the Royal Navy and Royal Air Force.</p>
+<p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
-<p>As the UI designer, I really enjoyed working at a rapid pace and seeing development and testing done quickly.</p>
+<p>The user interface design and interactive prototypes that I developed received high praise from senior leadership.  The prototypes played a significant role in steering the MyTraining app towards success.</p>
 </FadeInSection>
 
 <Space h="md" />
