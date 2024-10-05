@@ -1,5 +1,5 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, SimpleGrid, List, ThemeIcon, rem } from '@mantine/core';
+import { Container, Title, Space, Divider, SimpleGrid } from '@mantine/core';
 import HeroArmy from '../components/HeroArmy';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
@@ -31,7 +31,7 @@ return (
 <Title fw={500} order={2} c="green.1">Introduction</Title>
 <p>MyTraining is a performance data collection and wellbeing application used by army trainers and trainees.</p>
 
-<p>Trainers can effectively monitor trainees by viewing inputted data, helping trainers to know to encourage positive performance and wellbeing or to intervene at an early stage if trainees are having difficulties; physically, emotionally or mentally.</p>
+<p>Trainers can effectively monitor trainees by viewing inputted data, allowing them to know when to encourage positive performance and wellbeing or intervene at an early stage if trainees are having difficulties physically, emotionally, or mentally.</p>
 
 <p>During the project, my responsibilities involved researching features, creating a design system, prototyping, and refining user interaction.</p>
 
