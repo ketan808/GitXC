@@ -62,7 +62,7 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 
 <List size="xl" withPadding>
       <p><List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
-      <List.Item>The course data is spread across numerous applications and sources.</List.Item>
+      <List.Item>Course data is spread across multiple applications and sources, posing a challenge to use effectively.</List.Item>
       <List.Item>The process of collecting course data and creating final reports consumes an excessive amount of paper.</List.Item>
       </p>
 </List>
@@ -233,9 +233,8 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>Trainers could upload images and notes to the trainees' control panels as course evidence. Later, trainers could use the course evidence to create final reports.</p>
-<p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implement.</p>
-<p>Presenting prototypes to the wider Army sparked enthusiasm as trainers saw how this could be a valuable tool for them, save a lot of time, and create much better reports than they currently create.</p>
+<p>Trainers can upload images and notes to the trainees' control panels as course evidence. Later, trainers could use the course evidence to create final reports.</p>
+<p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p>
 
 <Container
 size="xl"
@@ -245,20 +244,23 @@ pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 >
 
-<Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="xl" />
 <VidComp src="video/course.mp4" />
 </Container>
 
+<p>Presenting prototypes to the wider Army sparked enthusiasm as trainers saw how this feature could be a valuable tool for them and help create much better reports.</p>
 
-<Container size="600px"
+
+{/* <Container size="600px"
 className='theme90'
 p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
 pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 >
 <VidComp src="video/trainee_course.mp4" />
-</Container>
+</Container> */}
+
+
 </Container>
 <Divider my="" />
 

@@ -10,7 +10,7 @@ return (
 <div>
   
 
-<BigTitle title1='BRITISH ARMY' title2='Bespoke Course Performance & Wellbeing Application' title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.' />
+<BigTitle title1='BRITISH ARMY' title2='Course Performance & Wellbeing Application' title3='The British Army protects the United Kingdoms interests at home and abroad, providing a safe and secure environment.' />
 
 
     

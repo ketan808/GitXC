@@ -46,9 +46,8 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 <Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
    
 <SubTitle SubTitle="About"></SubTitle>
-
-<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
-<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
+<p>I've been designing and expanding my toolkit for over 20 years with a passion for creating visually appealing interfaces. Over the years, it has evolved into a comprehensive understanding of user behavior.</p>
+<p>I love working across the full spectrum of product design, from research through to UI and implementation, and get a tonne of energy from working on seriously impactful work.</p>
 </Grid.Col>
 
 </Grid>
