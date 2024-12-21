@@ -12,7 +12,7 @@ const Titles: React.FC<TitlesProps> = ({ title1, title2, title3 }) => {
   return (
 
 
-<Container size={1100} >
+<Container size={1400} >
 
 
 <Title order={3}>{title1}</Title>

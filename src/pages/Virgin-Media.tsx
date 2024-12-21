@@ -1,8 +1,9 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, List, ThemeIcon, rem} from '@mantine/core';
+import { Container, Title, Space, Divider, List, ThemeIcon, rem, Image, Grid} from '@mantine/core';
 import { IconCircleCheck} from '@tabler/icons-react';
-import HeroVirgin from '../components/HeroVirgin';
-import RoleVirgin from '../components/RoleVirgin';
+import HeroVirgin from '../components/HeroVM';
+import imageBackground from '../images/vm/vm_mob.jpg';
+import imageSub from '../images/vm/vm_subheader.png';
 import ImageFadeIn from '../inViewUI/FadeInImages';
 import FlipInView from '../inViewUI/Flip';
 import FlipImage1 from '../images/vm/vm_swim1.png';
@@ -27,33 +28,43 @@ return (
 
 <HeroVirgin />
 
+<Container size="xl" mb= "md">
+
+<Image src={imageSub} alt="Virgin Image" />
 
 
-<Container size="1100px" mb= "md">
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+<Grid columns={12}>
 
-<div className='containerOver'>
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
+   
+<Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">BACKGROUND</Title>
+
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
+<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
+<p>Course attendees rarely speak up when having difficulties and this can be because of the expectation to push through or peer pressure, so a way to track their progress during courses would allow course trainers to know when to intervene.</p>
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="red.1">Overview</Title>
-<p>Virgin Media aimed to improve its visibility on search engines by creating numerous search engine-optimised articles. They intended to publish these articles on a newly designed blog, strategically crafted to incorporate keywords.</p>
-
-<Title fw={500} order={2} c="red.1">Problem </Title>
-<p>Virgin Media was losing high ranking positions on search engines with relevant keywords, which are critical for gaining website exposure and making sales.</p>
-
-
-<Title fw={500} order={2} c="red.1">Solution</Title>
-<p>Design and build a framework for search engine-optimised articles to help increase keyword ranking on search engines.</p>
-
-
-<Space h="md" />
-
-<Divider my="md" />
+<Image src={imageBackground} alt="Army Image"
+   mx="auto" 
+   h={700}
+   w="auto"
+   fit="contain"
+/>
 </FadeInSection>
-</div>
+</Grid.Col>
 
-<Space h="md" />
-<FadeInSection duration = {0.25} delay = {0}>
-<RoleVirgin />
-</FadeInSection>
+</Grid>
+</Container>
+
+
 <Space h="md" />
 
 

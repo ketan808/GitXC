@@ -22,7 +22,7 @@ const TextReveal = ({ text }) => {
 
   return (
     <motion.div
-      className="text-reveal"
+
       variants={sentence}
       initial="hidden"
       animate="visible"

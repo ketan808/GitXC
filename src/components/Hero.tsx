@@ -10,7 +10,7 @@ return (
 <div>
   
 
-<BigTitle title1='KETAN PATEL' title2='Hi! Im a London based UX/UI Designer.' title3='I love designing simple solutions to complex problems.' />
+<BigTitle title1='KETAN PATEL' title2='Hi! Im a London Based Product Designer' title3='That does a bit of </Coding>' />
 
 
     

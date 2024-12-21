@@ -1,8 +1,9 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider} from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid} from '@mantine/core';
 import HeroCrystal from '../components/HeroCrystal';
+import imageSub from '../images/cs/cs_subheader.jpg';
+import imageBackground from '../images/army/fitness_mob.png';
 import Next from '../components/Next';
-import RoleCrystal from '../components/RoleCrystal';
 import CSSLide from '../components/CSSlide';
 
 
@@ -16,26 +17,41 @@ return (
 <HeroCrystal />
 
 
-<Container size="1100px" mb= "md">
+<Container size="xl" mb= "md">
 
-<div className='containerOver'>
+<Image src={imageSub} alt="Army Image" />
+
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+<Grid columns={12}>
+
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
+   
+<Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">BACKGROUND</Title>
+
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
+<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
+<p>Course attendees rarely speak up when having difficulties and this can be because of the expectation to push through or peer pressure, so a way to track their progress during courses would allow course trainers to know when to intervene.</p>
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="blue.1">Overview</Title>
-<p>Crystal Ski wanted to integrate a brand refresh that would work across online and offline marketing. The result was a design framework that served the platform for many years.</p>
-
-<Title fw={500} order={2} c="blue.1">Solution</Title>
-<p>Work up the UX into a suite of visual designs to be handed over to the development team.</p>
-
-
-
-<Space h="md" />
-
-<Divider my="md" />
+<Image src={imageBackground} alt="Army Image"
+   mx="auto" 
+   h={700}
+   w="auto"
+   fit="contain"
+/>
 </FadeInSection>
-</div>
+</Grid.Col>
 
-<Space h="md" />
-<RoleCrystal />
+</Grid>
+</Container>
 
 
 <Space h="md" />

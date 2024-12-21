@@ -1,12 +1,13 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, SimpleGrid} from '@mantine/core';
+import { Container, Title, Space, Divider, SimpleGrid, Image, Grid} from '@mantine/core';
 import HeroACS from '../components/HeroACS';
-import RoleACS from '../components/RoleACS';
+import imageSub from '../images/acs/acs_subheader.jpg';
 import FadeInBoxesFindings1 from '../inViewUI/FadeInBoxesACSFindings';
 import FadeInBoxesImpact1 from '../inViewUI/FadeInBoxesACSImpact';
+import imageBackground from '../images/acs/doha_mob.png';
 import ACSSlide from '../components/ACSSlide';
 import FlipInView from '../inViewUI/Flip';
-import FlipImage1 from '../images/acs/cobham.png';
+import FlipImage1 from '../images/acs/egham.png';
 import FlipImage2 from '../images/acs/hillingdon.png';
 import FlipImage3 from '../images/acs/egham.png';
 import FlipImage4 from '../images/acs/doha.png';
@@ -24,41 +25,45 @@ return (
 <HeroACS />
 
 
-<Container size="1100px" mb= "md">
 
-<div className='containerOver'>
 
+<Container size="xl" mb= "md">
+
+<Image src={imageSub} alt="ACS Image" />
+
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+<Grid columns={12}>
+
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
+   
+<Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">BACKGROUND</Title>
+
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
+<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
+<p>Course attendees rarely speak up when having difficulties and this can be because of the expectation to push through or peer pressure, so a way to track their progress during courses would allow course trainers to know when to intervene.</p>
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="yellow.1">Introduction</Title>
-<p>The Intranet and Virtual Learning (VLE) software serves as a central platform for sharing important information, including news and updates. The platforms are used across all four schools by multiple user groups:</p>
-
-<p><b>Parents, Teacher, Students, Staff</b></p>
-
-<p>Tens of thousands of pages existed on the Intranet and Virtual Learning (VLE). Auditing the sites revealed multiple usability and accessibility issues, including contrasting interfaces and styles.</p>
-<Space h="md" />
-<Title fw={500} order={2} c="yellow.1">What I Did</Title>
-<p>I led user research and redesign of the software, which included a full content management system with multiple page templates and learning modules.</p>
-
-<p>The core business objective was evident from stakeholder workshops:</p>
-<p><i>to minimise user complaints, notably from parents, and alleviate pressure on teachers, staff and head office.</i></p>
-
-<p>As a result, my initial focus was to redesign the parents’ intranet pages for one school. I knew that once I got that right, it would be able to win trust throughout the organisation.</p>
-
-<p>With buy-in to the parents intranet and the lessons learned, I aimed to work on other site areas and schools more effectively.</p>
-
-<Space h="md" />
-
-<Divider my="md" />
+<Image src={imageBackground} alt="Army Image"
+   mx="auto" 
+   h={700}
+   w="auto"
+   fit="contain"
+/>
 </FadeInSection>
-</div>
+</Grid.Col>
 
-<Space h="md" />
-<FadeInSection duration = {0.25} delay = {0}>
-<RoleACS />
-</FadeInSection>
-<Space h="md" />
+</Grid>
+</Container>
 
-{/* <Image style={{ display: 'block', margin: 'auto'}} h={640} w="auto" src={require('../images/army/trainer_home.png')} /> */}
+<Divider my="" />
 
 
  <Divider my="md" />

@@ -1,10 +1,9 @@
 import Gcards from '../inViewUI/Gcards';
-import GcardsMisc from '../inViewUI/GcardsMisc';
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider } from '@mantine/core';
+import { Container, Space, Divider, Grid, Image, Box } from '@mantine/core';
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
-import About from '../components/About';
+import SubTitle from '../components/SubTitle';
 
 
 const HomePage = () => {
@@ -16,42 +15,73 @@ return (
 
 <Hero />
 
-<Container size="1100px" mt= "xl" mb= "xl">
-<Divider my="md" />
+<Container size="xl" mb= "md">
 
 
-<Space h="sm" />
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+<Grid columns={12} gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
 
+
+<Grid.Col span={{ base: 12, md: 3, lg: 3, xl: 3 }}>
 
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={3} c="dimmed">About</Title>
-<Space h="md" />
-<About/>
-<Space h="md" />
+
+<Box lightHidden mt='5px' mb='5px'>
+    <Image style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
+
+    <Box darkHidden mt='5px' mb='5px'>
+    <Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
+   
+
+
 </FadeInSection>
-<Divider my="md" />
+</Grid.Col>
+
+
+<Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
+   
+<SubTitle SubTitle="About"></SubTitle>
+
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
+<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
+</Grid.Col>
+
+</Grid>
+
+</Container>
+<Divider my="" />
+
 
 <Space h="md" />
 
-<Title fw={500} order={3} c="dimmed">Case Studies</Title>
-<Space h="md" />
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+
+<SubTitle SubTitle="CASE STUDIES"></SubTitle>
+
+<Space h="xl" />
 
 <Gcards />
 
+</Container>
+<Divider my="" />
+
 <Space h={{ base: "sm", lg: "xl" }}/>
-<Space h={{ base: "sm", lg: "xl" }}/>
-
-<GcardsMisc />
 
 
-<Space h="md" />
+<SubTitle SubTitle="TESTIMONIALS"></SubTitle>
 
-<Divider my="md" />
 
-<Space h="md" />
-
-<Title fw={500} order={2} c="dimmed">Testimonials</Title>
-<Space h="md" />
+<Space h="xl" />
 
 
 <Testimonials initialSlide={0}  />

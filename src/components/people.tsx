@@ -22,7 +22,7 @@ opacity: 1,
 filter: "blur(1px)",
 pathLength: 1,
 transition: {
-duration: 0.8,
+duration: 1.5,
 ease: "easeInOut"
 }
 }

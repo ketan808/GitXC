@@ -19,7 +19,7 @@ const themeOverride = createTheme({
     dark80:'#31363F',
     dark90:'#202328',
     dark100:'#090A0B',
-    dark0:'#000000',
+    dark0:'#141414',
 
     green1: '#51cf66',
     green2: '#0F8122',
@@ -37,7 +37,7 @@ const themeOverride = createTheme({
   
 
   headings: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: 'greycliff-cf, sans-serif',
     sizes: {
       h1: { fontSize: rem(60) },
     },

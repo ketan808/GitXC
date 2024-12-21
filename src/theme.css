@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://vjs.zencdn.net/8.16.1/video-js.css');
+@import url("https://use.typekit.net/uqm2soi.css");
+
 
 body {
-  font-family: var(--mantine-font-family);
-  font-size: 17px;
+  font-family: sofia-pro, sans-serif;
+  font-size: 23px;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
@@ -19,9 +18,31 @@ body {
 }
 
 .RobCon h1 h2 h3 h4 h5 h6 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: greycliff-cf, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+p {
+  font-size: 1.4rem;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 64em) {
+
+  p {
+    font-size: 1.1rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
 }
 
 .WrittenFont {
@@ -29,6 +50,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+
+.backArmy {
+  background-color: #0c8599
 }
 
 
@@ -74,146 +100,20 @@ body {
 
 
 
-.HeroHeaderTitle {
-  position: relative;
-  top: -328px;
-  z-index: 2;
-  height: 80px;
-  
-}
-
-.containerOver {
-  display: inline-block;
-}
-
-
-
-@media screen and (max-width: 1700px) {
-
-  .HeroHeaderTitle {
-    top: -280px;
-    
-  }
-  
-  }
-
-@media screen and (max-width: 1520px) {
-
-    .HeroHeaderTitle {
-      top: -200px;
-      height: 200px;
-      
-    }
-    
-    }
-
-
-@media screen and (max-width: 960px) {
-
-  .LogoMain {
-    height: auto;
-    width: 120px;
-  }
-  
-
-.HeroHeaderTitle {
-position: static;
-display: inline-block;
-margin-top: 40px;
-}
-
-
-.HeroHeaderSVG, .HeroHeaderSVGVM, .HeroHeaderSVGCS  {
-display:none;
-}
-
-.containerOver {
-  margin-top: 60px;
-}
-
-[data-mantine-color-scheme='light'] 
-.ArmyBack {
-  background-image: url("./images/army/army_mob1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='dark'] 
-.ArmyBack {
-  background-image: url("./images/army/army_mob.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='light'] 
-.ACSBack {
-  background-image: url("./images/acs/acs_mob1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='dark'] 
-.ACSBack {
-  background-image: url("./images/acs/acs_mob.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-[data-mantine-color-scheme='light'] 
-.VMBack {
-  background-image: url("./images/vm/vm_mob1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='dark'] 
-.VMBack {
-  background-image: url("./images/vm/vm_mob.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-[data-mantine-color-scheme='light'] 
-.CSBack {
-  background-image: url("./images/cs/cs_mob1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='dark'] 
-.CSBack {
-  background-image: url("./images/cs/cs_mob.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-[data-mantine-color-scheme='light'] 
-.MiscBack {
-  background-image: url("./images/misc/purpleLight.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-[data-mantine-color-scheme='dark'] 
-.MiscBack {
-  background-image: url("./images/misc/purple.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-}
-
 [data-mantine-color-scheme='light']
 .BackHero {
   opacity: 0.4;
 }
 
+.next {
+  background-color: #0c8599 !important;
+}
 
-
+.cardNext {
+  &:hover {
+    background-color: #0b7285 !important;
+  }
+}
 
 
 
@@ -279,11 +179,6 @@ outline: none !important;
  }
 
  
-.cardNext {
-  &:hover {
-      background-color: var(--mantine-color-80)!important;
-  }
-}
 
 
 .vjs-poster img {
@@ -295,13 +190,20 @@ outline: none !important;
 
 /* Change the border of the big play button. */
 .video-js .vjs-big-play-button {
-  background-color: #9c36b5;
+  background-color: #0c8599;
   border: none;
+}
+
+
+.video-js .vjs-big-play-button {
+  &:hover {
+    background-color: #0b7285 !important;
+  }
 }
 
 /* Change the color of various "bars". */
 .video-js  .vjs-volume-level,
 .video-js  .vjs-play-progress,
 .video-js  .vjs-slider-bar {
-  background-color: #eebefa;
+  background-color: #0b7285 !important;
 }

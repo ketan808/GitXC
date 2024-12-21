@@ -22,19 +22,19 @@ return (
 >
     
 <Anchor href={linkPrevious} underline="never" style={{  display: colDisplay }}>
-<Card className='theme90 cardNext' shadow="sm" padding="lg" radius="md" withBorder>
+<Card className='next cardNext' shadow="sm" padding="lg" radius="md"  color="cyan" withBorder>
 <Box mt='-6px' className="iconLeft"><IconArrowLeft className='theme0' size="1.6rem" stroke={1.5} /></Box>
-<Title fw={500} order={4} c="" ta="right" >Previous</Title>
-<Title fw={500} order={5} c="dimmed" ta="right">{textPrevious}</Title>
+<Title fw={700} order={4} c="" ta="right" >PREVIOUS</Title>
+<Title fw={500} order={4} c="" ta="right">{textPrevious}</Title>
 </Card>
 </Anchor>
 
 
 <Anchor  href={linkNext} underline="never">
-<Card className='theme90 cardNext' shadow="sm" padding="lg" radius="md" withBorder>
+<Card className='next cardNext' shadow="sm" padding="lg" radius="md" withBorder>
 <Box mt='-6px' className="iconRight"><IconArrowRight className='theme0' size="1.6rem" stroke={1.5} /></Box>
-<Title fw={500} order={4} c="" ta="left" >Next</Title>
-<Title fw={500} order={5} c="dimmed" ta="left">{textNext}</Title>
+<Title fw={700} order={4} c="" ta="left" >NEXT</Title>
+<Title fw={500} order={4} c="" ta="left">{textNext}</Title>
 </Card>
 </Anchor>
 

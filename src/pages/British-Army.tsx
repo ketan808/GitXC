@@ -1,15 +1,26 @@
-import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, SimpleGrid } from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List  } from '@mantine/core';
 import HeroArmy from '../components/HeroArmy';
+import FadeInSection from '../inViewUI/FadeInSection';
+import imageSub from '../images/army/sub_header.jpg';
+import team from '../images/army/team.png';
+import teamLight from '../images/army/teamLight.png';
+import imageProb3 from '../images/army/problem1.jpg';
+import imageBackground from '../images/army/fitness_mob.png';
+import VidComp from '../components/Video';
+import SubTitle from '../components/SubTitle';
+import define from '../images/army/define.png';
+import ideate from '../images/army/Ideate.png';
+import design from '../images/army/design.png';
+import test from '../images/army/test.png';
+import dev from '../images/army/dev.png';
+import designSystem from '../images/army/designSystem.png';
+import designSystemLight from '../images/army/designSystemLight.png';
+import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
-import RoleArmy from '../components/RoleArmy';
-import ArmySlideTwo from '../components/ArmySlideTwo';
-import FlipInView from '../inViewUI/Flip';
-import FlipImage1 from '../inViewUI/images/site.png';
-import FlipImage2 from '../images/army/theme.png';
-import FlipImage3 from '../images/army/wire.png';
-import ImageAnimation from '../inViewUI/ThreeCard';
+
+
+
 import Next from '../components/Next';
 
 
@@ -22,50 +33,159 @@ return (
 
 <HeroArmy />
 
+<Container size="xl" mb= "md">
 
-<Container size="1100px" mb= "md">
+<Image src={imageSub} alt="Army Image" />
 
-<div className='containerOver'>
-  
+
+
+{/* Background Start */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+<Grid columns={12}>
+
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
+   
+<SubTitle SubTitle="BACKGROUND"></SubTitle>
+
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions they are training to be the best soldiers they can be.</p>
+<p>MyTraining is an application for collecting course performance data and tracking well-being. Trainers can effectively monitor trainees by viewing their inputted data, adding scores, and creating final reports.</p>
+
+<SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
+
+
+
+<List size="xl" withPadding>
+      <p><List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
+      <List.Item>The course data is spread across numerous applications and sources.</List.Item>
+      <List.Item>The process of collecting course data and creating final reports consumes an excessive amount of paper.</List.Item>
+      </p>
+</List>
+
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
 <FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Introduction</Title>
-<p>MyTraining is a performance data collection and wellbeing application used by army trainers and trainees.</p>
+<Image src={imageBackground} alt="Army Image"
+   mx="auto" 
+   h={700}
+   w="auto"
+   fit="contain"
+/>
+</FadeInSection>
+</Grid.Col>
 
-<p>Trainers can effectively monitor trainees by viewing inputted data, allowing them to know when to encourage positive performance and wellbeing or intervene at an early stage if trainees are having difficulties physically, emotionally, or mentally.</p>
+</Grid>
+</Container>
 
-<p>During the project, my responsibilities involved researching features, creating a design system, prototyping, and refining user interaction.</p>
+<Divider my="" />
 
-<p><i>completion reports are created by trainers in a digital format, which contributes to sustainability goals by reducing paper usage.</i></p>
+{/* Background End*/}
+
+
 <Space h="md" />
 
-<Divider my="md" />
-</FadeInSection>
+
+{/* Problem Start*/}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+>
+
+
+
+
+<SimpleGrid
+cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 2 }}
+spacing="xl" 
+>
+
+<div>
+<SubTitle SubTitle="SOLUTION"></SubTitle>
+<p>MyTraining tracked trainees' progress during courses, which enabled course trainers to know when to intervene if trainees were facing difficulties thereby helping to cut the dropout rate.</p>
+<p>Combining course information into a single application provided the Army with valuable data to help enhance their training methods.</p>
+<p>The application digitized the Army's process of creating their final course reports, which ultimately led to the achievement of their sustainability goals.</p>
+
 </div>
 
+
+<div>
+<Image src={imageProb3} alt="Army Image"
+height={500}
+/>
+</div>
+
+</SimpleGrid>
+
 <Space h="md" />
 
 
-<FadeInSection duration = {0.25} delay = {0}>
-<RoleArmy />
-</FadeInSection>
+</Container>
+<Divider my="" />
+
+{/* Problem End*/}
+
+<Space h="xl" />
+
+{/* My Role Start*/}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
+>
+
+<SubTitle SubTitle="MY ROLE"></SubTitle>
+
+<p>We will be operating within an agile development environment, ensuring rapid progress. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
+<p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
+<Space h="xl" />
 
 
-<Space h="md" />
+<Container
+size="xl"
+className='theme90'
+pl={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+>
+
+<Image src={team} alt="Team"lightHidden/>
+<Image src={teamLight} alt="Team" darkHidden/>
 
 
-<Divider my="md" />
+</Container>
+
+</Container>
+<Divider my="" />
+
+{/* My Role End*/}
+
+<Space h="xl" />
 
 
- <Space h="md" />
+{/* Research */}
 
- 
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Research and Discovery</Title>
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
+>
+
+<SubTitle SubTitle="Research"></SubTitle>
+
 <p>Extensive research, affirming the necessity for this product had already been conducted and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the edge cases I discovered.</p>
-</FadeInSection>
-
-<Space h="md" />
-
 
 <SimpleGrid
       cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
@@ -74,111 +194,187 @@ return (
     >
       <div>
       <Space h="sm" />
-      <Title fw={500} order={3} c="dimmed">Research Findings</Title>
+      <Title tt="uppercase" fw={500} order={3} c="">Research Findings</Title>
       <Space h="md" />
       <FadeInBoxesFindings />
       </div>
 
       <div>
       <Space h="sm" />
-      <Title fw={500} order={3} c="dimmed">Impact on Development</Title>
+      <Title tt="uppercase" fw={500} order={3} c="">Impact on Development</Title>
       <Space h="md" />
       <FadeInBoxesImpact />
       </div>
       
  </SimpleGrid>
 
+</Container>
+<Divider my="" />
+
+{/* Research  */}
+
+
+
+
+
+
 
 <Space h="xl" />
 
-<Divider my="md" />
+{/* Course Evidence Start*/}
 
-<Space h="md" />
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
 
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Defining Gathered Insights</Title>
+<SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>After user needs information had been gathered, I continued to work with product managers to flesh out features ready for feedback and started putting together a design system which included a colour palette, typography scale and components.</p>
+<p>Trainers could upload images and notes to the trainees' control panels as course evidence. Later, trainers could use the course evidence to create final reports.</p>
+<p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implement.</p>
+<p>Presenting prototypes to the wider Army sparked enthusiasm as trainers saw how this could be a valuable tool for them, save a lot of time, and create much better reports than they currently create.</p>
 
-</FadeInSection>
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
 
-<Space h="md" />
-
-<Title fw={500} order={3} c="dimmed">Images and Notes Attachment Feature</Title>
-<FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 42% 0' />
-<FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 95% 0' />
-
-<Divider my="md" />
-
-<Space h="md" />
-
-
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1"> Capture Trainees Wellbeing</Title>
-
-<p>I started the process by crafting user flows, detailing how trainees could navigate the interface and complete tasks.  I then translated these flows into low-fidelity wireframes.
-Through iterative cycles, I refined these wireframes based on stakeholder and user group feedback. Following this, I advanced to high-fidelity layouts and interactive prototypes.
-</p>
-<p>With a design system evolving, I was able to accelerate the design process by creating high-fidelity mockups and interactive prototypes.</p>
+<Title fw={500} order={3} c="dimmed">Case Studies</Title>
+<Space h="xl" />
+<VidComp src="video/course.mp4" />
+</Container>
 
 
+<Container size="600px"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+<VidComp src="video/trainee_course.mp4" />
+</Container>
+</Container>
+<Divider my="" />
 
-</FadeInSection>
-
-<Space h="md" />
-
-<FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0} padding = '0 0 50% 0' />
+{/* Course Evidence End*/}
 
 <Space h="xl" />
+
+{/* Process Start*/}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
+>
+
+<SubTitle SubTitle="Design Process"></SubTitle>
 <Space h="xl" />
-<Title fw={500} order={3} c="dimmed">A user test clarified that the versions below scored best overall.</Title>
+<SimpleGrid
+cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
+spacing="xl"
+verticalSpacing="xl"
+>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Define</Title>
+      <Space h="md" />
+      <Image src={define} alt="define" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">User Journey's, User Flows, Site Maps</Title>
+
+</div>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Define</Title>
+      <Space h="md" />
+      <Image src={ideate} alt="ideate" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">Exploring, Brainstorming, Identify Problems</Title>
+
+</div>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Design</Title>
+      <Space h="md" />
+      <Image src={design} alt="design" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">Wireframing,  Mockups, Prototypes</Title>
+
+</div>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">test</Title>
+      <Space h="md" />
+      <Image src={test} alt="test" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">Feedback,  Adjustments, Future Concepts</Title>
+
+</div>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Development</Title>
+      <Space h="md" />
+      <Image src={dev} alt="development" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">Handoff,  Discuss, Oversee</Title>
+
+</div>
+
+<div>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">re-test</Title>
+      <Space h="md" />
+      <Image src={retest} alt="retest" />
+      <Space h="xl" />
+      <Title ta="center" fw={500} order={4} c="">Feedback,  Improve, Identify Issues</Title>
+
+</div>
+
+
+</SimpleGrid>
+
+</Container>
+<Divider my="" /> 
+{/* Process End*/}
+
+
 <Space h="xl" />
-<ImageAnimation/>
 
-<Space h="md" />
+{/* Design System Start*/}
 
-<Divider my="md" />
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
+>
 
-<Space h="md" />
+<SubTitle SubTitle="MY ROLE"></SubTitle>
+
+<p>We will be operating within an agile development environment, ensuring rapid progress. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
+<p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
+<Space h="xl" />
 
 
+<Image src={designSystem} alt="Design System"lightHidden/>
+<Image src={designSystemLight} alt="Design System" darkHidden/>
 
-<Title fw={500} order={2} c="green.1">High Fidelity Application Visuals</Title>
-<Space h="md" />
 
-<ArmySlideTwo />
+</Container>
+<Divider my="" />
 
-<Space h="md" />
+{/* Design System End*/}
 
-<Divider my="md" />
-
-<Space h="md" />
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Smooth Handover to Developers</Title>
-
-<p>I ensured a smooth handover to developers with high-fidelity mockups, interactive prototypes, and access to the design system, while also providing ongoing support to ensure the correct design of features.</p>
-<p>In certain instances, I developed React components to assist developers with their tasks, which software testers then approved.</p>
-</FadeInSection>
-
-<Space h="md" />
-<Divider my="md" />
-<Space h="md" />
-
-<FadeInSection duration = {0.25} delay = {0}>
-<Title fw={500} order={2} c="green.1">Conclusion</Title>
-
-<p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
-<p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
-<p>The user interface design and interactive prototypes that I developed received high praise from senior leadership.  The prototypes played a significant role in steering the MyTraining app towards success.</p>
-</FadeInSection>
-
-<Space h="md" />
-
-<Divider my="md" />
-
-<Space h="md" />
+<Space h="xl" />
 
 <Title fw={500} order={3} c="dimmed">Case Studies</Title>
 <Space h="md" />

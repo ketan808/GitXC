@@ -34,7 +34,10 @@ return (
 </Link>
 
 <motion.div>
-<motion.h1>{title1}</motion.h1>
+
+
+<motion.h1><Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">{title1}</Title></motion.h1>
+
 
 <motion.h2><Title fw={500} order={3} c={titleColor}>{title2}</Title></motion.h2>
 

@@ -1,6 +1,6 @@
 import { Divider, Space, NavLink } from '@mantine/core';
 import { useLocation } from 'react-router-dom';
-import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast, IconBrandLinkedin, IconMail, IconPencil
+import { IconSofa, IconTank, IconSchool, IconAerialLift, IconBroadcast, IconBrandLinkedin, IconMail, 
 } from '@tabler/icons-react';
 import { useDisclosure } from '@mantine/hooks';
 import { Modal, Title } from '@mantine/core';
@@ -54,7 +54,7 @@ function MainMenu() {
         leftSection={<IconTank stroke={1} size={32} className='element'/>}
         active={location.pathname === '/british-army'}
         variant="filled"
-        color="rgba(0, 133, 58, 1)"
+        color="cyan"
         
      
       />
@@ -67,7 +67,7 @@ function MainMenu() {
         leftSection={<IconSchool stroke={1} size={32} className='element'/>}
         active={location.pathname === '/acs'}
         variant="filled"
-        color="yellow"
+        color="cyan"
 
       />
 
@@ -80,7 +80,7 @@ function MainMenu() {
         leftSection={<IconBroadcast stroke={1} size={32} className='element'/>}
         active={location.pathname === '/virgin-media'}
         variant="filled"
-        color="red"
+        color="cyan"
       />
 
 
@@ -92,20 +92,10 @@ function MainMenu() {
         leftSection={<IconAerialLift stroke={1} size={32} className='element'/>}
         active={location.pathname === '/crystalski'}
         variant="filled"
-        color="blue"
+        color="cyan"
       />
 
 
-<NavLink
-        component="a"
-        href="/misc"
-        label="Miscellaneous"
-        description='A Mix of Personal & Employed Projects'
-        leftSection={<IconPencil stroke={1} size={32} className='element'/>}
-        active={location.pathname === '/misc'}
-        variant="filled"
-        color="grape"
-      />
 
 
 
