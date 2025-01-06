@@ -8,32 +8,6 @@ function ArmySlide() {
     <Carousel slideSize="80%" height="80%" slideGap="xl" classNames={classes} loop>
 
 
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Courses Home</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/courses_home.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Trainer Home</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/trainer_home.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Courses Attendees</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/course.png')}/>
-    </Carousel.Slide>
-
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Courses Attendees Navigation</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/course1.png')}/>
-    </Carousel.Slide>
-
 
     <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Upload Performance</Text>
@@ -43,31 +17,18 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Trainer, Trainee Target Model</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/target.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Upload Image Evidence</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/upload.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Upload Notes Evidence</Text>
-    <Space h="lg" />
-    <Image src={require('../images/army/notes.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
     <Text size="lg" fw={500} ta="center">Physical Fitness Scores</Text>
     <Space h="lg" />
     <Image src={require('../images/army/fitness.png')}/>
     </Carousel.Slide>
+
+
+    <Carousel.Slide>
+    <Text size="lg" fw={500} ta="center">Overall Course Dashboard</Text>
+    <Space h="lg" />
+    <Image src={require('../images/army/dashboard.png')}/>
+    </Carousel.Slide>
+
 
 
     <Carousel.Slide>

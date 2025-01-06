@@ -1,4 +1,4 @@
-import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List  } from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List } from '@mantine/core';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
 import imageSub from '../images/army/sub_header.jpg';
@@ -15,9 +15,13 @@ import test from '../images/army/test.png';
 import dev from '../images/army/dev.png';
 import designSystem from '../images/army/designSystem.png';
 import designSystemLight from '../images/army/designSystemLight.png';
+import apple from '../images/army/apple.png';
 import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
+import ArmySlideTwo from '../components/ArmySlideTwo';
+import ArmyRings from '../components/ArmyRings';
+
 
 
 
@@ -215,10 +219,6 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 
 
-
-
-
-
 <Space h="xl" />
 
 {/* Course Evidence Start*/}
@@ -233,8 +233,8 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>Trainers can upload images and notes to the trainees' control panels as course evidence. Later, trainers could use the course evidence to create final reports.</p>
-<p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p>
+<p>Trainers can upload images and notes for trainees to view during courses inside their own control panels. Later, trainers could use the evidence to create final reports.</p>
+{/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
 
 <Container
 size="xl"
@@ -245,10 +245,10 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 >
 
 <Space h="xl" />
-<VidComp src="video/course.mp4" />
+<VidComp src="video/evidence.mp4" />
 </Container>
 
-<p>Presenting prototypes to the wider Army sparked enthusiasm as trainers saw how this feature could be a valuable tool for them and help create much better reports.</p>
+<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
 
 
 {/* <Container size="600px"
@@ -265,6 +265,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Divider my="" />
 
 {/* Course Evidence End*/}
+
 
 <Space h="xl" />
 
@@ -296,7 +297,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Define</Title>
+      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Ideate</Title>
       <Space h="md" />
       <Image src={ideate} alt="ideate" />
       <Space h="xl" />
@@ -350,6 +351,83 @@ verticalSpacing="xl"
 
 <Space h="xl" />
 
+{/*TRAINEE WELLBEING DATA*/}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="GATHERING TRAINEE WELLBEING DATA"></SubTitle>
+
+<p>Trainees would input wellbeing data during courses, and this would help trainers see how they are progressing so they could encourage or intervene if help is needed.</p>
+{/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<Space h="xl" />
+
+
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SimpleGrid
+      cols={{ base: 1, sm: 2, lg: 2 }}
+      spacing={{ base: 10, sm: 'xl' }}
+      verticalSpacing={{ base: 'md', sm: 'xl' }}
+    >
+      <div><VidComp src="video/wellbeing.mp4" /></div>
+      <div><VidComp src="video/target.mp4" /></div>
+
+
+    </SimpleGrid>
+    </Container>
+
+    <Space h="xl" />
+
+    <Image src={apple} alt="apple watch"/>
+
+</Container>
+
+
+
+{/* <Container size="600px"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+<VidComp src="video/trainee_course.mp4" />
+</Container> */}
+
+
+</Container>
+<Divider my="" />
+
+{/* TRAINEE WELLBEING DATA End*/}
+
+
+
+
+
+
+<Space h="xl" />
+
 {/* Design System Start*/}
 
 <Container
@@ -360,10 +438,12 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 >
 
-<SubTitle SubTitle="MY ROLE"></SubTitle>
+<SubTitle SubTitle="EVOLVING DESIGN SYSTEM"></SubTitle>
 
-<p>We will be operating within an agile development environment, ensuring rapid progress. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
-<p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
+<p>In the background I worked on a documented design system that continued to evolve during the project. Some course locations and barracks would have low light conditions, so I designed a dark theme, as this would reduce eye strain and improve readability and usability.</p>
+
+<p>The design system helped accelerate the design process and enabled me to rapidly create prototypes and mockups.</p>
+
 <Space h="xl" />
 
 
@@ -375,6 +455,90 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 <Divider my="" />
 
 {/* Design System End*/}
+
+<Space h="xl" />
+
+{/* Scroll */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="UI FOR BIG DATA"></SubTitle>
+
+<p>I had to interface big data sets when live data was called into production versions of the application. Below is a prototype where categories could sometimes reach over a hundred.</p>
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<Space h="xl" />
+<VidComp src="video/scroll.mp4" />
+</Container>
+
+
+</Container>
+<Divider my="" />
+
+{/* Scroll End */}
+
+<Space h="xl" />
+
+{/* Other */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
+
+
+<ArmySlideTwo />
+
+</Container>
+<Divider my="" />
+
+{/* Other End */}
+
+
+
+<Space h="xl" />
+
+{/* Rings */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
+
+
+<ArmyRings />
+
+</Container>
+<Divider my="" />
+
+{/* Rings End */}
+
+
+
+
 
 <Space h="xl" />
 

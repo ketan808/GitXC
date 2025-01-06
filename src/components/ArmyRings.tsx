@@ -13,46 +13,56 @@ function RingsArmy() {
 <div>
 <Center p={0} >
       <RingProgress
-         size={180}
-        sections={[{ value: 84, color: 'green.1' }]}
+         size={260}
+         thickness={30}
+         roundCaps
+        sections={[{ value: 92, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            85%
+            92%
           </Text>
         }
       />
 </Center>
-<Title fw={500} order={5} ta="center" c="dimmed">Sliders worked best when selecting more than one answer on a page.</Title>
+<Title fw={500} order={4} ta="center">Course trainee intervention much easier through the application.</Title>
 </div>
+
+
 
 <div>
 <Center p={0} >
       <RingProgress
-         size={180}
-        sections={[{ value: 87, color: 'green.1' }]}
+         size={260}
+         thickness={30}
+         roundCaps
+        sections={[{ value: 92, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            95%
+            92%
           </Text>
         }
       />
 </Center>
-<Title fw={500} order={5} ta="center" c="dimmed">Circular slider worked best when selecting one answer at a time.</Title>
+<Title fw={500} order={4} ta="center">Final course report creation process imnprovement.</Title>
 </div>
+
+
 
 <div>
 <Center p={0} >
       <RingProgress
-         size={180}
-        sections={[{ value: 96, color: 'green.1' }]}
+         size={260}
+         thickness={30}
+         roundCaps
+        sections={[{ value: 92, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            70%
+            92%
           </Text>
         }
       />
 </Center>
-<Title fw={500} order={5} ta="center" c="dimmed">Text areas worked best for answering questions requiring text input.</Title>
+<Title fw={500} order={4} ta="center">Course trainee intervention much easier through the application.</Title>
 </div>
 
 </SimpleGrid>
