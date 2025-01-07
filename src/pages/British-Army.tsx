@@ -151,7 +151,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 <SubTitle SubTitle="MY ROLE"></SubTitle>
 
-<p>We will be operating within an agile development environment, ensuring rapid progress. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
+<p>We will be operating within an agile development environment, ensuring rapid progress and working towards a minimum viable product. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
 <p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
 <Space h="xl" />
 
@@ -187,9 +187,9 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 >
 
-<SubTitle SubTitle="Research"></SubTitle>
+<SubTitle SubTitle="Observational Research"></SubTitle>
 
-<p>Extensive research, affirming the necessity for this product had already been conducted and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the edge cases I discovered.</p>
+<p>Extensive research, affirming the necessity for this product, had already been conducted, and I was invited to multiple meetings with stakeholders and user groups to grasp requirements thoroughly. Below are some of the edge cases I discovered while on a visit to a training location.</p>
 
 <SimpleGrid
       cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
@@ -269,7 +269,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <Space h="xl" />
 
-{/* Process Start*/}
+{/* Process Start */}
 
 <Container
 size="xl"
@@ -279,7 +279,7 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 >
 
-<SubTitle SubTitle="Design Process"></SubTitle>
+<SubTitle SubTitle="Project Design Process"></SubTitle>
 <Space h="xl" />
 <SimpleGrid
 cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
@@ -504,6 +504,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
 
+<Space h="md" />
 
 <ArmySlideTwo />
 
@@ -511,7 +512,6 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Divider my="" />
 
 {/* Other End */}
-
 
 
 <Space h="xl" />
@@ -526,7 +526,7 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 >
 
-<SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
+<SubTitle SubTitle="TESTING"></SubTitle>
 
 
 <ArmyRings />
@@ -538,11 +538,36 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 
 
+<Space h="xl" />
+
+{/* Conclusion */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="CONCLUSION"></SubTitle>
+
+
+<p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
+<p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
+
+</Container>
+<Divider my="" />
+
+{/* Conclusion */}
+
+
+
 
 
 <Space h="xl" />
 
-<Title fw={500} order={3} c="dimmed">Case Studies</Title>
+<SubTitle SubTitle="CASE STUDIES"></SubTitle>
 <Space h="md" />
 <Next 
 colsgrid={1}

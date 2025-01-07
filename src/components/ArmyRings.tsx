@@ -24,7 +24,7 @@ function RingsArmy() {
         }
       />
 </Center>
-<Title fw={500} order={4} ta="center">Course trainee intervention much easier through the application.</Title>
+<Title fw={500} order={4} ta="center">Identify course trainee progress and issues improvement.</Title>
 </div>
 
 
@@ -35,15 +35,15 @@ function RingsArmy() {
          size={260}
          thickness={30}
          roundCaps
-        sections={[{ value: 92, color: 'cyan' }]}
+        sections={[{ value: 89, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            92%
+            89%
           </Text>
         }
       />
 </Center>
-<Title fw={500} order={4} ta="center">Final course report creation process imnprovement.</Title>
+<Title fw={500} order={4} ta="center">Final course report creation process improvement.</Title>
 </div>
 
 
@@ -54,15 +54,15 @@ function RingsArmy() {
          size={260}
          thickness={30}
          roundCaps
-        sections={[{ value: 92, color: 'cyan' }]}
+        sections={[{ value: 86, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            92%
+            86%
           </Text>
         }
       />
 </Center>
-<Title fw={500} order={4} ta="center">Course trainee intervention much easier through the application.</Title>
+<Title fw={500} order={4} ta="center">Course trainers time saving and efficiency improvement.</Title>
 </div>
 
 </SimpleGrid>
