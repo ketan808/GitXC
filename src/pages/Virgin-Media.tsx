@@ -1,5 +1,5 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, List, ThemeIcon, rem, Image, Grid} from '@mantine/core';
+import { Container, Title, Space, Divider, List, ThemeIcon, rem, Image, Grid, Card} from '@mantine/core';
 import { IconCircleCheck} from '@tabler/icons-react';
 import HeroVirgin from '../components/HeroVM';
 import imageBackground from '../images/vm/vm_mob.jpg';
@@ -10,6 +10,7 @@ import FlipImage1 from '../images/vm/vm_swim1.png';
 import FlipImage2 from '../images/vm/music.jpg';
 import FlipImage3 from '../images/vm/sport.jpg';
 import Next from '../components/Next';
+import SubTitle from '../components/SubTitle';
 
 import image1 from '../images/vm/components_mob.png';
 import image2 from '../images/vm/components_desk.png';
@@ -33,6 +34,9 @@ return (
 <Image src={imageSub} alt="Virgin Image" />
 
 
+
+{/* Background Start */}
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -43,11 +47,22 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 
 <Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
    
-<Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">BACKGROUND</Title>
+<SubTitle SubTitle="BACKGROUND"></SubTitle>
 
-<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions or supplying humanitarian aid they are training to be the best soldiers they can be.</p>
-<p>Course data collection and final, report generation use various applications, databases and methods. Systematising these processes into a single application would simplify the user experience.</p>
-<p>Course attendees rarely speak up when having difficulties and this can be because of the expectation to push through or peer pressure, so a way to track their progress during courses would allow course trainers to know when to intervene.</p>
+<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions they are training to be the best soldiers they can be.</p>
+<p>MyTraining is an application for collecting course performance data and tracking well-being. Trainers can effectively monitor trainees by viewing their inputted data, adding scores, and creating final reports.</p>
+
+<SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
+
+
+
+<List size="xl" withPadding>
+      <p><List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
+      <List.Item>Course data is spread across multiple applications and sources, posing a challenge to use effectively.</List.Item>
+      <List.Item>The process of collecting course data and creating final reports consumes an excessive amount of paper.</List.Item>
+      </p>
+</List>
+
 </Grid.Col>
 
 <Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
@@ -63,6 +78,10 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 
 </Grid>
 </Container>
+</Card>
+<Divider my="" />
+
+{/* Background End*/}
 
 
 <Space h="md" />

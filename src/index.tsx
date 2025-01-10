@@ -12,14 +12,17 @@ const themeOverride = createTheme({
   
   other: {
     heroHeight: rem(400),
-    light0:'#FAFAFA',
+    light0:'#FFFFFF',
     light80:'#D3D7DF',
     light90:'#E1EEEF',
     light100:'#F2F9FC',
     dark80:'#31363F',
+
     dark90:'#202328',
+
     dark100:'#090A0B',
-    dark0:'#141414',
+    
+    dark0:'#121212',
 
     green1: '#51cf66',
     green2: '#0F8122',
@@ -86,8 +89,8 @@ const resolver: CSSVariablesResolver = (theme) => ({
     '--mantine-fontcolor-0': theme.other.dark0,
 
     '--mantine-color-80': theme.other.light90,
-    '--mantine-color-90': theme.other.light100,
-    '--mantine-color-100': theme.other.light0,
+    '--mantine-color-90': theme.other.light0,
+    '--mantine-color-100': theme.other.light100,
     
 
     '--mantine-color-gray-0': theme.other.light90,

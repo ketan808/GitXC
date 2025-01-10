@@ -1,6 +1,6 @@
 import Gcards from '../inViewUI/Gcards';
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Space, Divider, Grid, Image, Box } from '@mantine/core';
+import { Container, Space, Divider, Grid, Image, Box, Card } from '@mantine/core';
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
@@ -15,9 +15,10 @@ return (
 
 <Hero />
 
+
 <Container size="xl" mb= "md">
 
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -26,17 +27,15 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 >
 <Grid columns={12} gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
 
-
 <Grid.Col span={{ base: 12, md: 3, lg: 3, xl: 3 }}>
 
 <FadeInSection duration = {0.25} delay = {0}>
 
 <Box lightHidden mt='5px' mb='5px'>
-    <Image style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
+<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
 
-    <Box darkHidden mt='5px' mb='5px'>
-    <Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
-   
+<Box darkHidden mt='5px' mb='5px'>
+<Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
 
 
 </FadeInSection>
@@ -51,13 +50,14 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 </Grid.Col>
 
 </Grid>
-
 </Container>
+</Card>
+
 <Divider my="" />
 
+<Space h="xl" />
 
-<Space h="md" />
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -72,6 +72,7 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 <Gcards />
 
 </Container>
+</Card>
 <Divider my="" />
 
 <Space h={{ base: "sm", lg: "xl" }}/>

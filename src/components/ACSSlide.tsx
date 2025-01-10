@@ -1,6 +1,6 @@
-import { Carousel } from '@mantine/carousel';
+import { Carousel} from '@mantine/carousel';
 import '@mantine/carousel/styles.css';
-import { Image, Text, Space } from '@mantine/core';
+import { Image, Space, Title } from '@mantine/core';
 import classes from './ACSSlideButton.module.css';
 
 function ArmySlide() {
@@ -9,28 +9,28 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Parents Dashboard</Text>
+    <Title order={3} fw={500} ta="center" tt="uppercase">Parents Dashboard</Title>
     <Space h="lg" />
     <Image src={require('../images/acs/parent.png')}/>
     </Carousel.Slide>
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Newsletter More Detail</Text>
+    <Title order={3} fw={500} ta="center" tt="uppercase">Newsletter More Detail</Title>
     <Space h="lg" />
     <Image src={require('../images/acs/more.png')}/>
     </Carousel.Slide>
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">School HomePage</Text>
+    <Title order={3} fw={500} ta="center" tt="uppercase">School Division HomePage</Title>
     <Space h="lg" />
     <Image src={require('../images/acs/school.png')}/>
     </Carousel.Slide>
 
 
     <Carousel.Slide>
-    <Text size="lg" fw={500} ta="center">Staff Directory</Text>
+    <Title order={3} fw={500} ta="center" tt="uppercase">Staff Directory</Title>
     <Space h="lg" />
     <Image src={require('../images/acs/staff.png')}/>
     </Carousel.Slide>

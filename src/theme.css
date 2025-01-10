@@ -2,6 +2,7 @@
 @import url("https://use.typekit.net/uqm2soi.css");
 
 
+
 body {
   font-family: sofia-pro, sans-serif;
   font-size: 23px;
@@ -32,6 +33,27 @@ p {
   margin-bottom: 2rem;
 }
 
+
+@media screen and (max-width: 74em) {
+
+  p {
+    font-size: 1.2rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .imageAbout {
+    width: 80% !important;
+  }
+
+}
+
+
+
+
 @media screen and (max-width: 64em) {
 
   p {
@@ -41,6 +63,10 @@ p {
     font-weight: 300;
     line-height: 1.8rem;
     margin-bottom: 1.2rem;
+  }
+
+  .imageAbout {
+    width: 40% !important;
   }
 
 }

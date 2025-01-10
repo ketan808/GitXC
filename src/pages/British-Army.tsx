@@ -1,4 +1,4 @@
-import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List } from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Text } from '@mantine/core';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
 import imageSub from '../images/army/sub_header.jpg';
@@ -39,12 +39,12 @@ return (
 
 <Container size="xl" mb= "md">
 
+<Card shadow="xl" padding="" radius="">
 <Image src={imageSub} alt="Army Image" />
-
-
+</Card>
 
 {/* Background Start */}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -86,25 +86,23 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 
 </Grid>
 </Container>
-
+</Card>
 <Divider my="" />
 
 {/* Background End*/}
 
 
-<Space h="md" />
+<Space h="xl" />
 
 
 {/* Problem Start*/}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
 p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
 pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 >
-
-
 
 
 <SimpleGrid
@@ -131,8 +129,8 @@ height={500}
 
 <Space h="md" />
 
-
 </Container>
+</Card>
 <Divider my="" />
 
 {/* Problem End*/}
@@ -140,7 +138,7 @@ height={500}
 <Space h="xl" />
 
 {/* My Role Start*/}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -168,8 +166,8 @@ pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
 
 
 </Container>
-
 </Container>
+</Card>
 <Divider my="" />
 
 {/* My Role End*/}
@@ -178,7 +176,7 @@ pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
 
 
 {/* Research */}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -213,64 +211,15 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
  </SimpleGrid>
 
 </Container>
+</Card>
 <Divider my="" />
 
-{/* Research  */}
-
-
-
-<Space h="xl" />
-
-{/* Course Evidence Start*/}
-
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
-
-<SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
-
-<p>Trainers can upload images and notes for trainees to view during courses inside their own control panels. Later, trainers could use the evidence to create final reports.</p>
-{/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
-
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
-
-<Space h="xl" />
-<VidComp src="video/evidence.mp4" />
-</Container>
-
-<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
-
-
-{/* <Container size="600px"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
-<VidComp src="video/trainee_course.mp4" />
-</Container> */}
-
-
-</Container>
-<Divider my="" />
-
-{/* Course Evidence End*/}
-
+{/* Research  End */}
 
 <Space h="xl" />
 
 {/* Process Start */}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -345,14 +294,53 @@ verticalSpacing="xl"
 </SimpleGrid>
 
 </Container>
+</Card>
 <Divider my="" /> 
 {/* Process End*/}
+
+<Space h="xl" />
+
+{/* Course Evidence Start*/}
+<Card shadow="xl" padding="" radius="">
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
+pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
+
+<p>Trainers can upload images and notes for trainees to view during courses inside their own control panels; this would help them stay motivated. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, and Excel sheets.</p>
+{/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
+
+<Container
+size="xl"
+className='theme90'
+p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+>
+
+<Space h="xl" />
+<VidComp src="video/evidence.mp4" />
+</Container>
+
+<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
+
+
+</Container>
+</Card>
+<Divider my="" />
+
+{/* Course Evidence End*/}
 
 
 <Space h="xl" />
 
 {/*TRAINEE WELLBEING DATA*/}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -404,32 +392,18 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 </Container>
 
-
-
-{/* <Container size="600px"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
-<VidComp src="video/trainee_course.mp4" />
-</Container> */}
-
-
 </Container>
+</Card>
 <Divider my="" />
 
 {/* TRAINEE WELLBEING DATA End*/}
 
 
 
-
-
-
 <Space h="xl" />
 
 {/* Design System Start*/}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -452,6 +426,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 
 </Container>
+</Card>
 <Divider my="" />
 
 {/* Design System End*/}
@@ -459,7 +434,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 <Space h="xl" />
 
 {/* Scroll */}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -486,6 +461,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 
 </Container>
+</Card>
 <Divider my="" />
 
 {/* Scroll End */}
@@ -493,7 +469,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Space h="xl" />
 
 {/* Other */}
-
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -509,6 +485,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <ArmySlideTwo />
 
 </Container>
+</Card>
 <Divider my="" />
 
 {/* Other End */}
@@ -516,8 +493,8 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <Space h="xl" />
 
-{/* Rings */}
-
+{/* Testing */}
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -532,9 +509,10 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <ArmyRings />
 
 </Container>
+</Card>
 <Divider my="" />
 
-{/* Rings End */}
+{/* Tesing End */}
 
 
 
@@ -542,6 +520,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 {/* Conclusion */}
 
+<Card shadow="xl" padding="" radius="">
 <Container
 size="xl"
 className='theme90'
@@ -557,12 +536,40 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
 
 </Container>
+</Card>
 <Divider my="" />
 
-{/* Conclusion */}
+{/* Conclusion End */}
+
+<Space h="xl" />
+
+{/* Testimonial*/}
+
+<Card shadow="xl" padding="xl" radius=""  className='theme90'>
+
+<Image style={{ display: 'block', margin: 'auto'}}
+
+radius="md"
+h={100}
+ta="center"
+w="100"
+fit="contain"
+src={require('../images/emma.jpg')}
+/>
+<Space h="md" />
+<Title order={3} fw={500} ta="center" tt="uppercase">Emma Greenwood</Title>
+<Space h="md" />
+<Title order={4} fw={500} ta="center">Critical Thinker & Transformation Leader - UK Ministry of Defence</Title>
 
 
 
+<Text size="xl" mt="sm" c="dimmed" ta="center">
+Ketan brought the visual wow factor to our Army app. His design helped us to engage stakeholders and maintain their enthusiasm. Willing to go the extra mile to meet deadlines and fast balls, Ketan was a valued and well liked member of the team. I would recommend him.
+</Text>
+</Card>
+<Divider my="" />
+
+{/* Testimonial End*/}
 
 
 <Space h="xl" />

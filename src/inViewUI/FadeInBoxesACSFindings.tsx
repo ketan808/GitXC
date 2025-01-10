@@ -47,8 +47,8 @@ const Boxes = ({ index, text }) => (
         }}
 
       >
-      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder lightHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="#fab005" size="1.5rem" stroke={2}/></div></Box></Card>
-      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder darkHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="#c35423" size="1.5rem" stroke={2}/></div></Box></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder lightHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="cyan" size="1.5rem" stroke={2}/></div></Box></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder darkHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="black" size="1.5rem" stroke={2}/></div></Box></Card>
 
       </motion.div>
     )}

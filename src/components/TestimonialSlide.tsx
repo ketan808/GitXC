@@ -18,7 +18,7 @@ interface Props {
 
     <Carousel.Slide>
 
-      <Card shadow="sm" padding="xl" radius="md"  className='theme90' withBorder>
+      <Card shadow="sm" padding="xl" radius="md"  className='theme90'>
 
       <Image style={{ display: 'block', margin: 'auto'}}
 
@@ -47,7 +47,7 @@ interface Props {
    
    <Carousel.Slide>
     
-   <Card shadow="sm" padding="xl" radius="md" className='theme90' withBorder>
+   <Card shadow="sm" padding="xl" radius="md" className='theme90'>
 
 <Image style={{ display: 'block', margin: 'auto'}}
 
@@ -56,7 +56,7 @@ interface Props {
       ta="center"
       w="100"
       fit="contain"
-      src={require('../images/steven.jpg')}
+      src={require('../images/stven1.jpeg')}
     />
     
       <Text size="xl" fw={700} mt="sm" ta="center">
@@ -79,7 +79,7 @@ interface Props {
 
    <Carousel.Slide>
     
-   <Card shadow="sm" padding="xl" radius="md" className='theme90' withBorder>
+   <Card shadow="sm" padding="xl" radius="md" className='theme90' >
 
 <Image style={{ display: 'block', margin: 'auto'}}
 
@@ -88,7 +88,7 @@ interface Props {
       ta="center"
       w="100"
       fit="contain"
-      src={require('../images/nigel.jpg')}
+      src={require('../images/nig.jpeg')}
     />
     
       <Text size="xl" fw={700} mt="sm" ta="center">
@@ -111,7 +111,7 @@ interface Props {
 
    <Carousel.Slide>
     
-    <Card shadow="sm" padding="xl" radius="md" className='theme90' withBorder>
+    <Card shadow="sm" padding="xl" radius="md" className='theme90'>
  
  <Image style={{ display: 'block', margin: 'auto'}}
  

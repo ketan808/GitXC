@@ -23,7 +23,6 @@ mb={{ base: '20px'}}
 
 <SimpleGrid
 cols={{ base: 1, sm: 1, md: 2, lg: 2, xl: 2 }}
-spacing="xl" 
 >
 
 
@@ -54,8 +53,8 @@ mb={{ base: 20, sm: 20, md: 20, lg: 40 }}
 
 
 <Box
-mt={{ base: '10px', md: '60px', lg: '40px', xl: '60px' }}
-mb={{ base: '10px', md: '60px', lg: '20px', xl: '60px' }}
+mt={{ base: '10px', md: '60px', lg: '40px', xl: '80px' }}
+mb={{ base: '10px', md: '40px', lg: '40px', xl: '40px' }}
 > 
 
 

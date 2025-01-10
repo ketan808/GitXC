@@ -5,7 +5,7 @@ import classes from './ArmySlideButton.module.css';
 
 function ArmySlide() {
   return (
-    <Carousel slideSize="80%" height="80%" slideGap="xl" classNames={classes} loop>
+    <Carousel slideSize="80%" height="80%" slideGap="xl" loop>
 
 
     <Carousel.Slide>

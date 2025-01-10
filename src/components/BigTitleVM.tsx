@@ -1,7 +1,7 @@
 import React from 'react';
 import { Title, Container, SimpleGrid, Box, Image} from '@mantine/core';
 import TextReveal from '../inViewUI/TextReveal';
-import image1 from '../images/vm/vm_hero.jpg';
+import image1 from '../images/vm/hub-music_hero.png';
 
 interface TitlesProps {
   title1: string;
@@ -54,7 +54,7 @@ mb={{ base: 20, sm: 20, md: 20, lg: 40 }}
 mt={{ base: '0px', lg: '0px', xl: '40px' }}
 mb={{ base: '0px', lg: '0px', xl: '40px' }}
 > 
-<Image  src={image1} alt="ACS Image"
+<Image  src={image1} alt="Virgin Media Image"
   fit="cover" />
 
 </Box>

@@ -49,8 +49,8 @@ const Boxes = ({ index, text }) => (
 
       >
 
-      <Card className='' shadow="sm" padding="lg" radius="md" lightHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="cyan" size="1.5rem" stroke={2}/></div></Box></Card>
-      <Card className='' shadow="sm" padding="lg" radius="md" darkHidden><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="cyan" size="1.5rem" stroke={2}/></div></Box></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" lightHidden withBorder ><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="cyan" size="1.5rem" stroke={2}/></div></Box></Card>
+      <Card className='theme100' shadow="sm" padding="lg" radius="md" darkHidden withBorder ><div>{text}</div><Box visibleFrom="md"><div className="iconRight"><IconChevronRight color="black" size="1.5rem" stroke={2}/></div></Box></Card>
 
 
       </motion.div>
