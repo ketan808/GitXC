@@ -18,7 +18,7 @@ const themeOverride = createTheme({
     light100:'#F2F9FC',
     dark80:'#31363F',
 
-    dark90:'#202328',
+    dark90:'#1e2126',
 
     dark100:'#090A0B',
     

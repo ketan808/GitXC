@@ -50,13 +50,33 @@ color: #2AB2ED;
 }
 
 
+
+
+
 .card-image {
-  height: 550px;
+  height: 500px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 10px;
 
 }
+
+@media screen and (max-width: 64em) { 
+
+
+  .card-image {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  
+  }
+
+
+}
+
+
+
   
 .card-imageMisc {
     height: 275px;

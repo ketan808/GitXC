@@ -1,4 +1,4 @@
-import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Text } from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, Text } from '@mantine/core';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
 import imageSub from '../images/army/sub_header.jpg';
@@ -8,6 +8,7 @@ import imageProb3 from '../images/army/problem1.jpg';
 import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
+import SubTitleH3 from '../components/SubTitleH3';
 import define from '../images/army/define.png';
 import ideate from '../images/army/Ideate.png';
 import design from '../images/army/design.png';
@@ -21,6 +22,7 @@ import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import ArmySlideTwo from '../components/ArmySlideTwo';
 import ArmyRings from '../components/ArmyRings';
+import ContainerOne from '../components/ContainerOne';
 
 
 
@@ -35,58 +37,61 @@ return (
 
 <>
 
+<Paper shadow="xl">
+<Image src={imageSub} alt="Army Image" />
+</Paper>
+
+
 <HeroArmy />
+
 
 <Container size="xl" mb= "md">
 
-<Card shadow="xl" padding="" radius="">
-<Image src={imageSub} alt="Army Image" />
-</Card>
 
 {/* Background Start */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
-<Grid columns={12}>
 
-<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
-   
+
+<ContainerOne>
+<Grid gutter={{ base: 5, sm: 'md', md: 'xl', xl: 50 }}>
+
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }} >
+
+
 <SubTitle SubTitle="BACKGROUND"></SubTitle>
 
 <p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions they are training to be the best soldiers they can be.</p>
 <p>MyTraining is an application for collecting course performance data and tracking well-being. Trainers can effectively monitor trainees by viewing their inputted data, adding scores, and creating final reports.</p>
 
+
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
 
 
-
-<List size="xl" withPadding>
-      <p><List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
+<List size="xl" ><p>
+      <List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
       <List.Item>Course data is spread across multiple applications and sources, posing a challenge to use effectively.</List.Item>
       <List.Item>The process of collecting course data and creating final reports consumes an excessive amount of paper.</List.Item>
-      </p>
-</List>
+      </p></List>
+
 
 </Grid.Col>
 
+
+
 <Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
+
 <FadeInSection duration = {0.25} delay = {0}>
 <Image src={imageBackground} alt="Army Image"
-   mx="auto" 
-   h={700}
-   w="auto"
+   h={{ base: 500, md: 700, lg: 700, xl: 700 }}
    fit="contain"
 />
 </FadeInSection>
+
+
 </Grid.Col>
 
 </Grid>
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Background End*/}
@@ -95,19 +100,13 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 <Space h="xl" />
 
 
-{/* Problem Start*/}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
+{/* Solution Start*/}
 
+<ContainerOne>
 
 <SimpleGrid
 cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 2 }}
-spacing="xl" 
+spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 >
 
 <div>
@@ -121,7 +120,7 @@ spacing="xl"
 
 <div>
 <Image src={imageProb3} alt="Army Image"
-height={500}
+   h={{ base: 300, md: 500, lg: 500, xl: 500 }}
 />
 </div>
 
@@ -129,36 +128,32 @@ height={500}
 
 <Space h="md" />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
-{/* Problem End*/}
+{/* Solution End*/}
 
 <Space h="xl" />
 
 {/* My Role Start*/}
+
 <Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="MY ROLE"></SubTitle>
 
 <p>We will be operating within an agile development environment, ensuring rapid progress and working towards a minimum viable product. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
 <p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
-<Space h="xl" />
+<Space h="md" />
 
 
 <Container
 size="xl"
 className='theme90'
-pl={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
+pl={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
+pr={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
+pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 >
 
 <Image src={team} alt="Team"lightHidden/>
@@ -166,7 +161,7 @@ pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
 
 
 </Container>
-</Container>
+</ContainerOne>
 </Card>
 <Divider my="" />
 
@@ -176,14 +171,8 @@ pr={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
 
 
 {/* Research */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+
+<ContainerOne>
 
 <SubTitle SubTitle="Observational Research"></SubTitle>
 
@@ -196,37 +185,31 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
     >
       <div>
       <Space h="sm" />
-      <Title tt="uppercase" fw={500} order={3} c="">Research Findings</Title>
+      <SubTitleH3 SubTitleH3="Research Findings"></SubTitleH3>
       <Space h="md" />
       <FadeInBoxesFindings />
       </div>
 
       <div>
       <Space h="sm" />
-      <Title tt="uppercase" fw={500} order={3} c="">Impact on Development</Title>
+      <SubTitleH3 SubTitleH3="Impact on Development"></SubTitleH3>
       <Space h="md" />
       <FadeInBoxesImpact />
       </div>
       
- </SimpleGrid>
+</SimpleGrid>
 
-</Container>
-</Card>
+<Space h={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl' }} />
+
+</ContainerOne>
 <Divider my="" />
 
 {/* Research  End */}
 
 <Space h="xl" />
 
-{/* Process Start */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+{/* Design Process Start */}
+<ContainerOne>
 
 <SubTitle SubTitle="Project Design Process"></SubTitle>
 <Space h="xl" />
@@ -237,7 +220,7 @@ verticalSpacing="xl"
 >
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Define</Title>
+      <SubTitleH3 SubTitleH3="Define"></SubTitleH3>
       <Space h="md" />
       <Image src={define} alt="define" />
       <Space h="xl" />
@@ -246,7 +229,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Ideate</Title>
+      <SubTitleH3 SubTitleH3="Ideate"></SubTitleH3>
       <Space h="md" />
       <Image src={ideate} alt="ideate" />
       <Space h="xl" />
@@ -255,7 +238,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Design</Title>
+      <SubTitleH3 SubTitleH3="Design"></SubTitleH3>
       <Space h="md" />
       <Image src={design} alt="design" />
       <Space h="xl" />
@@ -264,7 +247,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">test</Title>
+      <SubTitleH3 SubTitleH3="test"></SubTitleH3>
       <Space h="md" />
       <Image src={test} alt="test" />
       <Space h="xl" />
@@ -273,7 +256,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">Development</Title>
+      <SubTitleH3 SubTitleH3="Development"></SubTitleH3>
       <Space h="md" />
       <Image src={dev} alt="development" />
       <Space h="xl" />
@@ -282,7 +265,7 @@ verticalSpacing="xl"
 </div>
 
 <div>
-      <Title tt="uppercase" ta="center" fw={500} order={3} c="">re-test</Title>
+      <SubTitleH3 SubTitleH3="re-test"></SubTitleH3>
       <Space h="md" />
       <Image src={retest} alt="retest" />
       <Space h="xl" />
@@ -293,45 +276,36 @@ verticalSpacing="xl"
 
 </SimpleGrid>
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" /> 
-{/* Process End*/}
+{/* Design Process End*/}
 
 <Space h="xl" />
 
 {/* Course Evidence Start*/}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
 <p>Trainers can upload images and notes for trainees to view during courses inside their own control panels; this would help them stay motivated. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, and Excel sheets.</p>
-{/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
 
 <Container
 size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pt={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
+pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
+
 >
 
-<Space h="xl" />
 <VidComp src="video/evidence.mp4" />
 </Container>
 
 <p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
 
+</ContainerOne>
 
-</Container>
-</Card>
 <Divider my="" />
 
 {/* Course Evidence End*/}
@@ -340,14 +314,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Space h="xl" />
 
 {/*TRAINEE WELLBEING DATA*/}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="GATHERING TRAINEE WELLBEING DATA"></SubTitle>
 
@@ -357,25 +324,24 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Container
 size="xl"
 className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pt={{ base: '0px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 >
-
-<Space h="xl" />
-
 
 
 <Container
 size="xl"
 className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+
+pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pb={{ base: '40px', sm: '40px', md: '40px', lg: '40px' }}
 >
 
 <SimpleGrid
-      cols={{ base: 1, sm: 2, lg: 2 }}
+      cols={{ base: 2, sm: 2, lg: 2 }}
       spacing={{ base: 10, sm: 'xl' }}
       verticalSpacing={{ base: 'md', sm: 'xl' }}
     >
@@ -386,14 +352,13 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
     </SimpleGrid>
     </Container>
 
-    <Space h="xl" />
 
     <Image src={apple} alt="apple watch"/>
 
 </Container>
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* TRAINEE WELLBEING DATA End*/}
@@ -403,14 +368,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Space h="xl" />
 
 {/* Design System Start*/}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="EVOLVING DESIGN SYSTEM"></SubTitle>
 
@@ -418,15 +376,16 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 <p>The design system helped accelerate the design process and enabled me to rapidly create prototypes and mockups.</p>
 
-<Space h="xl" />
+<Space h="md" />
 
 
-<Image src={designSystem} alt="Design System"lightHidden/>
+<Image src={designSystem} alt="Design System" lightHidden/>
 <Image src={designSystemLight} alt="Design System" darkHidden/>
 
+<Space h="md" />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Design System End*/}
@@ -434,14 +393,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 <Space h="xl" />
 
 {/* Scroll */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="UI FOR BIG DATA"></SubTitle>
 
@@ -449,19 +401,18 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <Container
 size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '100px' }}
-pt={{ base: '20px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
+pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pt={{ base: '0px', sm: '0px', md: '0px', lg: '0px' }}
+pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 >
 
-<Space h="xl" />
+
 <VidComp src="video/scroll.mp4" />
 </Container>
 
+</ContainerOne>
 
-</Container>
-</Card>
 <Divider my="" />
 
 {/* Scroll End */}
@@ -469,14 +420,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Space h="xl" />
 
 {/* Other */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
 
@@ -484,8 +428,8 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 <ArmySlideTwo />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Other End */}
@@ -494,22 +438,14 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <Space h="xl" />
 
 {/* Testing */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="TESTING"></SubTitle>
 
 
 <ArmyRings />
 
-</Container>
-</Card>
+</ContainerOne>
 <Divider my="" />
 
 {/* Tesing End */}
@@ -520,14 +456,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 {/* Conclusion */}
 
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
@@ -535,8 +464,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 <p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
 
-</Container>
-</Card>
+</ContainerOne>
 <Divider my="" />
 
 {/* Conclusion End */}
@@ -545,7 +473,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 {/* Testimonial*/}
 
-<Card shadow="xl" padding="xl" radius=""  className='theme90'>
+<ContainerOne>
 
 <Image style={{ display: 'block', margin: 'auto'}}
 
@@ -557,16 +485,16 @@ fit="contain"
 src={require('../images/emma.jpg')}
 />
 <Space h="md" />
-<Title order={3} fw={500} ta="center" tt="uppercase">Emma Greenwood</Title>
+<SubTitleH3 SubTitleH3="Emma Greenwood"></SubTitleH3>
 <Space h="md" />
 <Title order={4} fw={500} ta="center">Critical Thinker & Transformation Leader - UK Ministry of Defence</Title>
 
 
 
-<Text size="xl" mt="sm" c="dimmed" ta="center">
-Ketan brought the visual wow factor to our Army app. His design helped us to engage stakeholders and maintain their enthusiasm. Willing to go the extra mile to meet deadlines and fast balls, Ketan was a valued and well liked member of the team. I would recommend him.
+<Text ta="center">
+<p>Ketan brought the visual wow factor to our Army app. His design helped us to engage stakeholders and maintain their enthusiasm. Willing to go the extra mile to meet deadlines and fast balls, Ketan was a valued and well liked member of the team. I would recommend him.</p>
 </Text>
-</Card>
+</ContainerOne>
 <Divider my="" />
 
 {/* Testimonial End*/}

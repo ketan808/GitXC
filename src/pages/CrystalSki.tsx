@@ -14,12 +14,14 @@ return (
 
 <>
 
+<Image src={imageSub} alt="Army Image" />
+
 <HeroCrystal />
 
 
 <Container size="xl" mb= "md">
 
-<Image src={imageSub} alt="Army Image" />
+
 
 
 <Container

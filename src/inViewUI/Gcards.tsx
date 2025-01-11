@@ -25,6 +25,8 @@ return (
           transition={{ duration: 0.25, delay: index * 0.25 }}
           
         >
+
+
 <img src={image} alt={title1} className="card-image" />
 
 </motion.div>

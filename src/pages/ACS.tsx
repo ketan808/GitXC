@@ -1,8 +1,9 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, SimpleGrid, List, Image, Grid, Card, Text} from '@mantine/core';
+import { Container, Title, Space, Divider, SimpleGrid, List, Image, Grid, Text, Paper} from '@mantine/core';
 import HeroACS from '../components/HeroACS';
-import imageSub from '../images/acs/acs_subheader.jpg';
+import imageSub from '../images/acs/acs_subheader1.jpg';
 import SubTitle from '../components/SubTitle';
+import SubTitleH3 from '../components/SubTitleH3';
 import imageProb3 from '../images/acs/basket.jpg';
 import FadeInBoxesFindings1 from '../inViewUI/FadeInBoxesACSFindings';
 import FadeInBoxesImpact1 from '../inViewUI/FadeInBoxesACSImpact';
@@ -15,6 +16,8 @@ import FlipImage3 from '../images/acs/egham.png';
 import FlipImage4 from '../images/acs/doha.png';
 import Next from '../components/Next';
 import ArmyRings from '../components/ArmyRings';
+import ContainerOne from '../components/ContainerOne';
+
 
 
 
@@ -24,69 +27,68 @@ function ACS () {
 return (
 
 <>
+<Paper shadow="xl">
+<Image src={imageSub} alt="ACS Image" />
+</Paper>
+
 
 <HeroACS />
 
 <Container size="xl" mb= "md">
 
-  {/* Background Start */}
-<Card shadow="xl" padding="" radius="">
-<Image src={imageSub} alt="ACS Image" />
 
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
-<Grid columns={12}>
+{/* Background Start */}
 
-<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }}>
-   
-<Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">BACKGROUND</Title>
+
+<ContainerOne>
+<Grid>
+
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }} >
+
+
+<SubTitle SubTitle="BACKGROUND"></SubTitle>
 
 <p>The Intranet/Virtual Learning software is used across four schools by parents, teachers, students and staff and serves as a centralised platform for sharing important information, news, and updates within the organisation.</p>
 <p>Inadequate management over time had created an unimaginable disorder featuring contrasting interfaces and styles, and this situation posed usability issues for the users.</p>
 
+
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
 
 
+<List size="xl">
 
-<List size="xl" withPadding>
-      <p><List.Item>Huge pressure on staff and stakeholders to make the intranet usable accross four schools.</List.Item>
+<p><List.Item>Huge pressure on staff and stakeholders to make the intranet usable accross four schools.</List.Item>
       <List.Item>Stressful to find useful information such as calendars, latest news, payment systems, staff directories.</List.Item>
       <List.Item>Lots of complaints, notably from parents.</List.Item>
-      </p>
+ </p>
 </List>
+
 </Grid.Col>
 
 <Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
+
 <FadeInSection duration = {0.25} delay = {0}>
 <Image src={imageBackground} alt="Army Image"
-   mx="auto" 
-   h={700}
-   w="auto"
+   h={{ base: 500, md: 700, lg: 700, xl: 700 }}
    fit="contain"
 />
 </FadeInSection>
+
+
 </Grid.Col>
 
 </Grid>
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
-{/* Background End */}
+
+{/* Background End*/}
+
 
 <Space h="xl" />
 
 {/* Solution Start*/}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
+<ContainerOne>
 
 
 <SimpleGrid
@@ -113,8 +115,8 @@ height={500}
 
 <Space h="md" />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Solution End*/}
@@ -125,14 +127,7 @@ height={500}
 
 
  {/* Research */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+ <ContainerOne>
 
 <SubTitle SubTitle="Research"></SubTitle>
 
@@ -145,22 +140,22 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
     >
       <div>
       <Space h="sm" />
-      <Title tt="uppercase" fw={500} order={3} c="">Research Findings</Title>
+      <SubTitleH3 SubTitleH3="Research Findings"></SubTitleH3>
       <Space h="md" />
       <FadeInBoxesFindings1 />
       </div>
 
       <div>
       <Space h="sm" />
-      <Title tt="uppercase" fw={500} order={3} c="">Impact on Development</Title>
+      <SubTitleH3 SubTitleH3="Impact on Development"></SubTitleH3>
       <Space h="md" />
       <FadeInBoxesImpact1 />
       </div>
       
  </SimpleGrid>
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Research  End */}
@@ -171,14 +166,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 
  {/* Wireframes */}
- <Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+ <ContainerOne>
 
 <SubTitle SubTitle="Design Process"></SubTitle>
 
@@ -186,8 +174,8 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 
 <ACSSlide />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Wireframes  End */}
@@ -196,40 +184,33 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 <Space h="xl" />
 
  {/* Polished */}
- <Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
->
+ <ContainerOne>
 
 <SubTitle SubTitle="Prototyping"></SubTitle>
 
 <p>Afterwards, I crafted high-fidelity mock-ups to offer a more precise portrayal of the parents area. This enabled everyone involved to grasp its appearance and functionality better, while also pinpointing any potential issues prior to diving into the software development phase.</p>
 
-<Title order={3} fw={500} ta="center" tt="uppercase">Cobham</Title>
+<SubTitleH3 SubTitleH3="Cobham"></SubTitleH3>
 <Space h="sm" />
 <FlipInView image={FlipImage1} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
 <Space h="xl" />
 
-<Title order={3} fw={500} ta="center" tt="uppercase">Hillingdon</Title>
+<SubTitleH3 SubTitleH3="Hillingdon"></SubTitleH3>
 <Space h="sm" />
 <FlipInView image={FlipImage2} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
 <Space h="xl" />
 
-<Title order={3} fw={500} ta="center" tt="uppercase">Egham</Title>
+<SubTitleH3 SubTitleH3="Egham"></SubTitleH3>
 <Space h="sm" />
 <FlipInView image={FlipImage3} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
 <Space h="xl" />
 
-<Title order={3} fw={500} ta="center" tt="uppercase">Doha</Title>
+<SubTitleH3 SubTitleH3="Doha"></SubTitleH3>
 <Space h="sm" />
 <FlipInView image={FlipImage4} duration = {0.25} ease ='easeInOut' rotate={25} delay={0.25} padding = '0 0 63% 0' />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Polished End */}
@@ -237,22 +218,15 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '100px' }}
 <Space h="xl" />
 
 {/* Testing */}
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="TESTING"></SubTitle>
 
 
 <ArmyRings />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Testing End */}
@@ -263,23 +237,15 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 {/* Conclusion */}
 
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
-pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
->
-
+<ContainerOne>
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
 <p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 {/* Conclusion End */}
@@ -288,7 +254,7 @@ pb={{ base: '20px', sm: '40px', md: '50px', lg: '40px' }}
 
 {/* Testimonial*/}
 
-<Card shadow="xl" padding="xl" radius=""  className='theme90'>
+<ContainerOne>
 
 <Image style={{ display: 'block', margin: 'auto'}}
 
@@ -299,17 +265,18 @@ w="100"
 fit="contain"
 src={require('../images/stven1.jpeg')}
 />
+
+
 <Space h="md" />
-<Title order={3} fw={500} ta="center" tt="uppercase">Steven Cliff</Title>
+<SubTitleH3 SubTitleH3="Steven Cliff"></SubTitleH3>
 <Space h="md" />
 <Title order={4} fw={500} ta="center">  Head of IT - ACS International Schools Ltd</Title>
 
 
-
-<Text size="xl" mt="sm" c="dimmed" ta="center">
-Ketan initially joined us in a contract role but quickly became a permanent member of the team. He was instrumental in refreshing our Intranet and Website. He developed strong relationships with key stakeholders and was always willing to go the extra mile.
+<Text ta="center">
+<p>Ketan initially joined us in a contract role but quickly became a permanent member of the team. He was instrumental in refreshing our Intranet and Website. He developed strong relationships with key stakeholders and was always willing to go the extra mile.</p>
 </Text>
-</Card>
+</ContainerOne>
 <Divider my="" />
 
 {/* Testimonial End*/}

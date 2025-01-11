@@ -27,11 +27,13 @@ return (
 
 <>
 
+<Image src={imageSub} alt="Virgin Image" />
+
 <HeroVirgin />
 
 <Container size="xl" mb= "md">
 
-<Image src={imageSub} alt="Virgin Image" />
+
 
 
 

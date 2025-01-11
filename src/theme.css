@@ -66,7 +66,8 @@ p {
   }
 
   .imageAbout {
-    width: 40% !important;
+    width: 60% !important;
+    margin-bottom: 20px !important;
   }
 
 }
@@ -139,6 +140,11 @@ p {
   &:hover {
     background-color: #0b7285 !important;
   }
+}
+
+
+.acsback {
+  background-color: #5B8A35 !important;
 }
 
 

@@ -44,7 +44,9 @@ const Boxes = ({ index, text }) => (
         }}
 
       >
-        <Card className='theme100' shadow="sm" padding="lg" radius="md" withBorder >
+        <Card className='theme100' shadow="sm"
+        p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }}
+        radius="md" withBorder >
         {text}
         </Card>
 

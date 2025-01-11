@@ -4,6 +4,7 @@ import { Container, Space, Divider, Grid, Image, Box, Card } from '@mantine/core
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
+import ContainerOne from '../components/ContainerOne';
 
 
 const HomePage = () => {
@@ -18,13 +19,8 @@ return (
 
 <Container size="xl" mb= "md">
 
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
+<ContainerOne>
+
 <Grid columns={12} gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
 
 <Grid.Col span={{ base: 12, md: 3, lg: 3, xl: 3 }}>
@@ -50,20 +46,13 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 </Grid.Col>
 
 </Grid>
-</Container>
-</Card>
+</ContainerOne>
 
 <Divider my="" />
 
 <Space h="xl" />
 
-<Card shadow="xl" padding="" radius="">
-<Container
-size="xl"
-className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
->
+<ContainerOne>
 
 <SubTitle SubTitle="CASE STUDIES"></SubTitle>
 
@@ -71,8 +60,8 @@ pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
 
 <Gcards />
 
-</Container>
-</Card>
+</ContainerOne>
+
 <Divider my="" />
 
 <Space h={{ base: "sm", lg: "xl" }}/>
