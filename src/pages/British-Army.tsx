@@ -39,7 +39,9 @@ return (
 
 <>
 
-
+<Paper shadow="xl" hiddenFrom="sm" >
+<Image src={imageSub} alt="Army Image" />
+</Paper>
 
 
 <HeroArmy />
@@ -49,7 +51,7 @@ return (
 <Container size="xl" mb= "md">
 
 
-<Paper shadow="xl">
+<Paper shadow="xl" visibleFrom="sm" >
 <Image src={imageSub} alt="Army Image" />
 </Paper>
 

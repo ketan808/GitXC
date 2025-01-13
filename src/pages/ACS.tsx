@@ -31,12 +31,15 @@ return (
 <>
 
 
+<Paper shadow="xl" hiddenFrom="sm">
+<Image src={imageSub} alt="ACS Image" />
+</Paper>
 
 <HeroACS />
 
 <Container size="xl" mb= "md">
 
-<Paper shadow="xl">
+<Paper shadow="xl" visibleFrom="sm">
 <Image src={imageSub} alt="ACS Image" />
 </Paper>
 

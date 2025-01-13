@@ -7,7 +7,6 @@ import imageSub from '../images/vm/vm_subheader.png';
 import ImageFadeIn from '../inViewUI/FadeInImages';
 import FlipInView from '../inViewUI/Flip';
 import FlipImage1 from '../images/vm/vm_swim1.png';
-import FlipImage2 from '../images/vm/hub.jpg';
 import FlipImage3 from '../images/vm/sport.jpg';
 import Next from '../components/Next';
 import SubTitle from '../components/SubTitle';
@@ -26,13 +25,16 @@ return (
 
 <>
 
+<Paper shadow="xl" hiddenFrom="sm" >
+<Image src={imageSub} alt="Virgin Image" />
+</Paper>
 
 
 <HeroVirgin />
 
 <Container size="xl" mb= "md">
 
-<Paper shadow="xl">
+<Paper shadow="xl" visibleFrom="sm" >
 <Image src={imageSub} alt="Virgin Image" />
 </Paper>
 

@@ -23,7 +23,9 @@ return (
     
 <Anchor href={linkPrevious} underline="never" style={{  display: colDisplay }}>
 <Card className='next cardNext' shadow="sm" padding="lg" radius="md"  color="cyan" withBorder>
-<Box mt='-6px' className="iconLeft"><IconArrowLeft color="white" size="1.6rem" stroke={1.5} /></Box>
+
+<Box visibleFrom="sm" mt='-6px' className="iconLeft"><IconArrowLeft color="white" size="1.6rem" stroke={1.5} /></Box>
+
 <Title fw={700} order={4} c="white" ta="right" >PREVIOUS</Title>
 <Title fw={500} order={4} c="white" ta="right">{textPrevious}</Title>
 </Card>
@@ -32,7 +34,9 @@ return (
 
 <Anchor  href={linkNext} underline="never">
 <Card className='next cardNext' shadow="sm" padding="lg" radius="md" withBorder>
-<Box mt='-6px' className="iconRight"><IconArrowRight color="white"  size="1.6rem" stroke={1.5} /></Box>
+
+<Box visibleFrom="sm" mt='-6px' className="iconRight"><IconArrowRight color="white"  size="1.6rem" stroke={1.5} /></Box>
+
 <Title fw={700} order={4} c="white" ta="left" >NEXT</Title>
 <Title fw={500} order={4} c="white" ta="left">{textNext}</Title>
 </Card>

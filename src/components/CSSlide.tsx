@@ -5,7 +5,11 @@ import classes from './CSSlideButton.module.css';
 
 function CSSlide() {
   return (
-    <Carousel slideSize="75%" height="80%" slideGap="xl" classNames={classes} loop>
+    <Carousel 
+    
+    slideSize={{ base: '100%', sm: '100%', md: '100%', lg: '78%' }}
+    
+    height="80%" slideGap="xl" classNames={classes} loop>
 
 
 <Carousel.Slide>
