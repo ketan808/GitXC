@@ -1,6 +1,6 @@
 import Gcards from '../inViewUI/Gcards';
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Space, Divider, Grid, Image, Box, Card } from '@mantine/core';
+import { Container, Space, Divider, Grid, Image, Box } from '@mantine/core';
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
@@ -31,7 +31,7 @@ return (
 <Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
 
 <Box darkHidden mt='5px' mb='5px'>
-<Image style={{ backgroundColor:'white', border:'5px solid #e4e7ec', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
+<Image style={{ backgroundColor:'white', border:'5px solid #E1EEEF', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
 
 
 </FadeInSection>
@@ -64,17 +64,11 @@ return (
 
 <Divider my="" />
 
-<Space h={{ base: "sm", lg: "xl" }}/>
-
-
-<SubTitle SubTitle="TESTIMONIALS"></SubTitle>
-
-
 <Space h="xl" />
 
 
-<Testimonials initialSlide={0}  />
-
+<Testimonials initialSlide={3}  />
+<Divider my="" />
 <Space h="xl" />
 <Space h="xl" />
 <Space h="xl" />

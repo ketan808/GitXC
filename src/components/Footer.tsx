@@ -28,7 +28,7 @@ const Footer = () => {
 
 <Grid.Col span="content">
 <a href="https://www.framer.com/motion/" target="blank">
-<Image style={{ display: 'block', marginLeft: 'auto'}} h={40} w="40" src={require('../images/framer-motion.png')} />
+<Image style={{ display: 'block', marginLeft: 'auto'}} h={40} w="40" src={require('../images/motion.png')} />
 </a>
 
 </Grid.Col>

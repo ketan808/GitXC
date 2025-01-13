@@ -1,4 +1,5 @@
-import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, Text } from '@mantine/core';
+import { Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
+import { IconChevronsRight} from '@tabler/icons-react';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
 import imageSub from '../images/army/sub_header.jpg';
@@ -23,6 +24,7 @@ import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import ArmySlideTwo from '../components/ArmySlideTwo';
 import ArmyRings from '../components/ArmyRings';
 import ContainerOne from '../components/ContainerOne';
+import Testimonials from '../components/TestimonialSlide';
 
 
 
@@ -37,15 +39,20 @@ return (
 
 <>
 
-<Paper shadow="xl">
-<Image src={imageSub} alt="Army Image" />
-</Paper>
+
 
 
 <HeroArmy />
 
 
+
 <Container size="xl" mb= "md">
+
+
+<Paper shadow="xl">
+<Image src={imageSub} alt="Army Image" />
+</Paper>
+
 
 
 {/* Background Start */}
@@ -66,11 +73,25 @@ return (
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
 
 
-<List size="xl" ><p>
+<List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
+
+<p>
       <List.Item>30% of trainees leave during basic training, but that figure can fluctuate from year to year.</List.Item>
       <List.Item>Course data is spread across multiple applications and sources, posing a challenge to use effectively.</List.Item>
       <List.Item>The process of collecting course data and creating final reports consumes an excessive amount of paper.</List.Item>
-      </p></List>
+      </p>
+</List>
+
 
 
 </Grid.Col>
@@ -158,6 +179,7 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 
 <Image src={team} alt="Team"lightHidden/>
 <Image src={teamLight} alt="Team" darkHidden/>
+
 
 
 </Container>
@@ -471,33 +493,8 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 <Space h="xl" />
 
-{/* Testimonial*/}
 
-<ContainerOne>
-
-<Image style={{ display: 'block', margin: 'auto'}}
-
-radius="md"
-h={100}
-ta="center"
-w="100"
-fit="contain"
-src={require('../images/emma.jpg')}
-/>
-<Space h="md" />
-<SubTitleH3 SubTitleH3="Emma Greenwood"></SubTitleH3>
-<Space h="md" />
-<Title order={4} fw={500} ta="center">Critical Thinker & Transformation Leader - UK Ministry of Defence</Title>
-
-
-
-<Text ta="center">
-<p>Ketan brought the visual wow factor to our Army app. His design helped us to engage stakeholders and maintain their enthusiasm. Willing to go the extra mile to meet deadlines and fast balls, Ketan was a valued and well liked member of the team. I would recommend him.</p>
-</Text>
-</ContainerOne>
-<Divider my="" />
-
-{/* Testimonial End*/}
+<Testimonials initialSlide={4}  />
 
 
 <Space h="xl" />

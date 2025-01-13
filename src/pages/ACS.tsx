@@ -1,5 +1,6 @@
 import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Title, Space, Divider, SimpleGrid, List, Image, Grid, Text, Paper} from '@mantine/core';
+import { Container, Space, Divider, SimpleGrid, List, Image, Grid, Paper, ThemeIcon, rem} from '@mantine/core';
+import { IconChevronsRight} from '@tabler/icons-react';
 import HeroACS from '../components/HeroACS';
 import imageSub from '../images/acs/acs_subheader1.jpg';
 import SubTitle from '../components/SubTitle';
@@ -15,8 +16,9 @@ import FlipImage2 from '../images/acs/hillingdon.png';
 import FlipImage3 from '../images/acs/egham.png';
 import FlipImage4 from '../images/acs/doha.png';
 import Next from '../components/Next';
-import ArmyRings from '../components/ArmyRings';
+import ACSRings from '../components/ACSRings';
 import ContainerOne from '../components/ContainerOne';
+import Testimonials from '../components/TestimonialSlide';
 
 
 
@@ -27,21 +29,23 @@ function ACS () {
 return (
 
 <>
-<Paper shadow="xl">
-<Image src={imageSub} alt="ACS Image" />
-</Paper>
+
 
 
 <HeroACS />
 
 <Container size="xl" mb= "md">
 
+<Paper shadow="xl">
+<Image src={imageSub} alt="ACS Image" />
+</Paper>
+
 
 {/* Background Start */}
 
 
 <ContainerOne>
-<Grid>
+<Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
 
 <Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }} >
 
@@ -55,13 +59,26 @@ return (
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
 
 
-<List size="xl">
+<List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
 
 <p><List.Item>Huge pressure on staff and stakeholders to make the intranet usable accross four schools.</List.Item>
       <List.Item>Stressful to find useful information such as calendars, latest news, payment systems, staff directories.</List.Item>
       <List.Item>Lots of complaints, notably from parents.</List.Item>
  </p>
 </List>
+
+
+
 
 </Grid.Col>
 
@@ -223,7 +240,7 @@ height={500}
 <SubTitle SubTitle="TESTING"></SubTitle>
 
 
-<ArmyRings />
+<ACSRings />
 
 </ContainerOne>
 
@@ -241,8 +258,8 @@ height={500}
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
-<p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
-<p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
+<p>My work received widespread acclaim amongst staff and parents for the transformation of the Intranet and VLEs user experience. The work was set apart from other historical development, and as a result I accepted a full-time role with ACS. </p>
+<p>Working with stakeholders, I continued my design efforts across the intranet and prioritised keeping the user at the forefront of the overall experience.</p>
 
 </ContainerOne>
 
@@ -252,36 +269,7 @@ height={500}
 
 <Space h="xl" />
 
-{/* Testimonial*/}
-
-<ContainerOne>
-
-<Image style={{ display: 'block', margin: 'auto'}}
-
-radius="md"
-h={100}
-ta="center"
-w="100"
-fit="contain"
-src={require('../images/stven1.jpeg')}
-/>
-
-
-<Space h="md" />
-<SubTitleH3 SubTitleH3="Steven Cliff"></SubTitleH3>
-<Space h="md" />
-<Title order={4} fw={500} ta="center">  Head of IT - ACS International Schools Ltd</Title>
-
-
-<Text ta="center">
-<p>Ketan initially joined us in a contract role but quickly became a permanent member of the team. He was instrumental in refreshing our Intranet and Website. He developed strong relationships with key stakeholders and was always willing to go the extra mile.</p>
-</Text>
-</ContainerOne>
-<Divider my="" />
-
-{/* Testimonial End*/}
-
-
+<Testimonials initialSlide={1}  />
 
 
 <Space h="xl" />
