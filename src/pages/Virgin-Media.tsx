@@ -159,9 +159,9 @@ return (
       
    >
 <p>
-      <List.Item>Copywriters would create SEO copy</List.Item>
-      <List.Item>Designers would use copy to design pages in Sketch and upload to Zeplin</List.Item>
-      <List.Item>Editors would get pages from Zeplin and develop them inside the CMS</List.Item>
+      <List.Item>Copywriters would create SEO copy.</List.Item>
+      <List.Item>Designers would use copy to design pages in Sketch and upload to Zeplin.</List.Item>
+      <List.Item>Editors would get pages from Zeplin and develop them inside the CMS.</List.Item>
       <List.Item>Product managers would check and sign off throughout the process.</List.Item>
       </p>
 </List>

@@ -31,7 +31,7 @@ return (
 <Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
 
 <Box darkHidden mt='5px' mb='5px'>
-<Image style={{ backgroundColor:'white', border:'5px solid #E1EEEF', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
+<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid #E1EEEF', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
 
 
 </FadeInSection>

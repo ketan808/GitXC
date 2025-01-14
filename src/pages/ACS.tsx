@@ -118,10 +118,9 @@ spacing="xl"
 
 <div>
 <SubTitle SubTitle="SOLUTION"></SubTitle>
-<p>The rebuild would be a huge project, but like any problem, start small, build a foundation and work your way up.</p>
-<p>Work with project managers and school leaders, keeping the user at the forefront of the overall experience.</p>
+<p>The rebuild would be a huge project, but like any large problem, I started small, designed a strong foundation, and worked my way up.</p>
 <p>I decided to start with the parents area for just one school, because once I got that right, this would win trust throughout the organisation, which was fragile, and, with the lessons learnt, I could move to other areas and schools more effectively.</p>
-
+<p>Working with project managers and school leaders, I kept the users at the forefront of the overall experience.</p>
 </div>
 
 
