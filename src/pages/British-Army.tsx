@@ -312,7 +312,7 @@ verticalSpacing="xl"
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>Trainers can upload images and notes for trainees to view during courses inside their own control panels; this would help them stay motivated. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, and Excel sheets.</p>
+<p>Trainers can upload images and notes for trainees to view during courses inside their own control panels; this would create strong communication during courses. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
 
 <Container
 size="xl"
