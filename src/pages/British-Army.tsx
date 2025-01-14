@@ -323,7 +323,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 >
 
-<VidComp src="video/evidence.mp4" />
+<VidComp src="video/trainer_dash.mp4" />
 </Container>
 
 <p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
