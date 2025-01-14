@@ -23,13 +23,6 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <SubTitleH3 SubTitleH3="Physical Fitness Scores"></SubTitleH3>
-    <Space h="lg" />
-    <Image src={require('../images/army/fitness.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
     <SubTitleH3 SubTitleH3="Overall Course Dashboard"></SubTitleH3>
     <Space h="lg" />
     <Image src={require('../images/army/dashboard.png')}/>
@@ -56,6 +49,13 @@ function ArmySlide() {
     <Space h="lg" />
     <Image src={require('../images/army/builder.png')}/>
     </Carousel.Slide>
+
+    <Carousel.Slide>
+    <SubTitleH3 SubTitleH3="Physical Fitness Scores"></SubTitleH3>
+    <Space h="lg" />
+    <Image src={require('../images/army/fitness.png')}/>
+    </Carousel.Slide>
+
 
     <Carousel.Slide>
     <SubTitleH3 SubTitleH3="Logo"></SubTitleH3>
