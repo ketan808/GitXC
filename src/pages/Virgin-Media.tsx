@@ -219,7 +219,7 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
-<p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive. Significant improvements in keyword rankings coincided with a surge in product sales.</p>
+<p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive with significant improvements in keyword rankings.</p>
 <p>The successes underscored the effectiveness of the search engine optimisation strategies, validating the significance of everyone's efforts, including my role in enhancing both visibility and commercial outcomes.</p>
 
 </ContainerOne>
