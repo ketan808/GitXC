@@ -22,7 +22,7 @@ const ImageAnimation = () => {
         ref={ref1}
         src={image1}
         alt="Image 1"
-        initial={{ scale: 1.2, y:180  }}
+        initial={{ scale: 2, y:180  }}
         animate={{ scale: inView1 ? 1.2 : 1, y: inView1 ? 1 : 1}}
         transition={{ duration: 0.5, ease: 'easeInOut', }}
         className="imageOne imagePos"

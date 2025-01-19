@@ -61,20 +61,6 @@ color: #2AB2ED;
 
 }
 
-@media screen and (max-width: 64em) { 
-
-
-  .card-image {
-    height: 250px;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 10px;
-  
-  }
-
-
-}
-
 
 
   
@@ -107,19 +93,19 @@ overflow: hidden;
 .imageOne {
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 4;
 }
 
 .imageTwo {
   width: 300px;
   height: auto;
-  z-index: 2;
+  z-index: 3;
 }
 
 .imageThree {
   width: 300px;
   height: auto;
-  z-index: 1;
+  z-index: 2;
 }
 
 
@@ -139,3 +125,21 @@ overflow: hidden;
 }
 
 
+
+
+
+@media screen and (max-width: 64em) { 
+
+
+  .card-image {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  
+  }
+
+
+
+
+}
