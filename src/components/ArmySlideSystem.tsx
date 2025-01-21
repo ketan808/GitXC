@@ -15,17 +15,10 @@ function ArmySlideSystem() {
     height="80%" slideGap="xl" classNames={classes} loop>
 
 
-    <Carousel.Slide>
-    <SubTitleH3 SubTitleH3="Task Header Component"></SubTitleH3>
+<Carousel.Slide>
+    <SubTitleH3 SubTitleH3="Colour Palette"></SubTitleH3>
     <Space h="lg" />
-    <Image src={require('../images/army/task.png')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <SubTitleH3 SubTitleH3="Button Component"></SubTitleH3>
-    <Space h="lg" />
-    <Image src={require('../images/army/button.png')}/>
+    <Image src={require('../images/army/fill.png')}/>
     </Carousel.Slide>
 
 
@@ -38,10 +31,19 @@ function ArmySlideSystem() {
 
 
     <Carousel.Slide>
-    <SubTitleH3 SubTitleH3="Colour Palette"></SubTitleH3>
+    <SubTitleH3 SubTitleH3="Button Component"></SubTitleH3>
     <Space h="lg" />
-    <Image src={require('../images/army/fill.png')}/>
+    <Image src={require('../images/army/button.png')}/>
     </Carousel.Slide>
+
+
+
+    <Carousel.Slide>
+    <SubTitleH3 SubTitleH3="Task Header Component"></SubTitleH3>
+    <Space h="lg" />
+    <Image src={require('../images/army/task.png')}/>
+    </Carousel.Slide>
+
 
 
 
