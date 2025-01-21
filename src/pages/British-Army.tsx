@@ -337,8 +337,25 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 {/* Course Evidence End*/}
 
 
-<Space h="xl" />
 
+
+
+
+{/* Testing */}
+<ContainerOne>
+
+<SubTitle SubTitle="Lean UX Testing"></SubTitle>
+
+<p>A usability test was conducted for the purpose of finding improvements, testing the concept, and revealing friction points for the course evidence feature. 10 user participants (trainers) were recruited, and the majority understood why the feature was needed.</p>
+
+<ArmyRings />
+
+</ContainerOne>
+<Divider my="" />
+
+{/* Testing End */}
+
+<Space h="xl" />
 
 {/*TRAINEE WELLBEING DATA*/}
 
@@ -479,20 +496,6 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 {/* Other End */}
 
 
-<Space h="xl" />
-
-{/* Testing */}
-<ContainerOne>
-
-<SubTitle SubTitle="TESTING"></SubTitle>
-
-
-<ArmyRings />
-
-</ContainerOne>
-<Divider my="" />
-
-{/* Tesing End */}
 
 
 
