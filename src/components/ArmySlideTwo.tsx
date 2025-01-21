@@ -38,7 +38,7 @@ function ArmySlide() {
 
 
     <Carousel.Slide>
-    <SubTitleH3 SubTitleH3="Wellbeing Staistics"></SubTitleH3>
+    <SubTitleH3 SubTitleH3="Wellbeing Statistics"></SubTitleH3>
     <Space h="lg" />
     <Image src={require('../images/army/well.png')}/>
     </Carousel.Slide>
