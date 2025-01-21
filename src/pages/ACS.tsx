@@ -239,7 +239,7 @@ height={500}
 {/* Testing */}
 <ContainerOne>
 
-<SubTitle SubTitle="TESTING"></SubTitle>
+<SubTitle SubTitle="Results"></SubTitle>
 
 
 <ACSRings />
