@@ -98,7 +98,6 @@ function MainMenu() {
 
 
 
-
 <Divider size={2} my="md" label="REACH OUT" labelPosition="left" style={{ margin: '15px' }} />
 
 

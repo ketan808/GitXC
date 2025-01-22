@@ -16,8 +16,6 @@ import ideate from '../images/army/Ideate.png';
 import design from '../images/army/design.png';
 import test from '../images/army/test.png';
 import dev from '../images/army/dev.png';
-import designSystem from '../images/army/designSystem.png';
-import designSystemLight from '../images/army/designSystemLight.png';
 import apple from '../images/army/apple.png';
 import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';

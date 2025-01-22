@@ -4,6 +4,13 @@ import HeroMisc from '../components/HeroMisc';
 import ImageFadeIn from '../inViewUI/FadeInImages';
 import Next from '../components/Next';
 import VidComp from '../components/Video';
+import image1 from '../images/misc/nv1.jpg';
+import image2 from '../images/misc/nv2.jpg';
+import image3 from '../images/misc/fight.jpg';
+import image4 from '../images/misc/ce.jpg';
+import image5 from '../images/misc/acs.jpg';
+import image6 from '../images/misc/free1.png';
+import image7 from '../images/posterMob.jpg';
 
 
 
@@ -62,7 +69,7 @@ return (
 
 <Space h="md" />
 
-
+<ImageFadeIn src1={image3} src2={image4} />
 
 <Space h="xl" />
 <Divider my="md" />
@@ -98,7 +105,7 @@ View
 
 <Space h="md" />
 
-
+<ImageFadeIn src1={image1} src2={image2} />
 
 <Space h="xl" />
 <Divider my="md" />
@@ -119,7 +126,7 @@ View
 <Title fw={500} order={2} c="grape">Photoshop and Illustrator</Title>
 <p>Posters designed for Crystal Ski and ACS International Schools.</p>
 <Space h="md" />
-
+<ImageFadeIn src1={image6} src2={image5} />
 </FadeInSection>
 
 <Space h="xl" />
