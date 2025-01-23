@@ -230,7 +230,38 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 
 {/* Research  End */}
 
+
 <Space h="xl" />
+
+{/* Course Evidence Start*/}
+<ContainerOne>
+
+<SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
+
+<p>Trainers can upload images and notes for trainees to view inside their own control panels; this would create strong communication during courses. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
+<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
+
+<Container
+size="xl"
+pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
+pt={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
+pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
+
+>
+
+<VidComp src="video/trainer_dash.mp4" />
+</Container>
+
+
+</ContainerOne>
+
+<Divider my="" />
+
+{/* Course Evidence End*/}
+
+<Space h="xl" />
+
 
 {/* Design Process Start */}
 <ContainerOne>
@@ -304,39 +335,6 @@ verticalSpacing="xl"
 
 <Divider my="" /> 
 {/* Design Process End*/}
-
-<Space h="xl" />
-
-{/* Course Evidence Start*/}
-<ContainerOne>
-
-<SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
-
-<p>Trainers can upload images and notes for trainees to view inside their own control panels; this would create strong communication during courses. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
-<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
-
-<Container
-size="xl"
-pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pt={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
-pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
-
->
-
-<VidComp src="video/trainer_dash.mp4" />
-</Container>
-
-
-</ContainerOne>
-
-<Divider my="" />
-
-{/* Course Evidence End*/}
-
-
-
-
 
 
 {/* Testing */}
