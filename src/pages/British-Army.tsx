@@ -11,6 +11,8 @@ import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
 import SubTitleH3 from '../components/SubTitleH3';
+import designSystem from '../images/army/designSystem.png';
+import designSystemLight from '../images/army/designSystemLight.png';
 import define from '../images/army/define.png';
 import ideate from '../images/army/Ideate.png';
 import design from '../images/army/design.png';
@@ -21,7 +23,6 @@ import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import ArmySlideTwo from '../components/ArmySlideTwo';
-import ArmySlideSystem from '../components/ArmySlideSystem';
 import ArmyRings from '../components/ArmyRings';
 import ContainerOne from '../components/ContainerOne';
 import Testimonials from '../components/TestimonialSlide';
@@ -260,6 +261,22 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 {/* Course Evidence End*/}
 
+
+
+{/* Testing */}
+<ContainerOne>
+
+<SubTitle SubTitle="Lean UX Testing"></SubTitle>
+
+<p>A usability test was conducted for the purpose of finding improvements, testing the concept, and revealing friction points for the course evidence feature. 10 user participants (trainers) were recruited, and the majority understood why the feature was needed.</p>
+
+<ArmyRings />
+
+</ContainerOne>
+<Divider my="" />
+
+{/* Testing End */}
+
 <Space h="xl" />
 
 
@@ -337,19 +354,7 @@ verticalSpacing="xl"
 {/* Design Process End*/}
 
 
-{/* Testing */}
-<ContainerOne>
 
-<SubTitle SubTitle="Lean UX Testing"></SubTitle>
-
-<p>A usability test was conducted for the purpose of finding improvements, testing the concept, and revealing friction points for the course evidence feature. 10 user participants (trainers) were recruited, and the majority understood why the feature was needed.</p>
-
-<ArmyRings />
-
-</ContainerOne>
-<Divider my="" />
-
-{/* Testing End */}
 
 <Space h="xl" />
 
@@ -433,11 +438,11 @@ pb={{ base: '40px', sm: '40px', md: '40px', lg: '40px' }}
 <Space h="md" />
 
 
-{/* <Image src={designSystem} alt="Design System" lightHidden/>
+<Image src={designSystem} alt="Design System" lightHidden/>
 <Image src={designSystemLight} alt="Design System" darkHidden/>
- */}
 
-<ArmySlideSystem />
+
+
 
 <Space h="md" />
 
