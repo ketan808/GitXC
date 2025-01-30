@@ -41,8 +41,8 @@ return (
 <Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
    
 <SubTitle SubTitle="About"></SubTitle>
-<p>I've been designing and expanding my toolkit for over 20 years with a passion for creating visually appealing interfaces. Over the years, it has evolved into a comprehensive understanding of user behavior.</p>
-<p>I love working across the full spectrum of product design, from research through to UI and implementation, and get a tonne of energy from working on seriously impactful work.</p>
+<p>I have been designing and refining my toolkit for over 20 years, driven by a passion for creating visually compelling interfaces. Throughout this journey, I have developed a deep understanding of user behaviour and interaction.</p>
+<p>My expertise spans the entire product design lifecycle, from research and conceptualisation to UI design and implementation. I thrive on working on high-impact projects and find great energy in delivering meaningful, user-centred solutions.</p>
 </Grid.Col>
 
 </Grid>

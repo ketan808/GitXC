@@ -239,7 +239,7 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>Trainers can upload images and notes for trainees to view inside their own control panels; this would create strong communication during courses. Later, trainers could use the evidence to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
+<p>Trainers can upload images and notes for trainees to view inside their own control panels; trainers could use the evidence later to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
 <p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
 
 <Container
