@@ -137,7 +137,7 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 <SubTitle SubTitle="SOLUTION"></SubTitle>
 <p>MyTraining tracks trainees' progress during courses, which enables course trainers to know when to intervene if trainees are facing difficulties thereby helping to cut the dropout rate.</p>
 <p>Combining course information into a single application provides the Army with valuable data to help enhance their training methods.</p>
-<p>The application digitised the Army's process of creating their final course reports, which ultimately led to the achievement of their sustainability goals.</p>
+<p>The application digitised the process of creating final course reports, which helped with sustainability goals.</p>
 
 </div>
 
