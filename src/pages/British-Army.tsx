@@ -69,8 +69,8 @@ return (
 
 <SubTitle SubTitle="BACKGROUND"></SubTitle>
 
-<p>The British Army has a vast number of diverse courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions they are training to be the best soldiers they can be.</p>
-<p>MyTraining is an application for collecting course performance data and tracking well-being. Trainers can effectively monitor trainees by viewing their inputted data, adding scores, and creating final reports.</p>
+<p>The British Army has a vast number of courses ranging from combat and tactical skills to medical training, if there not on peacekeeping missions they are training to be the best soldiers they can be.</p>
+<p>MyTraining is an application for collecting course performance and well-being data. Course trainers can effectively monitor course trainees by viewing their inputted data, further adding scores, and creating final reports.</p>
 
 
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
@@ -135,9 +135,9 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <div>
 <SubTitle SubTitle="SOLUTION"></SubTitle>
-<p>MyTraining tracked trainees' progress during courses, which enabled course trainers to know when to intervene if trainees were facing difficulties thereby helping to cut the dropout rate.</p>
-<p>Combining course information into a single application provided the Army with valuable data to help enhance their training methods.</p>
-<p>The application digitized the Army's process of creating their final course reports, which ultimately led to the achievement of their sustainability goals.</p>
+<p>MyTraining tracks trainees' progress during courses, which enables course trainers to know when to intervene if trainees are facing difficulties thereby helping to cut the dropout rate.</p>
+<p>Combining course information into a single application provides the Army with valuable data to help enhance their training methods.</p>
+<p>The application digitised the Army's process of creating their final course reports, which ultimately led to the achievement of their sustainability goals.</p>
 
 </div>
 
@@ -167,7 +167,7 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <SubTitle SubTitle="MY ROLE"></SubTitle>
 
-<p>We will be operating within an agile development environment, ensuring rapid progress and working towards a minimum viable product. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
+<p>We operated within an agile development environment, ensuring rapid progress while working towards a minimum viable product. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
 <p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
 <Space h="md" />
 
@@ -240,7 +240,8 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
 <p>Trainers can upload images and notes for trainees to view inside their own control panels; trainers could use the evidence later to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
-<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
+<p>I started the process by crafting low-fidelity wireframes. Through iterative cycles, I refined these wireframes based on stakeholder and user group feedback, and following this, I advanced to high-fidelity layouts and interactive prototypes.</p>
+
 
 <Container
 size="xl"
@@ -253,6 +254,8 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 <VidComp src="video/trainer_dash.mp4" />
 </Container>
+
+<p>Presenting prototypes to the wider Army sparked enthusiasm, as trainers could see how this feature would be a valuable tool to help create final course reports and keep trainees motivated during courses.</p>
 
 
 </ContainerOne>
@@ -365,7 +368,7 @@ verticalSpacing="xl"
 
 <SubTitle SubTitle="GATHERING TRAINEE WELLBEING DATA"></SubTitle>
 
-<p>Trainees would input wellbeing data during courses, and this would help trainers see how they are progressing so they could encourage or intervene if help is needed.</p>
+<p>Trainees can input wellbeing data during courses, and this would help trainers see how they are progressing so they could encourage or intervene if help is needed.</p>
 {/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
 
 
@@ -509,7 +512,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
-<p>The introduction of the MyTraining application has digitised and revolutionised how course data is managed within the British Army. The Ministry of Defence also rolled out trials for the Royal Navy and Royal Air Force.</p>
+<p>The introduction of the MyTraining application has digitised how course data is managed within the British Army. The Ministry of Defence also rolled out successful trials for the Royal Navy and Royal Air Force.</p>
 <p>The Agile approach allowed us to continuously engage with users, adapt to their feedback, and make rapid improvements, ensuring that the product is both functional and intuitive.</p>
 
 </ContainerOne>
