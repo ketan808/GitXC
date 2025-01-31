@@ -240,7 +240,7 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
 <p>Trainers can upload images and notes for trainees to view inside their own control panels; trainers could use the evidence later to create final course reports, which were being done using methods such as paper, clipboard, Excel sheets, and various apps.</p>
-<p>I started the process by crafting low-fidelity wireframes. Through iterative cycles, I refined these wireframes based on stakeholder and user group feedback, and following this, I advanced to high-fidelity layouts and interactive prototypes.</p>
+<p>I started the process by crafting low-fidelity wireframes; through iterative cycles, I refined these wireframes based on stakeholder and user group feedback, and following this, I advanced to high-fidelity layouts and interactive prototypes.</p>
 
 
 <Container
