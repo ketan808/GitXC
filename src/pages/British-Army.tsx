@@ -135,7 +135,7 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <div>
 <SubTitle SubTitle="SOLUTION"></SubTitle>
-<p>MyTraining tracks trainees' progress during courses, which enables course trainers to know when to intervene if trainees are facing difficulties thereby helping to cut the dropout rate.</p>
+<p>MyTraining tracks trainees' progress and well-being during courses, which enables course trainers to know when to intervene if trainees are facing difficulties thereby helping to cut the dropout rate.</p>
 <p>Combining course information into a single application provided valuable data to help enhance training methods.</p>
 <p>The application digitised the process of creating final course reports, which helped with sustainability goals.</p>
 
