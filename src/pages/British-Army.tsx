@@ -5,7 +5,7 @@ import FadeInSection from '../inViewUI/FadeInSection';
 import imageSub from '../images/army/sub_header.jpg';
 import team from '../images/army/team.png';
 import teamLight from '../images/army/teamLight.png';
-import imageProb3 from '../images/army/problem1.jpg';
+import imageProb3 from '../images/army/sold.png';
 import imageProb4 from '../inViewUI/images/well-mob.png';
 import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
@@ -142,10 +142,11 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 </div>
 
 
+
 <div>
-<Image src={imageProb3} alt="Army Image"
-   h={{ base: 300, md: 500, lg: 500, xl: 500 }}
-/>
+<SubTitle SubTitle="TARGET AUDIENCE"></SubTitle>
+<Space h="xl" />
+<Image src={imageProb3} alt="Army Image"/>
 </div>
 
 </SimpleGrid>
