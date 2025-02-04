@@ -168,8 +168,8 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <SubTitle SubTitle="MY ROLE"></SubTitle>
 
-<p>We operated within an agile development environment, ensuring rapid progress while working towards a minimum viable product. I decided to involve the whole team in the UX process, and this created a wonderful team atmosphere.</p>
-<p>My role would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
+<p>We operated within an agile development environment, ensuring rapid progress while working towards a minimum viable product.</p>
+<p>My role as the product designer would be to research and design features into prototypes, working with various groups of stakeholders, and then collaborate with developers to help implement them.</p>
 <Space h="md" />
 
 
