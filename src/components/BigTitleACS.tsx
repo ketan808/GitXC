@@ -1,6 +1,6 @@
 import React from 'react';
 import { Title, Container, SimpleGrid, Box, Image} from '@mantine/core';
-import TextReveal from '../inViewUI/TextReveal';
+import TextReveal from '../inViewUI/TextRevealStop';
 import image1 from '../images/acs/cobham.png';
 
 interface TitlesProps {
