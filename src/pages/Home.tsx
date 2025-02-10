@@ -35,14 +35,18 @@ return (
 
 
 </FadeInSection>
+
+
 </Grid.Col>
 
 
 <Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
    
 <SubTitle SubTitle="About"></SubTitle>
-<p>I have been designing and refining my toolkit for over 20 years, driven by a passion for creating visually compelling interfaces. Throughout this journey, I have developed a deep understanding of user behaviour and interaction.</p>
-<p>My expertise spans the entire product design lifecycle, from research and conceptualisation to UI design and implementation. I thrive on working on high-impact projects and find great energy in delivering meaningful, user-centred solutions.</p>
+<p>My first big break came when I joined a fantastic design agency called Clock. It was an amazing opportunity that allowed me to work on some pretty exciting projects, including large websites for well-known organisations like JD Wetherspoon and the BBC.</p>
+<p>By chance, I landed a web design role with Combined Insurance (AON), where I got to redesign the user experience and interfaces across all their websites—and even dipped my toes into some coding! This role really taught me the importance of listening closely and understanding customer pain points to create designs that truly make a difference. </p>
+<p>The rest is history; I hope you enjoy my portfolio, and would love to connect if there's an opportunity to work together.</p>
+
 </Grid.Col>
 
 </Grid>
