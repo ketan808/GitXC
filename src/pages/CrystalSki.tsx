@@ -1,10 +1,12 @@
-import { Container, Space, Divider, Image, Paper} from '@mantine/core';
+import { Container, Space, Divider, Image, Paper, Grid } from '@mantine/core';
 import HeroCrystal from '../components/HeroCrystal';
 import imageSub from '../images/cs/cs_subheader.jpg';
 import Next from '../components/Next';
 import CSSLide from '../components/CSSlide';
 import ContainerOne from '../components/ContainerOne';
 import SubTitle from '../components/SubTitle';
+import imageBackground from '../images/cs/cs.png';
+import FadeInSection from '../inViewUI/FadeInSection';
 function CrystalSki () {
 
 
@@ -13,7 +15,7 @@ return (
 <>
 
 <Paper shadow="xl" hiddenFrom="sm" >
-<Image src={imageSub} alt="Army Image" />
+<Image src={imageSub} alt="CrystalSKi Image" />
 </Paper>
 
 
@@ -25,33 +27,72 @@ return (
 
 
 <Paper shadow="xl" visibleFrom="sm" >
-<Image src={imageSub} alt="Army Image" />
+<Image src={imageSub} alt="CrystalSKi Image" />
 </Paper>
 
 
 
+
+
+{/* Background Start */}
+
+
 <ContainerOne>
+<Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
 
-<SubTitle SubTitle="Background"></SubTitle>
-
-<p>Crystal Ski was one of the brands I worked on for the TUI group. </p>
+<Grid.Col span={{ base: 12, md: 7, lg: 7, xl: 7 }} >
 
 
-<p>I worked across front end, UI design and marketing campaign design for the eCommerce website, social media, digital display and email campaigns.</p>
-<p>I also collaborated with UX designers to design A/B variations of promotions, checkout system components and transactional user journeys ready for A/B performance testing. </p>
+<SubTitle SubTitle="BACKGROUND"></SubTitle>
 
+<p>Crystal Ski wanted to integrate a brand refresh that would work across online and offline marketing, also visually appealing interfaces on their websites and eCommerce platform with an engaging user experience that catered to diverse audiences while aligning with business objectives.</p>
+
+<p>Other brands including Thomson would follow suit moving onto the new platform.</p>
+
+<SubTitle SubTitle="Approach"></SubTitle>
+
+
+<p>Working with a strong team of UX/UI designers we began by conducting extensive user research and usability testing to gather insights into user behavior, preferences, and pain points. This research informed our design decisions and ensured that our solutions were user-centered.</p>
+
+<p>Based on these insights, I helped create detailed wireframes, interactive prototypes, and high-fidelity mockups to effectively communicate design concepts to stakeholders and development teams.</p>
+
+
+
+
+
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, md: 5, lg: 5, xl: 5 }}>
+
+<FadeInSection duration = {0.25} delay = {0}>
+<Image src={imageBackground} alt="Army Image"
+   h={{ base: 500, md: 700, lg: 700, xl: 700 }}
+   fit="contain"
+/>
+</FadeInSection>
+
+
+</Grid.Col>
+
+</Grid>
 </ContainerOne>
+
 <Divider my="" />
+
+{/* Background End*/}
+
+
+
 
  <Space h="xl" />
 
  <ContainerOne>
 
- <SubTitle SubTitle="Brand Refresh"></SubTitle>
+ <SubTitle SubTitle="Implementation"></SubTitle>
 
- <p>Crystal Ski wanted to integrate a brand refresh that would work across online and offline marketing. The result was a design framework that served the platform for many years.</p>
+ <p>We worked closely with developers to ensure that our designs were implemented accurately and efficiently. To maintain visual and functional consistency across all digital touchpoints, we developed comprehensive design systems and style guides.</p>
 
- <p>Collbarating with a team of designers we worked up the UX into a suite of visual designs to be handed over to the development team.</p>
+ <p>We also collaborated with cross-functional teams—including marketing, design, and data analytics—to ensure our design efforts aligned with broader business goals and delivered measurable results.</p>
 <CSSLide />
 
 
@@ -67,7 +108,7 @@ return (
 
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
-<p>Shortly after the Thomson brand followed suit moving onto the new platform. This was a case of applying the Thomson branding to the templates, again working up the key screens as visuals and seeking sign off from key stakeholders.</p>
+<p>The redesigned interfaces significantly improved user engagement, streamlined navigation, and contributed to increased conversions across the eCommerce platforms. The consistent, user-centered design approach not only enhanced the overall user experience but also strengthened the brand’s digital presence globally.</p>
 
 </ContainerOne>
 <Divider my="" />

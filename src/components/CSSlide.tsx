@@ -14,29 +14,29 @@ function CSSlide() {
 
 <Carousel.Slide>
     <Space h="lg" />
-    <Image src={require('../images/cs/cs4.jpg')}/>
+    <Image src={require('../images/cs/ex/rate.png')}/>
     </Carousel.Slide>
 
 <Carousel.Slide>
     <Space h="lg" />
-    <Image src={require('../images/cs/cs6.jpg')}/>
+    <Image src={require('../images/cs/ex/select.png')}/>
     </Carousel.Slide>
 
     <Carousel.Slide>
     <Space h="lg" />
-    <Image src={require('../images/cs/cs3.jpg')}/>
-    </Carousel.Slide>
-
-
-    <Carousel.Slide>
-    <Space h="lg" />
-    <Image src={require('../images/cs/cs5.jpg')}/>
+    <Image src={require('../images/cs/ex/book1.png')}/>
     </Carousel.Slide>
 
 
     <Carousel.Slide>
     <Space h="lg" />
-    <Image src={require('../images/cs/cs2.jpg')}/>
+    <Image src={require('../images/cs/ex/blocks.png')}/>
+    </Carousel.Slide>
+
+
+    <Carousel.Slide>
+    <Space h="lg" />
+    <Image src={require('../images/cs/ex/last.png')}/>
     </Carousel.Slide>
 
 
