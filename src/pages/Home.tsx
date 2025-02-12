@@ -43,9 +43,9 @@ return (
 <Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
    
 <SubTitle SubTitle="About"></SubTitle>
-<p>My first big break came when I joined a fantastic design agency called Clock. It was an amazing opportunity that allowed me to work on some pretty exciting projects, including large websites for well-known organisations like JD Wetherspoon and the BBC.</p>
-<p>By chance, I landed a web design role with Combined Insurance (AON), where I got to redesign the user experience and interfaces across all their websites—and even dipped my toes into some coding! This role really taught me the importance of listening closely and understanding customer pain points to create designs that truly make a difference. </p>
-<p>The rest is history; I hope you enjoy my portfolio, and would love to connect if there's an opportunity to work together.</p>
+<p>My journey in design took off when I joined the incredible team at Clock, a leading design agency that gave me the chance to work on exciting projects for major organisations like JD Wetherspoon and the BBC. It was an invaluable experience that shaped my creative approach and deepened my passion for design.</p>
+<p>Not long after, I found myself in a web design role at Combined Insurance (AON). There, I was responsible for redesigning user experiences and interfaces across all their websites, and even ventured into some coding. This role was pivotal—it taught me the power of truly listening to users, understanding their needs, and creating designs that solve real problems.</p>
+<p>The rest is history; since then, I've been designing and expanding my toolkit. I love working across the full spectrum of product design, from research through to UI and implementation, and get a ton of energy from working on seriously impactful work, such as in my last contract for the British Army.</p>
 
 </Grid.Col>
 
