@@ -268,7 +268,8 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 
 {/* Testing */}
-<ContainerOne>
+
+{/* <ContainerOne>
 
 <SubTitle SubTitle="Lean UX Testing"></SubTitle>
 
@@ -277,7 +278,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 <ArmyRings />
 
 </ContainerOne>
-<Divider my="" />
+<Divider my="" /> */}
 
 {/* Testing End */}
 
