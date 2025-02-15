@@ -23,7 +23,6 @@ import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import ArmySlideTwo from '../components/ArmySlideTwo';
-import ArmyRings from '../components/ArmyRings';
 import ContainerOne from '../components/ContainerOne';
 import Testimonials from '../components/TestimonialSlide';
 import ImageAnimation from '../inViewUI/ThreeCard';
