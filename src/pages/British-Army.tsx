@@ -265,6 +265,28 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 {/* Research  End */}
 
 
+<Space h="xl" />
+
+
+{/* Other */}
+<ContainerOne>
+
+<SubTitle SubTitle="VARIOUS FEATURE VISUALS"></SubTitle>
+
+<Space h="md" />
+
+<ArmySlideTwo />
+
+</ContainerOne>
+
+<Divider my="" />
+
+{/* Other End */}
+
+
+
+
+
 
 {/* Testing */}
 
@@ -485,26 +507,6 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 <Space h="xl" />
 
-{/* Other */}
-<ContainerOne>
-
-<SubTitle SubTitle="VARIOUS VISUALS"></SubTitle>
-
-<Space h="md" />
-
-<ArmySlideTwo />
-
-</ContainerOne>
-
-<Divider my="" />
-
-{/* Other End */}
-
-
-
-
-
-<Space h="xl" />
 
 {/* Conclusion */}
 
