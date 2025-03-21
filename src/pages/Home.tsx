@@ -44,7 +44,7 @@ return (
    
 <SubTitle SubTitle="About"></SubTitle>
 <p>My journey in design took off when I joined the incredible team at Clock, a leading design agency that gave me the chance to work on exciting projects for major organisations like JD Wetherspoon and the BBC. It was an invaluable experience that shaped my creative approach and deepened my passion for design.</p>
-<p>Not long after, I found myself in a web design role at Combined Insurance (AON). There, I was responsible for redesigning user experiences and interfaces across all their websites, and even ventured into some coding. This role was pivotal—it taught me the power of truly listening to users, understanding their needs, and creating designs that solve real problems.</p>
+<p>Not long after, I found myself at Combined Insurance (AON). There, I was responsible for redesigning user experiences and interfaces across all their websites, and even ventured into some coding. This role was pivotal, it taught me the power of truly listening to users, understanding their needs, and creating designs that solve real problems.</p>
 <p>The rest is history; since then, I've been designing and expanding my toolkit. I love working across the full spectrum of product design, from research through to UI and implementation, and get a ton of energy from working on seriously impactful work, such as in my last contract for the British Army.</p>
 
 </Grid.Col>
