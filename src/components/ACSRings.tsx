@@ -16,10 +16,10 @@ function RingsArmy() {
          size={260}
          thickness={30}
          roundCaps
-        sections={[{ value: 76, color: 'cyan' }]}
+        sections={[{ value: 60, color: 'cyan' }]}
         label={
           <Text fw={300} ta="center" size="32" className='theme0'>
-            76%
+            60%
           </Text>
         }
       />
