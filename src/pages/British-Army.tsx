@@ -167,7 +167,7 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <SubTitle SubTitle="MY ROLE"></SubTitle>
 
-<p>As the Product Designer, I led the end-to-end design process—translating research into intuitive prototypes, aligning vision across diverse stakeholders, and partnering closely with developers to bring each feature to life.</p>
+<p>As the Product Designer, I led the end-to-end design process, translating research into intuitive prototypes, aligning vision across diverse stakeholders, and partnering closely with developers to bring each feature to life.</p>
 <p>We thrived in an agile development environment, driving fast-paced progress toward a high-impact minimum viable product.</p>
 <Space h="md" />
 
