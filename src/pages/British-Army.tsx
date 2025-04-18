@@ -202,7 +202,7 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
 <p>I kicked off the process with low-fidelity wireframes, quickly turning ideas into tangible visuals. Through fast-paced, iterative feedback loops with stakeholders and user groups, I refined the designs shaping them into polished, high-fidelity layouts and fully interactive prototypes that brought the vision to life.</p>
-<p>Presenting prototypes to the wider Army ignited real excitement even among seasoned trainers known for their high standards. They immediately saw the potential of this feature as a powerful time-saver, streamlining final course reports while keeping trainees engaged and motivated throughout their training.</p>
+<p>Presenting prototypes to the wider Army sparked genuine excitement, even among seasoned trainers known for their high standards. They immediately recognised this feature as a powerful time-saver: capturing evidence through images and notes during training sessions streamlined the creation of final course reports, which could then be shared directly with trainees.</p>
 
 
 <Container
