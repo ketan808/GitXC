@@ -43,8 +43,8 @@ return (
 <Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
    
 <SubTitle SubTitle="About"></SubTitle>
-<p>My design journey truly began when I joined the amazing team at Clock, a leading design agency where I had the opportunity to work on exciting projects for high-profile clients like JD Wetherspoon and the BBC. It was an incredible experience that shaped my creative thinking and ignited a lasting passion for design.</p>
-<p>Since then, I’ve continued to grow and refine my toolkit. I thrive on working across the full spectrum of product design—whether it's user research, stakeholder engagement, UI design, or implementation. What drives me most is creating meaningful, impactful work—like my recent contract with the British Army, where I was fortunate to contribute to projects that truly make a difference.</p>
+<p>My design journey began at Clock, a top-tier agency where I worked on exciting projects for clients like JD Wetherspoon and the BBC. It was a formative experience that sparked my passion for design and taught me to think creatively and strategically.</p>
+<p>Since then, I’ve continued to grow across the full spectrum of product design, from research and stakeholder collaboration to UI and implementation. Most recently, I contributed to meaningful, real-world projects with the British Army, creating design solutions that truly make a difference.</p>
 
 </Grid.Col>
 

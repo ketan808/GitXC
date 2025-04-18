@@ -55,8 +55,8 @@ return (
 
 <SubTitle SubTitle="BACKGROUND"></SubTitle>
 
-<p>The Intranet/Virtual Learning software is used across four schools by parents, teachers, students and staff and serves as a centralised platform for sharing important information, news, and updates within the organisation.</p>
-<p>Inadequate management over time had created an unimaginable disorder featuring contrasting interfaces and styles, and this situation posed usability issues for the users.</p>
+<p>The Intranet and Virtual Learning platform served as a vital hub for parents, teachers, students, and staff across four schools, centralising communication, resources, and key update</p>
+<p>Years of poor oversight had turned the system into a patchwork of clashing interfaces and inconsistent styles, creating a fragmented experience that made navigation frustrating and usability a daily challenge for its users.</p>
 
 
 <SubTitle SubTitle="PROBLEM STATEMENTS"></SubTitle>
@@ -118,15 +118,15 @@ spacing="xl"
 
 <div>
 <SubTitle SubTitle="SOLUTION"></SubTitle>
-<p>The rebuild would be a huge project, but like any large problem, I started small, designed a strong foundation, and worked my way up.</p>
-<p>I decided to start with the parents area for just one school, because once I got that right, this would win trust throughout the organisation, which was fragile, and, with the lessons learnt, I could move to other areas and schools more effectively.</p>
-<p>Working with project managers and school leaders, I kept the users at the forefront of the overall experience.</p>
+<p>Rebuilding the system was a massive undertaking, but I approached it the way I tackle any complex challenge by starting small, building a solid foundation, and scaling with purpose. </p>
+<p>I chose to begin with the parents' area for a single school, knowing that delivering real value here could rebuild trust in a fragile organisation. Success in this high-impact area would create momentum and provide critical insights to guide the rollout across other schools and departments.</p>
+<p>Collaborating closely with project managers and school leaders, I kept the user experience at the heart of every decision, ensuring that the solution wasn’t just functional, but meaningful to the people using it.</p>
 </div>
 
 
 <div>
 <Image src={imageProb3} alt="Army Image"
-height={500}
+height={600}
 />
 </div>
 
@@ -150,7 +150,7 @@ height={500}
 
 <SubTitle SubTitle="Research"></SubTitle>
 
-<p>I scheduled interviews with parents, and here are some examples of my findings. It wasn't difficult to see what the issues were just by looking at the intranet, and there were so many, but the meetings were useful in narrowing down pressing problems and helping to create design tasks.</p>
+<p>I scheduled in-depth interviews with parents to uncover their pain points. Many of the issues were immediately clear just by reviewing the intranet, such as poor navigation, cluttered layouts, and outdated content. However, the real value came from speaking directly with users. These conversations helped identify the most pressing problems and allowed me to translate them into focused, actionable design tasks with the greatest potential for impact.</p>
 
 <SimpleGrid
       cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
@@ -189,7 +189,7 @@ height={500}
 
 <SubTitle SubTitle="Design Process"></SubTitle>
 
-<p>I started organising the gathered information and proceeded to create wireframes to identify the essential features and functionalities required for the parents' section interface. I collected feedback from all stakeholders, iterated on the designs, and refined them until reaching a satisfactory compromise.</p>
+<p>I began by organising the insights gathered from research and translated them into wireframes to define the core features and functionality needed for the parents' section. Each version of the design was shaped by feedback from key stakeholders, ensuring every voice was heard. Through continuous iteration and refinement, I arrived at a solution that struck the right balance between user needs, technical constraints, and organisational goals.</p>
 
 <ACSSlide />
 
@@ -207,7 +207,7 @@ height={500}
 
 <SubTitle SubTitle="Prototyping"></SubTitle>
 
-<p>Afterwards, I crafted high-fidelity mock-ups to offer a more precise portrayal of the parents area. This enabled everyone involved to grasp its appearance and functionality better, while also pinpointing any potential issues prior to diving into the software development phase.</p>
+<p>I created high-fidelity mockups to deliver a clear and accurate vision of the parents' area. This allowed stakeholders to fully understand its look and functionality, while also identifying potential issues early, before development began.</p>
 
 <SubTitleH3 SubTitleH3="Cobham"></SubTitleH3>
 <Space h="sm" />
@@ -260,8 +260,8 @@ height={500}
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
-<p>My work received widespread acclaim amongst staff and parents for the transformation of the Intranet and VLEs user experience. The work was set apart from other historical development, and as a result I accepted a full-time role with ACS. </p>
-<p>Working with stakeholders, I continued my design efforts across the intranet and prioritised keeping the user at the forefront of the overall experience.</p>
+<p>My work was widely praised by both staff and parents for significantly transforming the user experience of the Intranet and Virtual Learning Environment. The design stood out from previous iterations, delivering clarity, consistency, and a far more intuitive interface. This recognition led to an offer for a full-time position with ACS, which I proudly accepted </p>
+<p>In my new role, I continued collaborating closely with stakeholders to extend the design improvements across the entire intranet. I remained focused on user needs at every step, ensuring that each design decision enhanced usability, streamlined navigation, and supported the day-to-day tasks of the school community.</p>
 
 </ContainerOne>
 

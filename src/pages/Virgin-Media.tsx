@@ -51,9 +51,9 @@ return (
 
 <SubTitle SubTitle="BACKGROUND"></SubTitle>
 
-<p>Virgin Media aimed to enhance its visibility on search engines through the development of numerous search engine-optimised articles.</p>
-<p>These articles were intended for publication on a newly designed blog, strategically crafted to incorporate relevant keywords.</p>
-<p>This approach was designed to not only boost the content's search ranking but also generate a substantial search volume, ultimately driving sales for their products.</p>
+<p>Virgin Media set out to significantly increase its search engine visibility by producing a high volume of SEO-driven articles.</p>
+<p>These articles were published on a newly designed blog, purpose-built to strategically integrate high-performing keywords and attract organic traffic. </p>
+<p>The goal was clear: climb the search rankings, capture audience attention at scale, and convert that visibility into measurable product sales.</p>
 
 <SubTitle SubTitle="PROBLEM STATEMENT"></SubTitle>
 
@@ -71,7 +71,9 @@ return (
    >
 
 <p>
-      <List.Item>Sales are declining as a result of losing rankings on important keywords.</List.Item>
+      <List.Item>Sales have been steadily declining, driven in large part by a significant drop in search engine rankings for high-value keywords. This shift highlights an urgent need to re-evaluate and strengthen the SEO strategy to regain lost ground and restore organic growth.
+
+</List.Item>
       </p>
 </List>
 
@@ -108,7 +110,9 @@ return (
 
 <SubTitle SubTitle="Solution"></SubTitle>
 
-<p>Collaborate with a strong team of copywriters, designers, editors, developers, and project managers to create a blog framework for hundreds of articles that would incorporate high-level keywords and increase organic traffic, impressions and click rate.</p>
+<p>Worked alongside a powerhouse team of copywriters, designers, editors, developers, and project managers to build a scalable blog framework designed for impact. Our goal was clear, craft a system capable of hosting hundreds of articles, strategically infused with high-value keywords to boost organic traffic, drive impressions, and elevate click-through rates. The result was a content engine built for performance and growth.
+
+</p>
 
 
 </ContainerOne>
@@ -126,8 +130,7 @@ return (
 
 <SubTitle SubTitle="Components for the Blog Framework"></SubTitle>
 
-<p>I collaborated with another designer to start incorporating components from the design system that we believed would be most suitable for the article pages. We developed two distinct styles: one optimised for mobile devices and another for larger screens as Sketch files.</p>
-<p>Engaging stakeholders in thorough discussions, we ultimately reached a satisfying compromise.</p>
+<p>Working closely with another designer, I applied design thinking principles to identify which components from the design system would best support the goals of the article pages. We approached the challenge with a user-first mindset, developing two distinct design styles, one optimised for mobile responsiveness and the other tailored for desktop viewing. Both versions were delivered as detailed Sketch files, ensuring a smooth handoff to developers.</p>
 
 <ImageFadeIn src1={image1} src2={image2} />
 
@@ -219,8 +222,8 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 <SubTitle SubTitle="CONCLUSION"></SubTitle>
 
 
-<p>After the SEO team initiated the measurement of article search metrics, the results were overwhelmingly positive with significant improvements in keyword rankings.</p>
-<p>The successes underscored the effectiveness of the search engine optimisation strategies, validating the significance of everyone's efforts, including my role in enhancing both visibility and commercial outcomes.</p>
+<p>Once the SEO team began tracking article performance, the results spoke for themselves—keyword rankings improved dramatically, and search visibility surged across key topics. These outcomes clearly demonstrated the success of our SEO strategy and highlighted the tangible impact of our collective efforts.</p>
+<p>My contributions played a direct role in driving this momentum, helping to elevate the brand’s visibility while also delivering meaningful commercial results. The data not only validated the approach but reinforced the value of design and content working hand-in-hand to achieve strategic goals.</p>
 
 </ContainerOne>
 <Divider my="" />
