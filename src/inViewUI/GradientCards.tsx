@@ -11,7 +11,7 @@ const cardData = [
   { id: 1,
   title1: 'British Army',
   title2: 'Mobile Tablet UI design and UX',
-  title3: 'Course Performance and Wellbeing App',
+  title3: 'Empowering Wellbeing, Accelerating Course Performance',
   gradient: 'gradientGreen',
   image: require('../inViewUI/images/stats.png'),
   link: '/british-army'

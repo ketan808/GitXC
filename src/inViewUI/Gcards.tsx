@@ -59,7 +59,7 @@ const Boxes = () => {
      { 
       title1: 'British Army',
       title2: 'Progressive Web App UX/UI Design',
-      title3: 'Tracking wellbeing and course performance',
+      title3: 'Empowering Wellbeing, Accelerating Course Performance',
       titleColor: 'green.1',
       gradient: 'gradientGreen',
       image: require('../inViewUI/images/stats.png'),
@@ -79,7 +79,7 @@ const Boxes = () => {
       { 
       title1: 'Virgin Media',
       title2: 'Blog Framework, UX/UI Design',
-      title3: 'Increasing keyword ranking in SEO',
+      title3: 'Boosting SEO Visibility and Keyword Dominance',
       titleColor: 'red.1',
       gradient: 'gradientRed',
       image: require('../inViewUI/images/hub-music.png'),
@@ -89,7 +89,7 @@ const Boxes = () => {
       {
       title1: 'CrystalSki',
       title2: 'Brand Refresh, UI Design',
-      title3: 'Redesign across online and offline marketing',
+      title3: 'Transformative redesign across online and offline channels',
       titleColor: 'blue.1',
       gradient: 'gradientBlue',
       image: require('../inViewUI/images/homecard.png'),
