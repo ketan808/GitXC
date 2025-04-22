@@ -98,7 +98,7 @@ function ArmySlideOne() {
 
     <Carousel.Slide>
     <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }} radius="md" withBorder >
-    <SubTitleH3 SubTitleH3="Evidence Published to Attendee Panels"></SubTitleH3>
+    <SubTitleH3 SubTitleH3="Publish Evidence to course Attendee Panels"></SubTitleH3>
     <Text mt='6px' size="md" ta="center" fw={500} >Course evidence is published directly to attendees’ private control panels.</Text>
     </Card>
     <Space h="lg" />
