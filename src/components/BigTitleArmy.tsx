@@ -1,7 +1,7 @@
 import React from 'react';
 import { Title, Container, SimpleGrid, Box, Image} from '@mantine/core';
 import TextReveal from '../inViewUI/TextRevealStop';
-import image1 from '../images/army/courses_home.png';
+import image1 from '../images/army/army_header.png';
 
 interface TitlesProps {
   title1: string;

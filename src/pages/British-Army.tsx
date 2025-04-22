@@ -1,4 +1,4 @@
-import { Box, Container, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
+import { Box, Container, Title, Text, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
 import { IconChevronsRight} from '@tabler/icons-react';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
@@ -23,9 +23,18 @@ import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
 import ArmySlideTwo from '../components/ArmySlideTwo';
+import ArmySlideOne from '../components/ArmySlideOne';
 import ContainerOne from '../components/ContainerOne';
 import Testimonials from '../components/TestimonialSlide';
 import ImageAnimation from '../inViewUI/ThreeCard';
+import imageMob1 from '../images/army/mob/home.png';
+import imageMob2 from '../images/army/mob/wellbeing.png';
+import imageMob4 from '../images/army/mob/wellbeing_stats.png';
+import imageMob5 from '../images/army/mob/card.png';
+import imageMob6 from '../images/army/mob/target_answer.png';
+import imageMob7 from '../images/army/mob/target_trainer.png';
+import imageMob8 from '../images/army/mob/image.png';
+import imageMob9 from '../images/army/mob/note.png';
 
 
 
@@ -201,10 +210,10 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
-<p>I kicked off the process with low-fidelity wireframes, quickly turning ideas into tangible visuals. Through fast-paced, iterative feedback loops with stakeholders and user groups, I refined the designs shaping them into polished, high-fidelity layouts and fully interactive prototypes that brought the vision to life.</p>
-<p>Presenting prototypes to the wider Army sparked genuine excitement, even among seasoned trainers known for their high standards. They immediately recognised this feature as a powerful time-saver: capturing evidence through images and notes during training sessions streamlined the creation of final course reports, which could then be shared directly with trainees.</p>
+{/* <p>I kicked off the process with low-fidelity wireframes, quickly turning ideas into tangible visuals. Through fast-paced, iterative feedback loops with stakeholders and user groups, I refined the designs shaping them into polished, high-fidelity layouts and fully interactive prototypes that brought the vision to life.</p> */}
+<p>Capturing evidence through images and notes during training sessions streamlined the creation of final course reports, which could then be shared directly with trainees. Presenting prototypes to the wider Army sparked genuine excitement, even among seasoned trainers who are a tough crowd. They immediately recognised the course evidence feature as a powerful time-saver.</p>
 
-
+{/* 
 <Container
 size="xl"
 pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
@@ -215,7 +224,12 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 >
 
 <VidComp src="video/trainer_dash.mp4" />
-</Container>
+</Container> */}
+
+
+<Space h="md" />
+
+<ArmySlideOne />
 
 
 
@@ -266,122 +280,6 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 {/* Research  End */}
 
 
-<Space h="xl" />
-
-
-{/* Other */}
-<ContainerOne>
-
-<SubTitle SubTitle="VARIOUS FEATURE VISUALS"></SubTitle>
-
-<Space h="md" />
-
-<ArmySlideTwo />
-
-</ContainerOne>
-
-<Divider my="" />
-
-{/* Other End */}
-
-
-
-
-
-
-{/* Testing */}
-
-{/* <ContainerOne>
-
-<SubTitle SubTitle="Lean UX Testing"></SubTitle>
-
-<p>A usability test was conducted for the purpose of finding improvements, testing the concept, and revealing friction points for the course evidence feature. 10 user participants (trainers) were recruited, and the majority understood why the feature was needed.</p>
-
-<ArmyRings />
-
-</ContainerOne>
-<Divider my="" /> */}
-
-{/* Testing End */}
-
-<Space h="xl" />
-
-
-{/* Design Process Start */}
-<ContainerOne>
-
-<SubTitle SubTitle="Project Design Process"></SubTitle>
-<Space h="xl" />
-<SimpleGrid
-cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
-spacing="xl"
-verticalSpacing="xl"
->
-
-<div>
-      <SubTitleH3 SubTitleH3="Define"></SubTitleH3>
-      <Space h="md" />
-      <Image src={define} alt="define" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">User Journey's, User Flows, Site Maps</Title>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Ideate"></SubTitleH3>
-      <Space h="md" />
-      <Image src={ideate} alt="ideate" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">Exploring, Brainstorming, Identify Problems</Title>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Design"></SubTitleH3>
-      <Space h="md" />
-      <Image src={design} alt="design" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">Wireframing,  Mockups, Prototypes</Title>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="test"></SubTitleH3>
-      <Space h="md" />
-      <Image src={test} alt="test" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">Feedback,  Adjustments, Future Concepts</Title>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Development"></SubTitleH3>
-      <Space h="md" />
-      <Image src={dev} alt="development" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">Handoff,  Discuss, Oversee</Title>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="re-test"></SubTitleH3>
-      <Space h="md" />
-      <Image src={retest} alt="retest" />
-      <Space h="xl" />
-      <Title ta="center" fw={500} order={4} c="">Feedback,  Improve, Identify Issues</Title>
-
-</div>
-
-
-</SimpleGrid>
-
-</ContainerOne>
-
-<Divider my="" /> 
-{/* Design Process End*/}
-
-
-
 
 <Space h="xl" />
 
@@ -390,14 +288,99 @@ verticalSpacing="xl"
 
 <ContainerOne className="cardGrey">
 
-<SubTitle SubTitle="GATHERING TRAINEE WELLBEING DATA"></SubTitle>
+<SubTitle SubTitle="TRAINEE ACTIONS PANEL"></SubTitle>
 
-<p>When trainees track their wellbeing during the course, it becomes more than just data, it’s a reflection of their growth. Trainers can spot moments of progress to celebrate and step in with guidance or motivation when it’s needed most, helping each individual stay on track and thrive.</p>
+<p>When trainees input and track their wellbeing during the course, it becomes more than just data, it’s a reflection of their growth. Trainers can spot moments of progress to celebrate and step in with guidance or motivation when it’s needed most, helping each individual stay on track and thrive.</p>
 {/* <p>With constant feedback and iterations from stakeholders, features such as syndicates, behaviours, bulk evidence upload, adding notes to images, and voice recording on notes were implemented.</p> */}
 
 
 
-<Box visibleFrom="md">
+<SimpleGrid
+      cols={{ base: 1, sm: 1, lg: 4 }}
+      spacing={{ base: 10, sm: 'xl' }}
+      verticalSpacing={{ base: 'md', sm: 'xl' }}
+    >
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Select Course Card"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob5} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Course DashBoard"></SubTitleH3>
+      </Card>
+      <Space h="lg" />   
+      <Image src={imageMob1} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="wellbeing tracking"></SubTitleH3>
+      </Card>
+      <Space h="lg" />   
+      <Image src={imageMob2} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="wellbeing stats"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob4} alt="Team"/>
+      </div>
+
+
+</SimpleGrid>
+
+<Space h="xl" />
+
+<SimpleGrid
+      cols={{ base: 1, sm: 1, lg: 4 }}
+      spacing={{ base: 10, sm: 'xl' }}
+      verticalSpacing={{ base: 'md', sm: 'xl' }}
+    >
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Target Model QS"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob6} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Trainer/Trainee Score"></SubTitleH3>
+      </Card>
+      <Space h="lg" />    
+      <Image src={imageMob7} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Course Evidence Images"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob8} alt="Team"/>
+      </div>
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Course Evidence Notes"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob9} alt="Team"/>
+      </div>
+
+
+</SimpleGrid>
+
+
+
+
+{/* <Box visibleFrom="md">
 <ImageAnimation />
 </Box>
 
@@ -410,7 +393,7 @@ verticalSpacing="xl"
 />
 </FadeInSection>
 </Box>
-
+ */}
 
 {/* <Container
 size="xl"
@@ -438,18 +421,122 @@ pb={{ base: '40px', sm: '40px', md: '40px', lg: '40px' }}
 </ContainerOne>
 <Divider my="" />
 
-<Space h="xl" />
+{/* <Space h="xl" />
 
 <ContainerOne>
 
 <Image src={apple} alt="apple watch"/>
 
 </ContainerOne>
-<Divider my="" />
+<Divider my="" /> */}
 
 
 
 {/* TRAINEE WELLBEING DATA End*/}
+
+
+
+
+<Space h="xl" />
+
+
+{/* Design Process Start */}
+<ContainerOne>
+
+<SubTitle SubTitle="Project Design Process"></SubTitle>
+<Space h="xl" />
+<SimpleGrid
+cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
+spacing="xl"
+verticalSpacing="xl"
+>
+
+<div>
+      <SubTitleH3 SubTitleH3="Define"></SubTitleH3>
+      <Space h="md" />
+      <Image src={define} alt="define" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >User Journey's, User Flows, Site Maps</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Ideate"></SubTitleH3>
+      <Space h="md" />
+      <Image src={ideate} alt="ideate" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Exploring, Brainstorming, Identify Problems</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Design"></SubTitleH3>
+      <Space h="md" />
+      <Image src={design} alt="design" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Wireframing,  Mockups, Prototypes</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="test"></SubTitleH3>
+      <Space h="md" />
+      <Image src={test} alt="test" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Feedback,  Adjustments, Future Concepts</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Development"></SubTitleH3>
+      <Space h="md" />
+      <Image src={dev} alt="development" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Handoff,  Discuss, Oversee</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="re-test"></SubTitleH3>
+      <Space h="md" />
+      <Image src={retest} alt="retest" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Feedback, Improve, Identify Issues</Text>
+
+</div>
+
+
+</SimpleGrid>
+
+</ContainerOne>
+
+<Divider my="" /> 
+{/* Design Process End*/}
+
+
+
+<Space h="xl" />
+
+
+{/* Other */}
+<ContainerOne>
+
+<SubTitle SubTitle="VARIOUS FEATURE VISUALS"></SubTitle>
+
+<Space h="xl" />
+
+<ArmySlideTwo />
+
+</ContainerOne>
+
+<Divider my="" />
+
+{/* Other End */}
+
+
+
+
+
 
 <Space h="xl" />
 
