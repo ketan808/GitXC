@@ -2,11 +2,12 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { InView } from 'react-intersection-observer';
 import { SimpleGrid, Title } from '@mantine/core'
+import { IconExternalLink } from '@tabler/icons-react';
 import './css/style.css'
 
 
 
-const Box = ({ index, title1, title2, title3, link, image, gradient, titleColor }) => {
+const Box = ({ index, title1, title2, title3, title4, title5, link, image, gradient, tabs, reverse }) => {
 
 
 return (
@@ -16,35 +17,78 @@ return (
 
 <Link to={link}>
 
-<motion.div whileHover={{ opacity: 0.8 }}  onHoverStart={e => {}} onHoverEnd={e => {}}>
-<motion.div id='card' className={gradient} 
+  <motion.div>
+    <motion.div id='card' className={`${gradient}${reverse ? ' card-reverse' : ''}`} 
+      ref={ref}
+      initial={{ opacity: 0, y:20 }}
+      animate={{ opacity: inView ? 1 : 0, y: inView ? 0.25 : 0.25 }}
+      transition={{ 
+        duration: 0.25, 
+        delay: index * 0.25
+      }}
+      whileHover={{ 
+        opacity: 0.6,
+        transition: { duration: 0.3 }
+      }}
+    >
+      <motion.div id='cardText'>
+        <motion.h1>
+          <h1 className="theme0" dangerouslySetInnerHTML={{ __html: title1 }} />
+        </motion.h1>
 
-          ref={ref}
-          initial={{ opacity: 0, y:20 }}
-          animate={{ opacity: inView ? 1 : 0, y: inView ? 0.25 : 0.25 }}
-          transition={{ duration: 0.25, delay: index * 0.25 }}
-          
-        >
+        <motion.h2>
+          <h2 dangerouslySetInnerHTML={{ __html: title2 }} />
+        </motion.h2>
 
+        <motion.p>
+          <h3 dangerouslySetInnerHTML={{ __html: title3 }} />
+        </motion.p>
 
-<img src={image} alt={title1} className="card-image" />
+        <motion.p>
+          <h4 dangerouslySetInnerHTML={{ __html: title4 }} />
+        </motion.p>
 
-</motion.div>
-</motion.div>
+        {tabs && tabs.length > 0 && (
+          <div className="card-tabs">
+            {tabs.map((tab, i) => (
+              <span className="card-tab" key={i}>{tab}</span>
+            ))}
+          </div>
+        )}
 
+        {title5 && (
+          <motion.div 
+            className="case-study-link"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              padding: '8px 16px',
+              border: '1px solid white',
+              borderRadius: '20px',
+              marginTop: '16px'
+            }}
+          >
+            <span 
+              style={{
+                fontSize: '0.875rem',
+                fontWeight: 500
+              }}
+              dangerouslySetInnerHTML={{ __html: title5 }} 
+            />
+            <IconExternalLink size={16} />
+          </motion.div>
+        )}
+      </motion.div>
+      
+      <img src={image} alt={title1} className="card-image" style={{ opacity: 1 }} />
+    </motion.div>
+
+  </motion.div>
+
+  
 
 </Link>
-
-<motion.div>
-
-
-<motion.h1><Title className='theme0' fz={{ base: '1.6rem' , sm: '1.6rem' , md: '2rem' , lg: '2rem' , xl: '2rem'  }} fw="500">{title1}</Title></motion.h1>
-
-
-<motion.h2><Title fw={500} order={3} c={titleColor}>{title2}</Title></motion.h2>
-
-<motion.p><p>{title3}</p></motion.p>
-</motion.div>
 
 </div>
         
@@ -57,42 +101,50 @@ const Boxes = () => {
   const gCardData = [
 
      { 
-      title1: 'British Army',
-      title2: 'Progressive Web App UX/UI Design',
-      title3: 'Empowering Wellbeing, Accelerating Course Performance',
-      titleColor: 'green.1',
+      title1: 'MOD',
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Led end-to-end design, research, and analysis to drive a training strengthening opportunity from concept to scaled product, collaborating on key decisions.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Drove Data-Backed Product Decisions.</li><li>Activated Stakeholder Engagement.</li><li>Transformed Trainee Support Systems.</li><li>Enhanced Training Outcome Metrics.</li></ul>",
+      title4: "",
+      title5: "View Case Study",
+      tabs: ['User Research', 'Design System', 'Prototyping', 'Developer Handoff', 'Usability Testing'],
       gradient: 'gradientGreen',
-      image: require('../inViewUI/images/stats.png'),
+      image: require('../inViewUI/images/army.png'),
       link: '/british-army'
       },
     
       {
-      title1: 'ACS Schools',
-      title2: 'Responsive Software, UX/UI Design',
-      title3: 'Centralised platform for sharing Information',
-      titleColor: 'yellow.1',
+      title1: 'ACS',
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title4: "",
+      title5: "View Case Study",
+           tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
       gradient: 'gradientYellow',
-      image: require('../inViewUI/images/egham_home.png'),
+      image: require('../inViewUI/images/acs.png'),
       link: '/acs'
       },
     
       { 
-      title1: 'Virgin Media',
-      title2: 'Blog Framework, UX/UI Design',
-      title3: 'Boosting SEO Visibility and Keyword Dominance',
-      titleColor: 'red.1',
+      title1: 'VM',
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title4: "",
+      title5: "View Case Study",
+             tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
       gradient: 'gradientRed',
-      image: require('../inViewUI/images/hub-music.png'),
+      image: require('../inViewUI/images/vm.jpg'),
       link: '/virgin-media'
       },
     
       {
-      title1: 'CrystalSki',
-      title2: 'Brand Refresh, UI Design',
-      title3: 'Transformative redesign across online and offline channels',
-      titleColor: 'blue.1',
+      title1: 'TUI',
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title4: "",
+      title5: "View Case Study",
+              tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
       gradient: 'gradientBlue',
-      image: require('../inViewUI/images/homecard.png'),
+      image: require('../inViewUI/images/cs.jpg'),
       link: '/crystalski'
       }
 
@@ -101,12 +153,25 @@ const Boxes = () => {
   return (
 
 <SimpleGrid
-      cols={{ base: 1, sm: 1, md:2, lg: 2 }}
+      cols={{ base: 1, sm: 1, md:1, lg: 1 }}
       spacing={{ base: 10, sm: 'xl', md:'xl',  lg: '60'}}
-      verticalSpacing={{ base: '10', sm: 'xl', lg: '60' }}
+      verticalSpacing={{ base: 'xl', sm: 'xl', lg: '60' }}
     >
       {gCardData.map((gCard, index) => (
-        <Box key={index} index={index} title1={gCard.title1} title2={gCard.title2} titleColor={gCard.titleColor} title3={gCard.title3} image={gCard.image}  gradient={gCard.gradient} link={gCard.link}/>
+        <Box
+          key={index}
+          index={index}
+          title1={gCard.title1}
+          title2={gCard.title2}
+          title3={gCard.title3}
+          title4={gCard.title4}
+          title5={gCard.title5}
+          image={gCard.image}
+          gradient={gCard.gradient}
+          link={gCard.link}
+          tabs={gCard.tabs}
+          reverse={index % 2 === 1}
+        />
       ))}
 
 </SimpleGrid>

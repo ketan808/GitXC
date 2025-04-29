@@ -300,13 +300,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
       spacing={{ base: 10, sm: 'xl' }}
       verticalSpacing={{ base: 'md', sm: 'xl' }}
     >
-      <div>
-      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
-      <SubTitleH3 SubTitleH3="Select Course Card"></SubTitleH3>
-      </Card>
-      <Space h="lg" />
-      <Image src={imageMob5} alt="Team"/>
-      </div>
+
 
       <div>
       <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
@@ -316,6 +310,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
       <Image src={imageMob1} alt="Team"/>
       </div>
 
+
       <div>
       <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
       <SubTitleH3 SubTitleH3="wellbeing tracking"></SubTitleH3>
@@ -324,12 +319,31 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
       <Image src={imageMob2} alt="Team"/>
       </div>
 
+
       <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Trainer/Trainee Score"></SubTitleH3>
+      </Card>
+      <Space h="lg" />    
+      <Image src={imageMob7} alt="Team"/>
+      </div>
+
+
+
+{/*       <div>
       <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
       <SubTitleH3 SubTitleH3="wellbeing stats"></SubTitleH3>
       </Card>
       <Space h="lg" />
       <Image src={imageMob4} alt="Team"/>
+      </div> */}
+
+      <div>
+      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
+      <SubTitleH3 SubTitleH3="Course Evidence Images"></SubTitleH3>
+      </Card>
+      <Space h="lg" />
+      <Image src={imageMob8} alt="Team"/>
       </div>
 
 
@@ -337,7 +351,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 <Space h="xl" />
 
-<SimpleGrid
+{/* <SimpleGrid
       cols={{ base: 1, sm: 1, lg: 4 }}
       spacing={{ base: 10, sm: 'xl' }}
       verticalSpacing={{ base: 'md', sm: 'xl' }}
@@ -350,21 +364,9 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
       <Image src={imageMob6} alt="Team"/>
       </div>
 
-      <div>
-      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
-      <SubTitleH3 SubTitleH3="Trainer/Trainee Score"></SubTitleH3>
-      </Card>
-      <Space h="lg" />    
-      <Image src={imageMob7} alt="Team"/>
-      </div>
 
-      <div>
-      <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
-      <SubTitleH3 SubTitleH3="Course Evidence Images"></SubTitleH3>
-      </Card>
-      <Space h="lg" />
-      <Image src={imageMob8} alt="Team"/>
-      </div>
+
+
 
       <div>
       <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'sm', md: 'sm', lg: 'sm' }} radius="md" withBorder >
@@ -375,7 +377,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
       </div>
 
 
-</SimpleGrid>
+</SimpleGrid> */}
 
 
 
@@ -614,7 +616,7 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 <Space h="xl" />
 
 
-<Testimonials initialSlide={4}  />
+<Testimonials initialSlide={3}  />
 
 
 <Space h="xl" />

@@ -17,9 +17,9 @@ function App() {
     <div>
       <ScrollToTop />
       <AppShell className='theme100'
-        withBorder={false}
+        withBorder={true}
         header={{height: 80}}
-        navbar={{width: 300, breakpoint: 'xl', collapsed: {mobile: !opened}}}
+        navbar={{width: 300, breakpoint: '96.875 rem', collapsed: {mobile: !opened}}}
       >
         <Header toggle={toggle} opened={opened}/>
         <Navbar />

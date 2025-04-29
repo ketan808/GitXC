@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
 import ContainerOne from '../components/ContainerOne';
+import { VoiceAgent } from '../components/VoiceAgent';
 
 
 const HomePage = () => {
@@ -21,17 +22,17 @@ return (
 
 <ContainerOne>
 
-<Grid columns={12} gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
+<Grid columns={12} gutter={{ base: 'md', xs: 'md', md: 'xl', xl: 50 }}>
 
-<Grid.Col span={{ base: 12, md: 3, lg: 3, xl: 3 }}>
+<Grid.Col span={{ base: 12, sm: 12, md: 3, lg: 3, xl: 3 }}>
 
 <FadeInSection duration = {0.25} delay = {0}>
 
 <Box lightHidden mt='5px' mb='5px'>
-<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '5%'}}  src={require('../images/ketan.png')} /></Box >
+<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid white', display: 'block', margin: 'auto', borderRadius: '100%'}}  src={require('../images/ketan.png')} /></Box >
 
 <Box darkHidden mt='5px' mb='5px'>
-<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid #E1EEEF', display: 'block', margin: 'auto', borderRadius: '5%'}} src={require('../images/ketan.png')} /></Box >
+<Image className='imageAbout' style={{ backgroundColor:'white', border:'5px solid #E1EEEF', display: 'block', margin: 'auto', borderRadius: '100%'}} src={require('../images/ketan.png')} /></Box >
 
 
 </FadeInSection>
@@ -40,11 +41,11 @@ return (
 </Grid.Col>
 
 
-<Grid.Col span={{ base: 12, md: 9, lg: 9, xl: 9 }}>
+<Grid.Col span={{ base:12,  sm: 12, md: 9, lg: 9, xl: 9 }}>
    
-<SubTitle SubTitle="About"></SubTitle>
-<p>My design journey began at Clock, a top-tier agency where I worked on exciting projects for clients like JD Wetherspoon and the BBC. It was a formative experience that sparked my passion for design and taught me to think creatively and strategically.</p>
-<p>Since then, I’ve continued to grow across the full spectrum of product design, from research and stakeholder collaboration to UI and implementation. Most recently, I contributed to meaningful, real-world projects with the British Army, creating design solutions that truly make a difference.</p>
+{/* <SubTitle SubTitle="About"></SubTitle> */}
+
+<VoiceAgent />
 
 </Grid.Col>
 
@@ -57,7 +58,7 @@ return (
 
 <ContainerOne>
 
-<SubTitle SubTitle="CASE STUDIES"></SubTitle>
+<SubTitle SubTitle="SHOWCASE"></SubTitle>
 
 <Space h="xl" />
 
@@ -70,7 +71,7 @@ return (
 <Space h="xl" />
 
 
-<Testimonials initialSlide={3}  />
+<Testimonials initialSlide={4}  />
 <Divider my="" />
 <Space h="xl" />
 <Space h="xl" />

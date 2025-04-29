@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { createTheme, MantineProvider, CSSVariablesResolver, rem, ColorSchemeScript } from '@mantine/core';
 import {BrowserRouter} from 'react-router-dom';
 import '@mantine/core/styles.css';
+import { VapiProvider } from './components/VoiceAgent';
+
+// In your root layout
 
 const themeOverride = createTheme({
 
@@ -13,16 +16,19 @@ const themeOverride = createTheme({
   other: {
     heroHeight: rem(400),
     light0:'#FAFAFA',
+    dark0:'#121212',
+
     light80:'#D3D7DF',
-    light90:'#ececec',
-    light100:'#f4f4f4',
     dark80:'#31363F',
 
+    light90:'#ffffff',
     dark90:'#1e2126',
 
+    light100:'#f8f8f8',
     dark100:'#090A0B',
-    
-    dark0:'#121212',
+
+    light110:'#FFFFFF',
+    dark110:'#090A0B',
 
     green1: '#51cf66',
     green2: '#0F8122',
@@ -35,6 +41,8 @@ const themeOverride = createTheme({
 
     blue1: '#339af0',
     blue2: '#0E75CB',
+
+   
 
   },
   
@@ -63,13 +71,37 @@ const resolver: CSSVariablesResolver = (theme) => ({
 
   
 
+
+
+  light: {
+    '--mantine-color-Indicator': theme.other.dark80,
+    '--mantine-fontcolor-0': theme.other.dark0,
+
+    '--mantine-color-80': theme.other.light80,
+    '--mantine-color-90': theme.other.light90,
+    '--mantine-color-100': theme.other.light100,
+    '--mantine-color-110': theme.other.light110,
+    
+
+    '--mantine-color-gray-0': theme.other.light90,
+    '--mantine-color-green-1': theme.other.green2,
+    '--mantine-color-yellow-1': theme.other.yellow2,
+    '--mantine-color-red-1': theme.other.red2,
+    '--mantine-color-blue-1': theme.other.blue2,
+
+    '--mantine-color-vapi': theme.other.dark0,
+
+
+  },
+
   dark: {
     '--mantine-color-Indicator': theme.other.light80,
     '--mantine-fontcolor-0': theme.other.light0,
 
     '--mantine-color-80': theme.other.dark80,
     '--mantine-color-90': theme.other.dark90,
-    '--mantine-color-100': theme.other.dark0,
+    '--mantine-color-100': theme.other.dark100,
+    '--mantine-color-110': theme.other.dark110,
 
 
     '--mantine-color-dark-6': theme.other.dark80,
@@ -79,28 +111,10 @@ const resolver: CSSVariablesResolver = (theme) => ({
     '--mantine-color-red-1': theme.other.red1,
     '--mantine-color-blue-1': theme.other.blue1,
 
+    '--mantine-color-vapi': theme.other.light0,
 
 
-
-  },
-
-  light: {
-    '--mantine-color-Indicator': theme.other.dark80,
-    '--mantine-fontcolor-0': theme.other.dark0,
-
-    '--mantine-color-80': theme.other.light90,
-    '--mantine-color-90': theme.other.light0,
-    '--mantine-color-100': theme.other.light100,
-    
-
-    '--mantine-color-gray-0': theme.other.light90,
-
-    '--mantine-color-green-1': theme.other.green2,
-    '--mantine-color-yellow-1': theme.other.yellow2,
-    '--mantine-color-red-1': theme.other.red2,
-    '--mantine-color-blue-1': theme.other.blue2,
-
-  },
+  }
 
 
 });
@@ -116,6 +130,7 @@ root.render(
   <React.StrictMode>
     
     <ColorSchemeScript defaultColorScheme="dark" />
+    <VapiProvider>
     <MantineProvider
       defaultColorScheme="dark"
       theme={themeOverride}
@@ -127,7 +142,7 @@ root.render(
    </BrowserRouter>
 
   </MantineProvider>
-
+  </VapiProvider>
   </React.StrictMode>
 );
 

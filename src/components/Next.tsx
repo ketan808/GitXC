@@ -1,5 +1,6 @@
-import {SimpleGrid, Card, Anchor, Title, Box} from '@mantine/core';
+import {SimpleGrid, Card, Title, Box, NavLink} from '@mantine/core';
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
+import { Link } from 'react-router-dom';
 
 interface NextProps {
     textNext: string;
@@ -21,27 +22,30 @@ return (
       verticalSpacing={{ base: 'sm', sm: 'sm' }}
 >
     
-<Anchor href={linkPrevious} underline="never" style={{  display: colDisplay }}>
-<Card className='next cardNext' shadow="sm" padding="lg" radius="md"  color="cyan" withBorder>
+<NavLink
+  component={Link}
+  to={linkPrevious}
+  style={{ display: colDisplay }}
+  label={
+    <Card className='next cardNext' shadow="sm" padding="lg" radius="md" color="cyan" withBorder>
+      <Box visibleFrom="sm" mt='-6px' className="iconLeft"><IconArrowLeft color="white" size="1.6rem" stroke={1.5} /></Box>
+      <Title fw={700} order={4} c="white" ta="right" >PREVIOUS</Title>
+      <Title fw={500} order={4} c="white" ta="right">{textPrevious}</Title>
+    </Card>
+  }
+/>
 
-<Box visibleFrom="sm" mt='-6px' className="iconLeft"><IconArrowLeft color="white" size="1.6rem" stroke={1.5} /></Box>
-
-<Title fw={700} order={4} c="white" ta="right" >PREVIOUS</Title>
-<Title fw={500} order={4} c="white" ta="right">{textPrevious}</Title>
-</Card>
-</Anchor>
-
-
-<Anchor  href={linkNext} underline="never">
-<Card className='next cardNext' shadow="sm" padding="lg" radius="md" withBorder>
-
-<Box visibleFrom="sm" mt='-6px' className="iconRight"><IconArrowRight color="white"  size="1.6rem" stroke={1.5} /></Box>
-
-<Title fw={700} order={4} c="white" ta="left" >NEXT</Title>
-<Title fw={500} order={4} c="white" ta="left">{textNext}</Title>
-</Card>
-</Anchor>
-
+<NavLink
+  component={Link}
+  to={linkNext}
+  label={
+    <Card className='next cardNext' shadow="sm" padding="lg" radius="md" withBorder>
+      <Box visibleFrom="sm" mt='-6px' className="iconRight"><IconArrowRight color="white" size="1.6rem" stroke={1.5} /></Box>
+      <Title fw={700} order={4} c="white" ta="left" >NEXT</Title>
+      <Title fw={500} order={4} c="white" ta="left">{textNext}</Title>
+    </Card>
+  }
+/>
 
 </SimpleGrid>
 

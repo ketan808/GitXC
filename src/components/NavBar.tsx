@@ -9,7 +9,7 @@ const Navbar = () => {
 
  <div>
 
-<AppShell.Navbar className='theme90' >
+<AppShell.Navbar className='theme110' >
 
 
 <MainMenu />
