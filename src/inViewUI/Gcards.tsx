@@ -114,11 +114,11 @@ const Boxes = () => {
     
       {
       title1: 'ACS',
-      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
-      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Transformed a fragmented intranet and VLE across four schools into a seamless experience through UX strategy, research, and cross-functional collaboration.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Increased engagement metrics.</li><li>Elevated UX with intuitive UI.</li><li>70% reduction in support tickets.</li><li>Built scalable, future-ready platform.</li></ul>",
       title4: "",
       title5: "View Case Study",
-           tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
+           tabs: ['Product strategy', 'Content Design', 'Design System', 'CMS Development'],
       gradient: 'gradientYellow',
       image: require('../inViewUI/images/acs.png'),
       link: '/acs'
@@ -126,11 +126,11 @@ const Boxes = () => {
     
       { 
       title1: 'VM',
-      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
-      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Co-designed responsive, user-centered blog templates aligning closely with developers and content teams to deliver a scalable, high impact SEO platform.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>SEO visibility significantly improved.</li><li>CTR and impressions increased.</li><li>Improved organic search rankings.</li><li>User engagement noticeably increased.</li></ul>",
       title4: "",
       title5: "View Case Study",
-             tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
+             tabs: ['Design Components Leveraged', 'Team Collaboration', 'User Experience'],
       gradient: 'gradientRed',
       image: require('../inViewUI/images/vm.jpg'),
       link: '/virgin-media'
@@ -138,11 +138,11 @@ const Boxes = () => {
     
       {
       title1: 'TUI',
-      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Drove a business opportunity from initial concept through MVP to a fully scaled product, leading end-to-end design, research, and data analysis while collaborating on key product decisions.</span>",
-      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Enhanced course accessibility</li><li>Improved training efficiency</li><li>Streamlined course management</li><li>Better resource allocation</li></ul>",
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Worked in a cross-functional team to redesign Crystal Ski’s digital platforms aligning brand, UX, and business goals through research and collaboration.</span>",
+      title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Unified digital brand experience.</li><li>Aligned design with marketing.</li><li>Consistent UI across platforms.</li><li>Pain points successfully addressed.</li></ul>",
       title4: "",
       title5: "View Case Study",
-              tabs: ['Product strategy', 'User research', 'Growth content design', 'Growth design'],
+              tabs: ['Team Collaboration', 'Scalable Design Approach', 'Content Design', 'User Research'],
       gradient: 'gradientBlue',
       image: require('../inViewUI/images/cs.jpg'),
       link: '/crystalski'

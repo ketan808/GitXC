@@ -7,9 +7,17 @@ import { Modal, Title } from '@mantine/core';
 import ContactForm from '../components/ContactForm';
 import { IconXboxX } from '@tabler/icons-react';
 
-function MainMenu() {
+interface MainMenuProps {
+  closeMenu: () => void;
+}
+
+function MainMenu({ closeMenu }: MainMenuProps) {
   const location = useLocation();
   const [opened,  { open, close }] = useDisclosure(false);
+
+  const handleLinkClick = () => {
+    closeMenu();
+  };
 
   return (
     <div>
@@ -34,6 +42,7 @@ function MainMenu() {
         active={location.pathname === '/'}
         variant="filled"
         color="cyan"
+        onClick={handleLinkClick}
       />
 
       <Divider size={2} my="md" label="CASE STUDIES" labelPosition="left" style={{ margin: '15px' }} />
@@ -47,6 +56,7 @@ function MainMenu() {
         active={location.pathname === '/british-army'}
         variant="filled"
         color="cyan"
+        onClick={handleLinkClick}
       />
 
       <NavLink
@@ -58,6 +68,7 @@ function MainMenu() {
         active={location.pathname === '/acs'}
         variant="filled"
         color="cyan"
+        onClick={handleLinkClick}
       />
 
       <NavLink
@@ -69,6 +80,7 @@ function MainMenu() {
         active={location.pathname === '/virgin-media'}
         variant="filled"
         color="cyan"
+        onClick={handleLinkClick}
       />
 
       <NavLink
@@ -80,6 +92,7 @@ function MainMenu() {
         active={location.pathname === '/crystalski'}
         variant="filled"
         color="cyan"
+        onClick={handleLinkClick}
       />
 
       <Divider size={2} my="md" label="REACH OUT" labelPosition="left" style={{ margin: '15px' }} />
@@ -94,6 +107,7 @@ function MainMenu() {
         color="cyan"
         className='navlink'
         target="_blank" 
+        onClick={handleLinkClick}
       />
 
       <NavLink
@@ -104,7 +118,10 @@ function MainMenu() {
         color="cyan"
         className='navlink'
         target="_blank"
-        onClick={open}
+        onClick={() => {
+          handleLinkClick();
+          open();
+        }}
       />
     </div>
   );

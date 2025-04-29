@@ -10,10 +10,9 @@ import Footer from './components/Footer';
 import RouterSwitcher from './components/RouterSwitcher';
 
 function App() {
-  const [opened, {toggle}] = useDisclosure();
+  const [opened, {toggle, close}] = useDisclosure();
 
   return (
-
     <div>
       <ScrollToTop />
       <AppShell className='theme100'
@@ -22,15 +21,13 @@ function App() {
         navbar={{width: 300, breakpoint: '96.875 rem', collapsed: {mobile: !opened}}}
       >
         <Header toggle={toggle} opened={opened}/>
-        <Navbar />
+        <Navbar closeMenu={close} />
         <AppShell.Main>
-        <RouterSwitcher />
-       </AppShell.Main>
-       <Footer />
-
+          <RouterSwitcher />
+        </AppShell.Main>
+        <Footer />
       </AppShell>
-
-      </div>
+    </div>
   );
 }
 
