@@ -114,7 +114,7 @@ const Boxes = () => {
     
       {
       title1: 'ACS',
-      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Transformed a fragmented intranet and VLE across four schools into a seamless experience through UX strategy, research, and cross-functional collaboration.</span>",
+      title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Transformed a fragmented Intranet/VLE across four schools into a seamless experience through UX strategy, research, and cross-functional collaboration.</span>",
       title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Increased engagement metrics.</li><li>Elevated UX with intuitive UI.</li><li>70% reduction in support tickets.</li><li>Built scalable, future-ready platform.</li></ul>",
       title4: "",
       title5: "View Case Study",
