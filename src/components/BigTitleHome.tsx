@@ -46,7 +46,7 @@ mb={{ base: 20, sm: 20, md: 20, lg: 40 }}
 </Title>
 
 
-<Title className='theme0' order={3} fw="500">{title3}</Title>
+<Title className='theme0' order={4} fw="500">{title3}</Title>
 
 </Box>
 
