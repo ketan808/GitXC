@@ -51,7 +51,7 @@ function MainMenu({ closeMenu }: MainMenuProps) {
         component={Link}
         to="/british-army"
         label="British Army"
-        description='MyTraining: Wellbeing & Performance App'
+        description='Performance & Wellbeing App'
         leftSection={<IconTank stroke={1} size={32} className='element'/>}
         active={location.pathname === '/british-army'}
         variant="filled"
