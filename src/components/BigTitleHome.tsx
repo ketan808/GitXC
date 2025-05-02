@@ -53,7 +53,7 @@ mb={{ base: 20, sm: 20, md: 20, lg: 40 }}
 
 
 <Box
-mt={{ base: '10px', md: '60px', lg: '40px', xl: '80px' }}
+mt={{ base: '10px', md: '60px', lg: '40px', xl: '120px' }}
 mb={{ base: '10px', md: '40px', lg: '40px', xl: '40px' }}
 > 
 
