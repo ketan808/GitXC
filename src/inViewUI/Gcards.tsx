@@ -27,7 +27,7 @@ return (
         delay: index * 0.25
       }}
       whileHover={{ 
-        opacity: 0.6,
+        opacity: 0.8,
         transition: { duration: 0.3 }
       }}
     >

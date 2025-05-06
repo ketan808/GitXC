@@ -17,8 +17,8 @@ return (
 <Container 
 size="xl"
 className='theme90'
-p={{ base: '20px', sm: '40px', md: '40px', lg: '40px' }}
-pt={{ base: '20px', sm: '40px', md: '50px', lg: '60px' }}
+p={{ base: '10px', sm: '20px', md: '30px', lg: '40px' }}
+pt={{ base: '10px', sm: '20px', md: '30px', lg: '60px' }}
 >
 
 {children}

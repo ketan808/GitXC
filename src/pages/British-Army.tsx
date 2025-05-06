@@ -1,4 +1,4 @@
-import { Box, Container, Title, Text, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
+import { Container, Text, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
 import { IconChevronsRight} from '@tabler/icons-react';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
@@ -6,7 +6,6 @@ import imageSub from '../images/army/sub_header.jpg';
 import team from '../images/army/team.png';
 import teamLight from '../images/army/teamLight.png';
 import imageProb3 from '../images/army/sold.png';
-import imageProb4 from '../inViewUI/images/well-mob.png';
 import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
@@ -18,7 +17,6 @@ import ideate from '../images/army/Ideate.png';
 import design from '../images/army/design.png';
 import test from '../images/army/test.png';
 import dev from '../images/army/dev.png';
-import apple from '../images/army/apple.png';
 import retest from '../images/army/re_test.png';
 import FadeInBoxesFindings from '../inViewUI/FadeInBoxesArmyFindings';
 import FadeInBoxesImpact from '../inViewUI/FadeInBoxesArmyImpact';
@@ -26,15 +24,10 @@ import ArmySlideTwo from '../components/ArmySlideTwo';
 import ArmySlideOne from '../components/ArmySlideOne';
 import ContainerOne from '../components/ContainerOne';
 import Testimonials from '../components/TestimonialSlide';
-import ImageAnimation from '../inViewUI/ThreeCard';
 import imageMob1 from '../images/army/mob/home.png';
 import imageMob2 from '../images/army/mob/wellbeing.png';
-import imageMob4 from '../images/army/mob/wellbeing_stats.png';
-import imageMob5 from '../images/army/mob/card.png';
-import imageMob6 from '../images/army/mob/target_answer.png';
 import imageMob7 from '../images/army/mob/target_trainer.png';
 import imageMob8 from '../images/army/mob/image.png';
-import imageMob9 from '../images/army/mob/note.png';
 
 
 
@@ -137,7 +130,7 @@ return (
 <ContainerOne>
 
 <SimpleGrid
-cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 2 }}
+cols={{ base: 1, sm: 1, md: 1, lg: 2, xl: 2 }}
 spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 >
 

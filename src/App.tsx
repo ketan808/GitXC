@@ -18,7 +18,7 @@ function App() {
       <AppShell className='theme100'
         withBorder={true}
         header={{height: 80}}
-        navbar={{width: 300, breakpoint: '96.875 rem', collapsed: {mobile: !opened}}}
+        navbar={{width: 300, breakpoint: '88em', collapsed: {mobile: !opened}}}
       >
         <Header toggle={toggle} opened={opened}/>
         <Navbar closeMenu={close} />

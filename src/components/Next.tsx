@@ -23,6 +23,7 @@ return (
 >
     
 <NavLink
+  p={{ base: '0px'}}
   component={Link}
   to={linkPrevious}
   style={{ display: colDisplay }}
@@ -36,6 +37,7 @@ return (
 />
 
 <NavLink
+    p={{ base: '0px'}}
   component={Link}
   to={linkNext}
   label={

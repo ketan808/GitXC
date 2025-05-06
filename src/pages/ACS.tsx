@@ -112,7 +112,7 @@ return (
 
 
 <SimpleGrid
-cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 2 }}
+cols={{ base: 1, sm: 1, md: 1, lg: 2, xl: 2 }}
 spacing="xl" 
 >
 
