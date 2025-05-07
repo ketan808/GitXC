@@ -109,9 +109,10 @@ margin-top:10px;
 
 #cardText h1 {
   font-size: 2.8rem;
+  font-weight: 600;
   margin-bottom: 0;
   margin-top: 0;
-  line-height: 0.3;
+  line-height: 0.4;
   color: #ffffff !important;
 }
 

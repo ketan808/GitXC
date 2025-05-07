@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { InView } from 'react-intersection-observer';
-import { SimpleGrid, Title } from '@mantine/core'
+import { SimpleGrid } from '@mantine/core'
 import { IconExternalLink } from '@tabler/icons-react';
 import './css/style.css'
 
@@ -101,7 +101,7 @@ const Boxes = () => {
   const gCardData = [
 
      { 
-      title1: "<div class='cardHeader'><h1>MOD</h1><br><span style='font-size: 0.8rem'>Performance & Wellbeing App</span></div>",
+      title1: "<div class='cardHeader'><h1>British Army</h1><br><span style='font-size: 0.8rem'>Performance & Wellbeing App</span></div>",
       title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Led end-to-end design, research, and analysis to drive a training strengthening opportunity from concept to scaled product, collaborating on key decisions.</span>",
       title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Drove Data-Backed Product Decisions.</li><li>Activated Stakeholder Engagement.</li><li>Transformed Trainee Support Systems.</li><li>Enhanced Training Outcome Metrics.</li></ul>",
       title4: "",
@@ -113,7 +113,7 @@ const Boxes = () => {
       },
     
       {
-      title1: "<div class='cardHeader'><h1>ACS</h1><br><span style='font-size: 0.8rem'>Intranet & Virtual Learning Enviroment</span></div>",
+      title1: "<div class='cardHeader'><h1>ACS Schools</h1><br><span style='font-size: 0.8rem'>Intranet & Virtual Learning Enviroment</span></div>",
       title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Transformed a fragmented Intranet/VLE across four schools into a seamless experience through UX strategy, research, and cross-functional collaboration.</span>",
       title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Increased engagement metrics.</li><li>Elevated UX with intuitive UI.</li><li>70% reduction in support tickets.</li><li>Built scalable, future-ready platform.</li></ul>",
       title4: "",
@@ -125,7 +125,7 @@ const Boxes = () => {
       },
     
       { 
-      title1: "<div class='cardHeader'><h1>VM</h1><br><span style='font-size: 0.8rem'>Blog for Search Engine Optimised Articles</span></div>",
+      title1: "<div class='cardHeader'><h1>Virgin Media</h1><br><span style='font-size: 0.8rem'>Blog for Search Engine Optimised Articles</span></div>",
       title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Co-designed responsive, user-centered blog templates aligning closely with developers and content teams to deliver a scalable, high impact SEO platform.</span>",
       title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>SEO visibility significantly improved.</li><li>CTR and impressions increased.</li><li>Improved organic search rankings.</li><li>User engagement noticeably increased.</li></ul>",
       title4: "",
@@ -137,7 +137,7 @@ const Boxes = () => {
       },
     
       {
-      title1: "<div class='cardHeader'><h1>TUI</h1><br><span style='font-size: 0.8rem'>UI & Visual Design for a Brand Refresh</span></div>",
+      title1: "<div class='cardHeader'><h1>Crystal Ski</h1><br><span style='font-size: 0.8rem'>UI & Visual Design for a Brand Refresh</span></div>",
       title2: "<strong style='font-size: 1.1rem'>Overview</strong><br><span style='opacity: 0.8'>Worked in a cross-functional team to redesign Crystal Ski’s digital platforms aligning brand, UX, and business goals through research and collaboration.</span>",
       title3: "<strong style='font-size: 1.1rem'>Key Outcomes</strong><br><ul><li>Unified digital brand experience.</li><li>Aligned design with marketing.</li><li>Consistent UI across platforms.</li><li>Pain points successfully addressed.</li></ul>",
       title4: "",
