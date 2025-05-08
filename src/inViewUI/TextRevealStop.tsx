@@ -20,19 +20,23 @@ const TextReveal = ({ text }) => {
     },
   };
 
+  // Function to check if a character is part of an HTML tag
+  const isHTMLTag = (text, index) => {
+    let inTag = false;
+    for (let i = 0; i <= index; i++) {
+      if (text[i] === '<') inTag = true;
+      if (text[i] === '>') inTag = false;
+    }
+    return inTag;
+  };
+
   return (
     <motion.div
-
       variants={sentence}
       initial="hidden"
       animate="visible"
-    >
-      {text.split('').map((char, index) => (
-        <motion.span key={index} variants={letter}>
-          {char}
-        </motion.span>
-      ))}
-    </motion.div>
+      dangerouslySetInnerHTML={{ __html: text }}
+    />
   );
 };
 
