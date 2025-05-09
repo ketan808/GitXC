@@ -7,7 +7,7 @@ export const VAPI_CONFIG = {
 
   // Custom content to override the assistant's settings
   ASSISTANT_OVERRIDES: {
-    firstMessage: "Welcome to my product design portfolio -- You can talk to me like a human -- please feel free to ask me - about my work experience?",
+    firstMessage: "Welcome to my product design portfolio -- You can talk to me like a human -- please feel free to ask me -- about my work experience?",
     model: {
       provider: "openai" as const,
       model: "gpt-4" as const,
