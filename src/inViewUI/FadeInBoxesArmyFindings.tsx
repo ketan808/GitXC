@@ -9,11 +9,9 @@ const FadeInBoxesFindings = () => {
   const texts = [
  
 
-    'Course reports created in different formats.',
-    'WiFi not available at some course locations.',
-    'Groups of between 20-30 trainees per dormitory.',
-    'Trainess have free time at 6 a.m and from 8 p.m.',
-    'Dormitories and some course locations have low light.'
+    'User interviews with 6 military trainers.',
+    'On-site observations during live training exercises.',
+    'Survey of 25+ users to validate time spent on manual evidence collection.',
 
   ];
 

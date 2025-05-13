@@ -6,11 +6,9 @@ const FadeInBoxesImpact1 = () => {
   const texts = [
  
 
-    'Course report builder for creating various formats.',
-    'Store inputted data and upload when WiFi is available.',
-    'Speech recognition and voice commands will be an issue.',
-    'Optimal input as limited time is available.',
-    'Dark-mode user interface will improve usability.'
+    'Trainers often forgot to capture key evidence due to lack of time or tools.',
+    'Reporting was fragmented due to reliance on phones and notes.',
+    '80% said a structured tool would greatly cut admin time.',
   ];
 
 

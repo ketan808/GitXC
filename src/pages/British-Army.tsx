@@ -1,4 +1,4 @@
-import { Container, Text, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
+import { Container, Text, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
 import { IconChevronsRight} from '@tabler/icons-react';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
@@ -10,6 +10,7 @@ import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
 import SubTitleH3 from '../components/SubTitleH3';
+import SubTitleH3Left from '../components/SubTitleH3Left';
 import designSystem from '../images/army/designSystem.png';
 import designSystemLight from '../images/army/designSystemLight.png';
 import define from '../images/army/define.png';
@@ -28,6 +29,7 @@ import imageMob1 from '../images/army/mob/home.png';
 import imageMob2 from '../images/army/mob/wellbeing.png';
 import imageMob7 from '../images/army/mob/target_trainer.png';
 import imageMob8 from '../images/army/mob/image.png';
+import ArmyRings from '../components/ArmyRings';
 
 
 
@@ -173,7 +175,6 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 <p>During our discovery phase, we identified a critical inefficiency in how military trainers captured course evidence. Trainers were manually collecting photos, notes, and observations after sessions, often relying on personal devices or handwritten notes. This led to inconsistent data, lost insights, and time-consuming report creation at the end of each training cycle.</p>
 
 
-
 <SimpleGrid
       cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
       spacing={{ base: 10, sm: 'md' }}
@@ -181,59 +182,88 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
     >
       <div>
       <Space h="sm" />
-      <SubTitleH3 SubTitleH3="Usability Testing"></SubTitleH3>
+      <SubTitleH3 SubTitleH3="Research Methods Used"></SubTitleH3>
       <Space h="md" />
-      <List
-      
-      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
-      spacing="sm"
-      icon={
-        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
-          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-   >
-<p>
-      <List.Item>90% reduction in end-of-day reporting time.</List.Item>
-      <List.Item>100% said they’d prefer this over their current workflow.</List.Item>
-      </p>
-</List>
+      <FadeInBoxesFindings/>
       </div>
 
       <div>
       <Space h="sm" />
-      <SubTitleH3 SubTitleH3="Outcome & Impact"></SubTitleH3>
+      <SubTitleH3 SubTitleH3="Key Findings"></SubTitleH3>
       <Space h="md" />
-      <List
-      
-      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
-      spacing="sm"
-      icon={
-        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
-          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-   >
-<p>
-      <List.Item>Strong engagement from senior trainers.</List.Item>
-      <List.Item>Widespread internal adoption.</List.Item>
-      </p>
-</List>
+      <FadeInBoxesImpact/>
       </div>
       
 </SimpleGrid>
 
 <Space h="xl" />
+<Space h="md" />
 
 <SubTitleH3 SubTitleH3="Polished UI mockups "></SubTitleH3>
 
-<Space h="xl" />
+<Space h="md" />
 
 <ArmySlideOne />
 
+<Space h="xl" />
 
+<SubTitleH3Left SubTitleH3="Usability Testing"></SubTitleH3Left>
+Participants: 6 Army trainers<br></br>
+Scenario: Capture training evidence during simulated sessions.
+
+
+<Space h="md" />
+
+< ArmyRings/>
+
+<Space h="xl" />
+
+<SubTitleH3Left SubTitleH3="Outcome & Impact"></SubTitleH3Left>
+<Space h="md" />
+<SimpleGrid
+      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
+      spacing={{ base: 10, sm: 'md' }}
+      verticalSpacing={{ base: 'md', sm: 'md' }}
+    >
+      <div>
+      <List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
+<p>
+    <List.Item>Strong engagement from senior trainers.</List.Item>
+      </p>
+</List>
+      </div>
+
+      <div>
+      <List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
+<p>
+ 
+      <List.Item>Widespread internal adoption.</List.Item>
+      </p>
+</List>
+
+</div>
+      
+</SimpleGrid>
 
 </ContainerOne>
 
