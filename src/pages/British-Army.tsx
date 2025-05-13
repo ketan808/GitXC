@@ -1,4 +1,4 @@
-import { Container, Text, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
+import { Container, Text, Title, Space, Divider, Image, Grid, SimpleGrid, List, Card, Paper, ThemeIcon, rem } from '@mantine/core';
 import { IconChevronsRight} from '@tabler/icons-react';
 import HeroArmy from '../components/HeroArmy';
 import FadeInSection from '../inViewUI/FadeInSection';
@@ -160,40 +160,6 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 {/* Solution End*/}
 
-<Space h="xl" />
-
-{/* My Role Start*/}
-
-<Card shadow="xl" padding="" radius="">
-<ContainerOne>
-
-<SubTitle SubTitle="MY ROLE"></SubTitle>
-
-<p>As the Product Designer, I led the end-to-end design process, translating research into intuitive prototypes, aligning vision across diverse stakeholders, and partnering closely with developers to bring each feature to life.</p>
-<p>We thrived in an agile development environment, driving fast-paced progress toward a high-impact minimum viable product.</p>
-<Space h="md" />
-
-
-<Container
-size="xl"
-className='theme90'
-pl={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
-pr={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
-pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
->
-
-<Image src={team} alt="Team"lightHidden/>
-<Image src={teamLight} alt="Team" darkHidden/>
-
-
-
-</Container>
-</ContainerOne>
-</Card>
-<Divider my="" />
-
-{/* My Role End*/}
-
 
 
 <Space h="xl" />
@@ -204,23 +170,66 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 <SubTitle SubTitle="COURSE EVIDENCE FEATURE"></SubTitle>
 
 {/* <p>I kicked off the process with low-fidelity wireframes, quickly turning ideas into tangible visuals. Through fast-paced, iterative feedback loops with stakeholders and user groups, I refined the designs shaping them into polished, high-fidelity layouts and fully interactive prototypes that brought the vision to life.</p> */}
-<p>Capturing evidence through images and notes during training sessions streamlined the creation of final course reports, which could then be shared directly with trainees. Presenting prototypes to the wider Army sparked genuine excitement, even among seasoned trainers who are a tough crowd. They immediately recognised the course evidence feature as a powerful time-saver.</p>
-
-{/* 
-<Container
-size="xl"
-pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pt={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
-pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
-
->
-
-<VidComp src="video/trainer_dash.mp4" />
-</Container> */}
+<p>During our discovery phase, we identified a critical inefficiency in how military trainers captured course evidence. Trainers were manually collecting photos, notes, and observations after sessions, often relying on personal devices or handwritten notes. This led to inconsistent data, lost insights, and time-consuming report creation at the end of each training cycle.</p>
 
 
-<Space h="md" />
+
+<SimpleGrid
+      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
+      spacing={{ base: 10, sm: 'md' }}
+      verticalSpacing={{ base: 'md', sm: 'md' }}
+    >
+      <div>
+      <Space h="sm" />
+      <SubTitleH3 SubTitleH3="Usability Testing"></SubTitleH3>
+      <Space h="md" />
+      <List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
+<p>
+      <List.Item>90% reduction in end-of-day reporting time.</List.Item>
+      <List.Item>100% said they’d prefer this over their current workflow.</List.Item>
+      </p>
+</List>
+      </div>
+
+      <div>
+      <Space h="sm" />
+      <SubTitleH3 SubTitleH3="Outcome & Impact"></SubTitleH3>
+      <Space h="md" />
+      <List
+      
+      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
+      spacing="sm"
+      icon={
+        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
+          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
+        </ThemeIcon>
+      }
+      
+   >
+<p>
+      <List.Item>Strong engagement from senior trainers.</List.Item>
+      <List.Item>Widespread internal adoption.</List.Item>
+      </p>
+</List>
+      </div>
+      
+</SimpleGrid>
+
+<Space h="xl" />
+
+<SubTitleH3 SubTitleH3="Polished UI mockups "></SubTitleH3>
+
+<Space h="xl" />
 
 <ArmySlideOne />
 
@@ -234,47 +243,91 @@ pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
 
 <Space h="xl" />
 
-{/* Research */}
 
+{/* Design Process Start */}
 <ContainerOne>
 
-<SubTitle SubTitle="Observational Research"></SubTitle>
-
-<p>Comprehensive research had already validated the need for this product. I was actively involved in several high-level meetings with stakeholders and user groups to gain a deep understanding of their requirements. During a site visit to a training facility, I uncovered several critical edge cases, outlined below.
-
-</p>
-
+<SubTitle SubTitle="Project Design Process"></SubTitle>
+<Space h="xl" />
 <SimpleGrid
-      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
-      spacing={{ base: 10, sm: 'md' }}
-      verticalSpacing={{ base: 'md', sm: 'md' }}
-    >
-      <div>
-      <Space h="sm" />
-      <SubTitleH3 SubTitleH3="Research Findings"></SubTitleH3>
-      <Space h="md" />
-      <FadeInBoxesFindings />
-      </div>
+cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
+spacing="xl"
+verticalSpacing="xl"
+>
 
-      <div>
-      <Space h="sm" />
-      <SubTitleH3 SubTitleH3="Impact on Development"></SubTitleH3>
+<div>
+      <SubTitleH3 SubTitleH3="Define"></SubTitleH3>
       <Space h="md" />
-      <FadeInBoxesImpact />
-      </div>
-      
+      <Image src={define} alt="define" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >User Journey's, User Flows, Site Maps</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Ideate"></SubTitleH3>
+      <Space h="md" />
+      <Image src={ideate} alt="ideate" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Exploring, Brainstorming, Identify Problems</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Design"></SubTitleH3>
+      <Space h="md" />
+      <Image src={design} alt="design" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Wireframing,  Mockups, Prototypes</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="test"></SubTitleH3>
+      <Space h="md" />
+      <Image src={test} alt="test" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Feedback,  Adjustments, Future Concepts</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="Development"></SubTitleH3>
+      <Space h="md" />
+      <Image src={dev} alt="development" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Handoff,  Discuss, Oversee</Text>
+
+</div>
+
+<div>
+      <SubTitleH3 SubTitleH3="re-test"></SubTitleH3>
+      <Space h="md" />
+      <Image src={retest} alt="retest" />
+      <Space h="xl" />
+      <Text size="lg" ta="center" fw={500} >Feedback, Improve, Identify Issues</Text>
+
+</div>
+
+
 </SimpleGrid>
 
-<Space h={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl' }} />
-
 </ContainerOne>
-<Divider my="" />
 
-{/* Research  End */}
+<Divider my="" /> 
+{/* Design Process End*/}
 
 
 
 <Space h="xl" />
+
+
+
+
+
+
+
+
 
 {/*TRAINEE WELLBEING DATA*/}
 
@@ -435,82 +488,42 @@ pb={{ base: '40px', sm: '40px', md: '40px', lg: '40px' }}
 <Space h="xl" />
 
 
-{/* Design Process Start */}
+
+
+{/* My Role Start*/}
+
+<Card shadow="xl" padding="" radius="">
 <ContainerOne>
 
-<SubTitle SubTitle="Project Design Process"></SubTitle>
-<Space h="xl" />
-<SimpleGrid
-cols={{ base: 1, sm: 1, md: 1, lg: 3, xl: 3 }}
-spacing="xl"
-verticalSpacing="xl"
+<SubTitle SubTitle="MY ROLE"></SubTitle>
+
+<p>As the Product Designer, I led the end-to-end design process, translating research into intuitive prototypes, aligning vision across diverse stakeholders, and partnering closely with developers to bring each feature to life.</p>
+<p>We thrived in an agile development environment, driving fast-paced progress toward a high-impact minimum viable product.</p>
+<Space h="md" />
+
+
+<Container
+size="xl"
+className='theme90'
+pl={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
+pr={{ base: '10px', sm: '40px', md: '40px', lg: '100px' }}
+pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 >
 
-<div>
-      <SubTitleH3 SubTitleH3="Define"></SubTitleH3>
-      <Space h="md" />
-      <Image src={define} alt="define" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >User Journey's, User Flows, Site Maps</Text>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Ideate"></SubTitleH3>
-      <Space h="md" />
-      <Image src={ideate} alt="ideate" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >Exploring, Brainstorming, Identify Problems</Text>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Design"></SubTitleH3>
-      <Space h="md" />
-      <Image src={design} alt="design" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >Wireframing,  Mockups, Prototypes</Text>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="test"></SubTitleH3>
-      <Space h="md" />
-      <Image src={test} alt="test" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >Feedback,  Adjustments, Future Concepts</Text>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="Development"></SubTitleH3>
-      <Space h="md" />
-      <Image src={dev} alt="development" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >Handoff,  Discuss, Oversee</Text>
-
-</div>
-
-<div>
-      <SubTitleH3 SubTitleH3="re-test"></SubTitleH3>
-      <Space h="md" />
-      <Image src={retest} alt="retest" />
-      <Space h="xl" />
-      <Text size="lg" ta="center" fw={500} >Feedback, Improve, Identify Issues</Text>
-
-</div>
+<Image src={team} alt="Team"lightHidden/>
+<Image src={teamLight} alt="Team" darkHidden/>
 
 
-</SimpleGrid>
 
+</Container>
 </ContainerOne>
+</Card>
+<Divider my="" />
 
-<Divider my="" /> 
-{/* Design Process End*/}
-
-
+{/* My Role End*/}
 
 <Space h="xl" />
+
 
 
 {/* Other */}
