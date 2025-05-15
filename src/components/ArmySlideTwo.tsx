@@ -9,14 +9,7 @@ function ArmySlide() {
   return (
     <Carousel slideSize={{ base: '100%', sm: '100%', md: '100%', lg: '70%' }} height="80%" slideGap="xl" classNames={classes} loop>
 
-<Carousel.Slide>
-    <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }} radius="md" withBorder >
-    <SubTitleH3 SubTitleH3="Report Building with Evidence and Scoring"></SubTitleH3>
-    <Text mt='6px' size="md" ta="center" fw={500} >Generate structured course reports with flexible templates and modules.</Text>
-    </Card>
-    <Space h="lg" />
-    <Image src={require('../images/army/builder.png')}/>
-    </Carousel.Slide>
+
 
     <Carousel.Slide>
     <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }} radius="md" withBorder >
@@ -71,8 +64,25 @@ function ArmySlide() {
     </Carousel.Slide>
 
 
- 
+    <Carousel.Slide>
+    <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }} radius="md" withBorder >
+    <SubTitleH3 SubTitleH3="Attendee Filtering with Bulk Actions"></SubTitleH3>
+    <Text mt='6px' size="md" ta="center" fw={500} >Enables quick filtering and assessment of attendees performance with bulk action options.</Text>
+    </Card>
+    <Space h="lg" />
+    <Image src={require('../images/army/slide/list.png')}/>
+    </Carousel.Slide>
 
+
+ 
+    <Carousel.Slide>
+    <Card className='theme90' shadow="sm" p={{ base: 'sm', sm: 'md', md: 'lg', lg: 'lg' }} radius="md" withBorder >
+    <SubTitleH3 SubTitleH3="Trainer Login with Familiar, trusted branding"></SubTitleH3>
+    <Text mt='6px' size="md" ta="center" fw={500} >Centered layout focuses attention and reinforces trust through familiar branding.</Text>
+    </Card>
+    <Space h="lg" />
+    <Image src={require('../images/army/slide/login.png')}/>
+    </Carousel.Slide>
 
 
 
