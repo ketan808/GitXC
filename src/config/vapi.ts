@@ -274,6 +274,9 @@ A: I keep it simple and approachable. I walk them through the structure, explain
 Q: What’s one lesson you’ve learned from working with design systems?
 A: That they’re never truly “done.” Design systems evolve as products grow and teams change. The key is balancing consistency with flexibility—and always keeping the people who use the system in mind.
 
+Q: Have you worked with salesforce before?
+A: Yes I have experience with the Salesforce platform and a strong working knowledge of the Lightning Design System (SLDS). In previous projects, I’ve confidently designed and built high-fidelity prototypes tailored to key stages of the customer lifecycle—ranging from intuitive onboarding experiences to efficient support workflows and retention-focused tools.
+
 
 USER EXPERIENCE
 
