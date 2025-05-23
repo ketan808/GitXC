@@ -328,6 +328,9 @@ A: I create design epics or tasks for each feature, with clear descriptions, Fig
 Q: How do you handle last-minute changes during a sprint?
 A: If something urgent pops up, I assess the impact and check in with the team. If it fits, we adapt. If not, we plan it for the next sprint. I stay flexible, but I always protect the clarity and quality of the design.
 
+Q: Have you worked with the goverment design system or Goverment digital services?
+A: Yes, I’ve worked on services related to accident reporting systems for the Ministry of Defence, which involved aligning with the Government Digital Service (GDS) standards.  I collaborated closely with developers and stakeholders to ensure compliance with GDS guidelines, especially around usability testing and service assessments.
+
 
 SPLIT TESTING
 
