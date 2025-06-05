@@ -220,6 +220,14 @@ A: Definitely. Crystal Ski wanted a unified brand experience across digital and 
 Q: What were the biggest challenges with the Crystal Ski refresh?
 A: One challenge was keeping things consistent across touchpoints while still allowing for creative expression. We also had to design for a wide audience—from first-time bookers to seasoned skiers—which meant simplifying complex journeys without losing essential details. That took a lot of thoughtful iteration and testing.
 
+Q: Have you worked on any ecommerce projects?
+A: Yes, I’ve worked on ecommerce websites for crystal ski and other large brands, I worked on improving user flows, checkout performance, and mobile optimization. I’ve helped increase conversion by streamlining product discovery, refining the add-to-cart journey, and simplifying payment steps. My approach combines user feedback, analytics, and rapid prototyping.
+
+Q: What’s a common UX challenge in ecommerce design?
+A: One common challenge is reducing friction during the checkout process. Many users abandon carts due to complicated forms or unexpected costs. I use techniques like progress indicators, autofill, and smart defaults to make the experience feel fast and intuitive. Mobile first testing is also key.
+
+Q: How do you design for better conversion rates?
+A: I start by understanding the data—heatmaps, funnel drop-offs, and session replays. Then I design and test variations of key pages, like product listings and the checkout flow. Even small UI tweaks—like trust badges, button clarity, or better product imagery—can make a big difference.
 
 MORE INFORMATION
 
