@@ -7,7 +7,7 @@ const FadeInBoxesImpact1 = () => {
  
 
     'Trainers often forgot to capture key evidence due to lack of time or tools.',
-    'Reporting was fragmented due to reliance on phones and notes.',
+    'Reporting was fragmented due to reliance on unsuitable apps and notes.',
     '80% said a structured tool would greatly cut admin time.',
   ];
 

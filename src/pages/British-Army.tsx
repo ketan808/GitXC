@@ -207,63 +207,6 @@ spacing={{ base: 'md', sm: 'md', md: 'xl', lg: 'xl', xl: 'xl' }}
 
 <Space h="xl" />
 
-<SubTitleH3Left SubTitleH3="Usability Testing"></SubTitleH3Left>
-Participants: 6 Army trainers<br></br>
-Scenario: Capture training evidence during simulated sessions.
-
-
-<Space h="md" />
-
-< ArmyRings/>
-
-<Space h="xl" />
-
-<SubTitleH3Left SubTitleH3="Outcome & Impact"></SubTitleH3Left>
-<Space h="md" />
-<SimpleGrid
-      cols={{ base: 1, sm: 1, md: 2, lg: 2 }}
-      spacing={{ base: 10, sm: 'md' }}
-      verticalSpacing={{ base: 'md', sm: 'md' }}
-    >
-      <div>
-      <List
-      
-      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
-      spacing="sm"
-      icon={
-        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
-          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-   >
-<p>
-    <List.Item>Strong engagement from senior trainers.</List.Item>
-      </p>
-</List>
-      </div>
-
-      <div>
-      <List
-      
-      pl={{ base: "", sm: "", lg: "md", xl: "md" }}
-      spacing="sm"
-      icon={
-        <ThemeIcon color="cyan" size={32} radius="" mr={{ base: "sm", sm: "sm", lg: "md", xl: "md" }}>
-          <IconChevronsRight style={{ width: rem(18), height: rem(18) }} />
-        </ThemeIcon>
-      }
-      
-   >
-<p>
- 
-      <List.Item>Widespread internal adoption.</List.Item>
-      </p>
-</List>
-
-</div>
-      
-</SimpleGrid>
 
 </ContainerOne>
 

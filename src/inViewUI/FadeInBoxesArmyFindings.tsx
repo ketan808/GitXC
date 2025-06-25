@@ -9,9 +9,9 @@ const FadeInBoxesFindings = () => {
   const texts = [
  
 
-    'User interviews with 6 military trainers.',
+    'User interviews with military trainers and trainees.',
     'On-site observations during live training exercises.',
-    'Survey of 25+ users to validate time spent on manual evidence collection.',
+    'Survey users to validate time spent on manual evidence collection.',
 
   ];
 
