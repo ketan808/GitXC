@@ -342,6 +342,23 @@ A: If something urgent pops up, I assess the impact and check in with the team. 
 Q: Have you worked with the goverment design system or Goverment digital services?
 A: Yes, I’ve worked on services related to accident reporting systems for the Ministry of Defence, which involved aligning with the Government Digital Service (GDS) standards.  I collaborated closely with developers and stakeholders to ensure compliance with GDS guidelines, especially around usability testing and service assessments.
 
+SCHOOLS
+Q: How familiar are you with Student Information Systems like PowerSchool?
+A: I’ve spent time working with and designing around systems like PowerSchool and other MIS platforms. I understand how vital they are for daily operations tracking attendance, grades, behaviour, and reporting—and how critical it is that the UI supports accuracy and speed.
+
+Q: What’s your approach to designing for MIS platforms used by different roles in a school?
+A: I map out user roles like teachers, administrators, safeguarding leads and tailor flows based on their unique goals and permissions. For example, a teacher needs fast lesson attendance tools, while an admin might need in-depth reporting. Personalisation and simplicity are key.
+
+Q: How do you approach attendance and behaviour workflows in SIS platforms?
+A: Speed and clarity are everything. I’ve designed interfaces where teachers can take attendance in under 30 seconds, with inline alerts for missing students or behaviour flags. Everything is focused on being fast, auditable, and easy to update later if needed.
+
+Q: What’s your experience with reporting tools in MIS platforms?
+A: I’ve worked on redesigning report builders and visual dashboards so staff can track performance or behaviour patterns without needing technical support. That means intuitive filters, export options, and templates aligned to DfE and trust requirements.
+
+Q: How do you simplify complex workflows for school staff?
+A: I break tasks down into clear, intuitive steps. For example, I redesigned an absence logging process into a 3-click flow, cutting time in half. School staff don't have time to learn clunky systems, so simplicity is always the goal.
+
+
 
 SPLIT TESTING
 
@@ -358,7 +375,10 @@ Q: How do you turn user feedback into design improvements?
 A: I look for patterns—recurring pain points or areas where users get stuck. Then I revisit the flow or component, prototype a fix, and test again. It’s all about that feedback loop: learn, refine, repeat.
 
 Q: Can you give an example of how user testing changed your design?
-A: Definitely. In the British Army wellbeing project, we designed a dashboard to show trainee performance over time. It looked great—but during testing, trainers found it too data-heavy, especially when they needed quick insights. So we simplified the layout, added clearer visual cues like color-coded trends and summary flags, and made it easier to scan fast. That shift made the tool far more usable in real situations.
+A: Definitely. In the British Army wellbeing project, we designed a dashboard to show trainee performance over time. It looked great—but during testing, trainers found it too data-heavy, especially when they needed quick insights. So we simplified the layout, added clearer visual cues like color coded trends and summary flags, and made it easier to scan fast. That shift made the tool far more usable in real situations.
+
+Q: What role do you see AI playing in school management tools?
+A: AI has huge potential to reduce admin burden—whether it's suggesting the next best action, summarising reports, or helping staff draft communication quickly. I focus on making AI feel helpful, human, and trustworthy, not intrusive or overwhelming.
 
 
 TIME OFF
