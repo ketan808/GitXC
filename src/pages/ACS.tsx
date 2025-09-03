@@ -55,7 +55,7 @@ return (
 
 <SubTitle SubTitle="BACKGROUND"></SubTitle>
 
-<p>The Intranet and Virtual Learning platform served as a vital hub for parents, teachers, students, and staff across four schools, centralising communication, resources, and key update</p>
+<p>The Intranet and Virtual Learning platform served as a vital hub for parents, teachers, students, and staff across four schools, centralising communication, resources, and key updates.</p>
 <p>Years of poor oversight had turned the system into a patchwork of clashing interfaces and inconsistent styles, creating a fragmented experience that made navigation frustrating and usability a daily challenge for its users.</p>
 
 
