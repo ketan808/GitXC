@@ -1,11 +1,9 @@
 import Gcards from '../inViewUI/Gcards';
-import FadeInSection from '../inViewUI/FadeInSection';
-import { Container, Space, Divider, Grid, Image, Box } from '@mantine/core';
+import { Container, Space, Divider } from '@mantine/core';
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
 import ContainerOne from '../components/ContainerOne';
-import { VoiceAgent } from '../components/VoiceAgent';
 
 
 const HomePage = () => {
