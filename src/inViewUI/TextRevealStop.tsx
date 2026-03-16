@@ -1,33 +1,26 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-const TextReveal = ({ text }) => {
+interface TextRevealProps {
+  text: string;
+}
+
+const TextRevealStop = ({ text }: TextRevealProps) => {
   const sentence = {
     hidden: { opacity: 1 },
     visible: {
       opacity: 1,
       transition: {
-        delay: 0,
-        staggerChildren: 0,
+        staggerChildren: 0.02,
       },
     },
   };
 
-  const letter = {
-    hidden: { opacity: 0, x: 50 },
+  const letterVariant = {
+    hidden: { opacity: 0, y: 50 },
     visible: {
       opacity: 1,
       y: 0,
     },
-  };
-
-  // Function to check if a character is part of an HTML tag
-  const isHTMLTag = (text, index) => {
-    let inTag = false;
-    for (let i = 0; i <= index; i++) {
-      if (text[i] === '<') inTag = true;
-      if (text[i] === '>') inTag = false;
-    }
-    return inTag;
   };
 
   return (
@@ -35,9 +28,14 @@ const TextReveal = ({ text }) => {
       variants={sentence}
       initial="hidden"
       animate="visible"
-      dangerouslySetInnerHTML={{ __html: text }}
-    />
+    >
+      {text.split("").map((char, index) => (
+        <motion.span key={index} variants={letterVariant}>
+          {char}
+        </motion.span>
+      ))}
+    </motion.div>
   );
 };
 
-export default TextReveal;
+export default TextRevealStop;
