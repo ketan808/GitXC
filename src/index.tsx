@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { createTheme, MantineProvider, CSSVariablesResolver, rem, ColorSchemeScript } from '@mantine/core';
 import {BrowserRouter} from 'react-router-dom';
 import '@mantine/core/styles.css';
-import { VapiProvider } from './components/VoiceAgent';
 
 // In your root layout
 
@@ -130,7 +129,7 @@ root.render(
   <React.StrictMode>
     
     <ColorSchemeScript defaultColorScheme="dark" />
-    <VapiProvider>
+
     <MantineProvider
       defaultColorScheme="dark"
       theme={themeOverride}
@@ -142,7 +141,7 @@ root.render(
    </BrowserRouter>
 
   </MantineProvider>
-  </VapiProvider>
+
   </React.StrictMode>
 );
 

@@ -10,7 +10,6 @@ import imageBackground from '../images/army/fitness_mob.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
 import SubTitleH3 from '../components/SubTitleH3';
-import SubTitleH3Left from '../components/SubTitleH3Left';
 import designSystem from '../images/army/designSystem.png';
 import designSystemLight from '../images/army/designSystemLight.png';
 import define from '../images/army/define.png';
@@ -29,7 +28,6 @@ import imageMob1 from '../images/army/mob/home.png';
 import imageMob2 from '../images/army/mob/wellbeing.png';
 import imageMob7 from '../images/army/mob/target_trainer.png';
 import imageMob8 from '../images/army/mob/image.png';
-import ArmyRings from '../components/ArmyRings';
 
 
 
