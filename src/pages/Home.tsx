@@ -23,6 +23,33 @@ return (
 
 <Space h="xl" />
 
+
+<div
+  style={{
+    position: "relative",
+    width: "100%",
+    paddingTop: "80%",
+    borderRadius: "12px",
+    overflow: "hidden",
+    boxShadow: "0 20px 60px rgba(0,0,0,0.25)"
+  }}
+>
+  <iframe
+      src="https://embed.figma.com/proto/CBLJtxpp1faiaHEbGe4gYy/Health?page-id=128%3A292&node-id=128-293&viewport=92%2C1305%2C0.29&scaling=scale-down&content-scaling=fixed&embed-host=share"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      border: 0
+    }}
+    allowFullScreen
+  />
+</div>
+
+<Space h="xl" />
+
 <ContainerOne>
 
 <SubTitle SubTitle="SHOWCASE"></SubTitle>
