@@ -1,6 +1,10 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-const TextReveal = ({ text }) => {
+interface TextRevealProps {
+  text: string;
+}
+
+const TextReveal = ({ text }: TextRevealProps) => {
   const sentence = {
     hidden: { opacity: 1 },
     visible: {
@@ -12,7 +16,7 @@ const TextReveal = ({ text }) => {
     },
   };
 
-  const letter = {
+  const letterVariant = {
     hidden: { opacity: 0, y: 50 },
     visible: {
       opacity: 1,
@@ -22,13 +26,12 @@ const TextReveal = ({ text }) => {
 
   return (
     <motion.div
-
       variants={sentence}
       initial="hidden"
       animate="visible"
     >
-      {text.split('').map((char, index) => (
-        <motion.span key={index} variants={letter}>
+      {text.split("").map((char, index) => (
+        <motion.span key={index} variants={letterVariant}>
           {char}
         </motion.span>
       ))}
