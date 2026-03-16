@@ -1,5 +1,5 @@
 import { Grid, Box, Burger, Button, Image, useMantineColorScheme, useComputedColorScheme, AppShell } from '@mantine/core';
-import { FaSun, FaMoon } from 'react-icons/fa';
+import { IconSun, IconMoon } from "@tabler/icons-react";
 
 const Header = ({toggle, opened}: any) => {
   const { setColorScheme } = useMantineColorScheme();
@@ -20,7 +20,16 @@ const Header = ({toggle, opened}: any) => {
         </Grid.Col>
 
         <Grid.Col span="content">
-          <Button style={{ display: 'block', marginLeft: 'auto', marginTop: '5px'}} size="sm" variant="link" onClick={toggleColorScheme}> {computedColorScheme === 'dark' ? <FaSun /> : <FaMoon />}</Button>
+
+<Button
+  style={{ display: "block", marginLeft: "auto", marginTop: "5px" }}
+  size="sm"
+  variant="link"
+  onClick={toggleColorScheme}
+>
+  {computedColorScheme === "dark" ? <IconSun size={18} /> : <IconMoon size={18} />}
+</Button>
+
         </Grid.Col>
 
         <div><Burger opened={opened} onClick={toggle} hiddenFrom="xl" size="md" mt="15px" mr="10px" ml="15px" /></div>
