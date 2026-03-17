@@ -32,6 +32,12 @@ p {
   margin-bottom: 2.2rem;
 }
 
+.figma-wrapper {
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
 
 @media screen and (max-width: 74em) {
 
