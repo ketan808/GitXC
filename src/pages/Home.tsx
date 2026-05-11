@@ -24,15 +24,15 @@ return (
 
 <Space h="xl" />
 
-<SubTitle SubTitle="AI Wellbeing Product Exploration"></SubTitle>
+<SubTitle SubTitle="Designing AI-Driven Products"></SubTitle>
 <Space h="md" />
-<SubTitleH3Left SubTitleH3Left="Reimagining workplace wellbeing through AI, behavioural design and everyday habits."></SubTitleH3Left>
+<SubTitleH3Left SubTitleH3Left="Product Designer focused on human-centred AI workflows"></SubTitleH3Left>
 
-<p>This prototype explores how AI and behavioural nudges could help people build healthier habits at work. It combines wellbeing areas like balance, focus, movement, nutrition and financial health with workplace features such as recognition, shared stories and team engagement.</p>
+<p>I’m looking for a product design role where I can help teams integrate AI into meaningful product experiences that improve workflows, usability and decision-making. With experience designing enterprise platforms and scalable interfaces, I combine product thinking, UX strategy and hands-on execution. My focus is on creating intuitive AI-assisted experiences that balance user needs, business goals and intelligent systems effectively.</p>
 
 
 
-<div
+{/* <div
   style={{
     position: "relative",
     width: "100%",
@@ -100,7 +100,9 @@ return (
 </div>
 
 
-<Space h="xl" />
+<Space h="xl" /> */}
+
+
 <Space h="xl" />
 <Divider my="" />
 
