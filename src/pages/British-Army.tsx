@@ -6,7 +6,7 @@ import imageSub from '../images/army/sub_header.jpg';
 import team from '../images/army/team.png';
 import teamLight from '../images/army/teamLight.png';
 import imageProb3 from '../images/army/sold.png';
-import imageBackground from '../images/army/mob/wellbeing_stats.png';
+import imageBackground from '../images/army/mob/login.png';
 import VidComp from '../components/Video';
 import SubTitle from '../components/SubTitle';
 import SubTitleH3 from '../components/SubTitleH3';
