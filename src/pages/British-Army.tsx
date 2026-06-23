@@ -28,7 +28,6 @@ import imageMob1 from '../images/army/mob/home.png';
 import imageMob2 from '../images/army/mob/wellbeing.png';
 import imageMob7 from '../images/army/mob/target_trainer.png';
 import imageMob8 from '../images/army/mob/image.png';
-
 import Next from '../components/Next';
 
 

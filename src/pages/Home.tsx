@@ -3,7 +3,6 @@ import { Container, Space, Divider } from '@mantine/core';
 import Hero from '../components/Hero';
 import Testimonials from '../components/TestimonialSlide';
 import SubTitle from '../components/SubTitle';
-import SubTitleH3Left from '../components/SubTitleH3Left';
 import ContainerOne from '../components/ContainerOne';
 
 
