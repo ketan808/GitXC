@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b49cfa2.css",
-    "main.js": "/static/js/main.cb3c2c85.js",
+    "main.css": "/static/css/main.e439556c.css",
+    "main.js": "/static/js/main.4187a077.js",
     "static/js/453.30b100a4.chunk.js": "/static/js/453.30b100a4.chunk.js",
     "static/media/upload_images.png": "/static/media/upload_images.acf876abec94ec8160bc.png",
     "static/media/trainer_home.png": "/static/media/trainer_home.9c76ea0514bdd0705acd.png",
@@ -67,15 +67,14 @@
     "static/media/book1.png": "/static/media/book1.b9a4b3f51caf638dbf0d.png",
     "static/media/dev.png": "/static/media/dev.d64606e89e424fef90e9.png",
     "static/media/components_desk.png": "/static/media/components_desk.431e86cc57e718e201b7.png",
+    "static/media/login.png": "/static/media/login.dc182a262c93a4de0031.png",
     "static/media/sub_header.jpg": "/static/media/sub_header.fcdb2064d215dcee23e3.jpg",
     "static/media/re_test.png": "/static/media/re_test.efde3a17a006f1c9ac24.png",
-    "static/media/login.png": "/static/media/login.dc182a262c93a4de0031.png",
     "static/media/hub-music_hero.png": "/static/media/hub-music_hero.67b496c2f8f9651709c9.png",
     "static/media/orange.jpg": "/static/media/orange.18e2fc90e7f9ee3d8e3f.jpg",
     "static/media/define.png": "/static/media/define.2682599bc1efc895c83b.png",
     "static/media/vm_swim1.png": "/static/media/vm_swim1.0e1e6601e11627245362.png",
     "static/media/test.png": "/static/media/test.d3fae2e75b698c5b7539.png",
-    "static/media/fitness_mob.png": "/static/media/fitness_mob.945f525f50ebc93f0e62.png",
     "static/media/blue.jpg": "/static/media/blue.4746d4278812203e0506.jpg",
     "static/media/green.jpg": "/static/media/green.a2d4ca0bdaa763bdac57.jpg",
     "static/media/red.jpg": "/static/media/red.83c4c2e81dc416188f8c.jpg",
@@ -83,12 +82,12 @@
     "static/media/react.png": "/static/media/react.56ce39ced4cffd0990a4.png",
     "static/media/motion.png": "/static/media/motion.71a5cd875cbf2552b330.png",
     "index.html": "/index.html",
-    "main.5b49cfa2.css.map": "/static/css/main.5b49cfa2.css.map",
-    "main.cb3c2c85.js.map": "/static/js/main.cb3c2c85.js.map",
+    "main.e439556c.css.map": "/static/css/main.e439556c.css.map",
+    "main.4187a077.js.map": "/static/js/main.4187a077.js.map",
     "453.30b100a4.chunk.js.map": "/static/js/453.30b100a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b49cfa2.css",
-    "static/js/main.cb3c2c85.js"
+    "static/css/main.e439556c.css",
+    "static/js/main.4187a077.js"
   ]
 }
