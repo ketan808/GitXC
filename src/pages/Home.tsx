@@ -20,7 +20,7 @@ return (
 <Container size="xl" mb= "md">
 
 
-<Divider my="" />
+{/* <Divider my="" />
 
 <Space h="xl" />
 
@@ -30,7 +30,7 @@ return (
 
 <p>I’m looking for a product design role where I can help teams integrate AI into meaningful product experiences that improve workflows, usability and decision-making. With experience designing enterprise platforms and scalable interfaces, I combine product thinking, UX strategy and hands-on execution. My focus is on creating intuitive AI-assisted experiences that balance user needs, business goals and intelligent systems effectively.</p>
 
-
+ */}
 
 {/* <div
   style={{
@@ -128,7 +128,7 @@ return (
 
 <Divider my="" />
 
-<Space h="xl" />
+{/* <Space h="xl" />
 <Space h="xl" />
 
 <SubTitle SubTitle="Touch Control Interface for Crestron Panels"></SubTitle>
@@ -161,10 +161,9 @@ return (
   }}
   allowFullScreen
 />
-</div>
+</div> */}
 
 
-<Space h="xl" />
 
 
 
