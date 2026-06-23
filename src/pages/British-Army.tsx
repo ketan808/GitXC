@@ -30,8 +30,6 @@ import imageMob7 from '../images/army/mob/target_trainer.png';
 import imageMob8 from '../images/army/mob/image.png';
 
 
-
-
 import Next from '../components/Next';
 
 
