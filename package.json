@@ -2,6 +2,7 @@
   "name": "xtracreative",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ketan808.github.io/GitXC",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
@@ -54,7 +55,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "next dev"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

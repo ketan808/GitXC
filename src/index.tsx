@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createTheme, MantineProvider, CSSVariablesResolver, rem, ColorSchemeScript } from '@mantine/core';
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import '@mantine/core/styles.css';
 
 // In your root layout
@@ -136,9 +136,9 @@ root.render(
       cssVariablesResolver={resolver}
     >
 
-   <BrowserRouter>
+   <HashRouter>
    <App />
-   </BrowserRouter>
+   </HashRouter>
 
   </MantineProvider>
 
