@@ -542,28 +542,9 @@ pb={{ base: '20px', sm: '40px', md: '40px', lg: '50px' }}
 
 {/* Design System End*/}
 
-<Space h="xl" />
 
 {/* Scroll */}
-<ContainerOne>
 
-<SubTitle SubTitle="SCALING FOR REAL DATA"></SubTitle>
-
-<p>When live production data was integrated, some category lists exceeded a hundred items. I designed a scalable, scrollable UI pattern to maintain usability at scale without compromising the layout or the overall experience.</p>
-
-<Container
-size="xl"
-pr={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pl={{ base: '0px', sm: '40px', md: '40px', lg: '120px' }}
-pt={{ base: '0px', sm: '0px', md: '0px', lg: '0px' }}
-pb={{ base: '10px', sm: '10px', md: '30px', lg: '40px' }}
->
-
-
-<VidComp src="video/scroll.mp4" />
-</Container>
-
-</ContainerOne>
 
 <Divider my="" />
 
